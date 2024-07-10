@@ -1,0 +1,14 @@
+<elements>
+  <element name="Breaker" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BREAKED">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_HAMMERS, ID_WEAPON_CATEGORY_MARTIAL_MELEE</supports>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="range">5 ft, 100/300</set>
+      <set name="damage" type="bludgeoning">1d8</set>
+      <set name="versatile">1d10</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</set>
+    </setters>
+  </element>
