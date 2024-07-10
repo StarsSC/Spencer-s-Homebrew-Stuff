@@ -36,6 +36,7 @@
       <set name="rarity">Legendary</set>
       <set name="weight" lb="1">1 lb.</set>
       <set name="type">Weapon</set>
+      <set name="attunement">true</set>
       <set name="Weapon">ID_WOTC_DND_HOMEBREW_DAGGER</set>
     </setters>
   </element>
