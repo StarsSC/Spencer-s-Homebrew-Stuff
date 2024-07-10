@@ -6,6 +6,39 @@
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Dagger" type="Weapon" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_DAGGER">
+	<supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_WEAPON_GROUP_DAGGER</supports>
+    <description>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">2</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="range">5 ft, (20/60)</set>
+      <set name="damage">1d4 piercing+1d6 necrotic</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+    </setters>
+  </element>
+	<element name="Soulshard" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_SOULSHARD">
+    <description>
+	    <p>This magical obsidian dagger has three white crystals embedded in its hilt and a blade that never needs sharpening. It seems to exude an aura of malice.
+        <ul>
+          <li>When you hit with a melee attack using Soulshard you deal an additional 1d6 necrotic damage and you regain hit points equal to half the amount of necrotic damage dealt.</li>
+          <li>If you reduce the target to 0 hit points, the dagger absorbs the soul of the target, causing instant death. Throughout the duration of the next short or long rest you take, one of the white crystals turns blood red and the dagger becomes a +1 weapon and deals an additional 1d6 necrotic damage. Each time you reduce a target to 0 hit points, another crystal turns red over the duration of the next short or long rest, the dagger becomes a +2 and +3 weapon for each target killed (max of 3), and each increase deals another 1d6 necrotic damage.</li>
+          <li>However, for every 1d4 days that this dagger is not used to reduce a creature to 0 hit points, one of the crystals turns back to white and the dagger reverts to its less powerful form.</li>
+        </ul>
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">2</set>
+      <set name="rarity">Legendary</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Dagger</set>
+    </setters>
+  </element>
 	<element name="Githyanki Greatsword" type="Weapon" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_GITHYANKI_GREATSWORD">
     <description>
     </description>
@@ -23,8 +56,7 @@
     <description>
       <p>The holder of this item gains:
         <ul>
-          <li><b>Githborn Psionic Weapon:</b> When wielded by a githyanki this weapon deals an additional 1d6 Psychic damage.</li>
-          <li><b>Githborn Psionic Resistance:</b> A githyanki holding this weapon has Advantage of Intelligence, Wisdom, and Charisma saving throws, resistance to Psychic damage, and cannot be Charmed.</li>
+          <li>When wielded by a githyanki this weapon deals an additional 1d6 Psychic damage, gives the wielder an Advantage on Intelligence, Wisdom, and Charisma saving throws, resistance to Psychic damage, and cannot be Charmed.</li>
         </ul>
       </p>
     </description>
