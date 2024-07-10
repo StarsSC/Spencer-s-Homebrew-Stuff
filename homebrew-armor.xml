@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
-	<!-- +2 plate armor -->
+	<!-- +2 robes -->
 	<element name="Infernal Robes" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_ROBES">
 	  <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 	  <description>
@@ -10,7 +10,6 @@
 	    <set name="category">Homebrew</set>
 	    <set name="cost" currency="gp">15000</set>
 	    <set name="weight" lb="65">10 lb.</set>
-	    <set name="container">Light</set>
 	    <set name="armor">Light</set>
 	    <set name="type">Armor</set>
 	    <set name="slot">body</set>	    
@@ -27,9 +26,8 @@
 	  <setters>
 		  <set name="category">Homebrew</set>
 		  <set name="cost" currency="gp">1500</set>
-		  <set name="weight" lb="60">60 lb.</set>
-		  <set name="container">Heavy</set>
-		  <set name="armor">Heavy</set>
+		  <set name="weight" lb="45">45 lb.</set>
+		  <set name="armor">Medium</set>
 		  <set name="type">Armor</set>
 		  <set name="slot">body</set>
 		  <set name="enhancement">3</set>
@@ -38,5 +36,25 @@
 		  <stat name="ac:armored:armor" value="18"/>
 	  </rules>
 	</element>
-	<element name="Astral Plates"
+	<element name="Astral Plates" type="Item" source="Homebrew" id="ID_WOTC_ARMOR_DND_HOMEBREW_PLATES">
+	<description>
+	    <p>This armour was forged to Vlakith's standards under the exacting eye of a githyanki smith.</p>
+	    <p>This armor gives the wearer Resistance to Psychic damage and heals them if they pass a Saving throw.</p>
+	</description>
+		<sheet>
+			<description><b>Psionic Ward:</b> If the item detects that the wearer is gith, they have Immunity to Psychic Damage.</description>
+	<setters>
+	    <set name="category">Homebrew</set>
+	    <set name="cost" currency="gp">1500</set>
+	    <set name="weight" lb="55">55 lb.</set>
+	    <set name="container">Heavy</set>
+	    <set name="armor">Heavy</set>
+	    <set name="type">Armor</set>
+	    <set name="slot">body</set>  
+	  </setters>
+	  <rules>
+	    <stat name="ac:armored:armor" value="18"/>
+	  </rules>
+	</element>
+
 </elements>
