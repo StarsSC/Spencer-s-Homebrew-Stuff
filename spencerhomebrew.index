@@ -11,6 +11,5 @@
     <files>
         <!-- Items -->
         <file name="homebrew-armor.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/homebrew-armor.xml" />
-        <file name="Astral Plates.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/Astral%20Plates.xml" />
     </files>
 </index>
