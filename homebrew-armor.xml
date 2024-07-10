@@ -42,7 +42,9 @@
 	    <p>This armor gives the wearer Resistance to Psychic damage and heals them if they pass a Saving throw.</p>
 	</description>
 		<sheet>
-			<description><b>Psionic Ward:</b> If the item detects that the wearer is gith, they have Immunity to Psychic Damage.</description>
+			<description>
+				<p><b>Psionic Ward:</b> If the item detects that the wearer is gith, they have Immunity to Psychic Damage.</p>
+			</description>
 		</sheet>
 	<setters>
 	    <set name="category">Homebrew</set>
