@@ -3,11 +3,11 @@
 	<!-- +3 plate armor -->
 	<element name="Astral Plates" type="Item" source="System Reference Document" id="ID_WOTC_ARMOR_HEAVY_PLATE_ENHANCEMENT_2">
 	<description>
-		<p>This armour was forged to Vlakith's standards under the exacting eye of a githyanki smith.</p>
+	    <p>This armour was forged to Vlakith's standards under the exacting eye of a githyanki smith.</p>
 	</description>
 	<setters>
-		<set name="category">Armor</set>
-		<set name="cost" currency="gp">15000</set>
+	    <set name="category">Homebrew</set>
+	    <set name="cost" currency="gp">15000</set>
 	    <set name="weight" lb="30">10 lb.</set>
 	    <set name="container">Heavy</set>
 	    <set name="armor">Heavy</set>
