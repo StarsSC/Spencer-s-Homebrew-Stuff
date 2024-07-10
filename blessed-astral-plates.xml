@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<!-- +2 plate armor -->
-	<element name="Blessed Astral Plates" type="Item" source="System Reference Document" 
+	<element name="Blessed Astral Plates" type="Magic Item" source="Homebrew" 
 	id="ID_WOTC_ARMOR_HEAVY_PLATE_ENHANCEMENT_2">
 	  <supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 	  <description>
@@ -13,6 +13,7 @@
 	    <set name="weight" lb="30">10 lb.</set>
 	    <set name="container">Heavy</set>
 	    <set name="armor">Heavy</set>
+	    <set name="weapon" />
 	    <set name="weapon" />
 	    <set name="shield" />
 	    <set name="slot">body</set>
