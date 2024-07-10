@@ -43,6 +43,7 @@
 	</description>
 		<sheet>
 			<description><b>Psionic Ward:</b> If the item detects that the wearer is gith, they have Immunity to Psychic Damage.</description>
+		</sheet>
 	<setters>
 	    <set name="category">Homebrew</set>
 	    <set name="cost" currency="gp">1500</set>
