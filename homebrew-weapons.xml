@@ -1,14 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
-  <element name="Breaker" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BREAKED">
-    <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_HAMMERS, ID_WEAPON_CATEGORY_MARTIAL_MELEE</supports>
+	<info>
+    <name>Weapons</name>
+    <update version="0.0.2">
+      <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
+    </update>
+  </info>
+  <element name="Silver Sword of the Astral Plane" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_HOMEBREW_ASTRAL_SWORD">
+    <supports>ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_WEAPON_CATEGORY_MARTIAL_MELEE</supports>
+    <description>
+      <p>The holder of this item gains:
+        <ul>
+          <li><b>Githborn Psionic Weapon:</b> When wielded by a githyanki this weapon deals an additional 1d6 Psychic damage.</li>
+          <li><b>Githborn Psionic Resistance:</b> A githyanki holding this weapon has Advantage of Intelligence, Wisdom, and Charisma saving throws, resistance to Psychic damage, and cannot be Charmed.</li>
+        </ul>
+      </p>       
     <setters>
       <set name="category">Weapons</set>
       <set name="cost" currency="gp">N/A</set>
-      <set name="weight" lb="2">2 lb.</set>
-      <set name="slot">onehand</set>
-      <set name="range">5 ft, 100/300</set>
-      <set name="damage" type="bludgeoning">1d8</set>
-      <set name="versatile">1d10</set>
-      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</set>
+      <set name="weight" lb="5.4">5.4 lb.</set>
+      <set name="slot">twohand</set>
+      <set name="range">5 ft</set>
+      <set name="damage" type="slashing">2d6</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD</set>
     </setters>
+      <rules>
+        <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC"/>
+      </rules>
   </element>
+  
+</elements>
