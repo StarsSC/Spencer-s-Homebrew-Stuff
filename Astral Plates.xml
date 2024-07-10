@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<!-- +3 plate armor -->
+	<element name="Astral Plates" type="Item" source="System Reference Document" id="ID_WOTC_ARMOR_HEAVY_PLATE_ENHANCEMENT_2">
+	<description>
+		<p>This armour was forged to Vlakith's standards under the exacting eye of a githyanki smith.</p>
+	</description>
+	<setters>
+		<set name="category">Armor</set>
+		<set name="cost" currency="gp">15000</set>
+	    <set name="weight" lb="30">10 lb.</set>
+	    <set name="container">Heavy</set>
+	    <set name="armor">Heavy</set>
+	    <set name="weapon" />
+	    <set name="shield" />
+	    <set name="slot">body</set>
+	    <set name="range" />
+	    <set name="damage" />	    
+	  </setters>
+	  <rules>
+	    <stat name="AC" value="10" bonus="Armor"/>
+	    <stat name="AC" value="12" bonus="enhancement"/>
+	  </rules>
+	</element>
+
+</elements>
