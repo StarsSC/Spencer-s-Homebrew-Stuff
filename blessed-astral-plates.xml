@@ -14,7 +14,7 @@
 	    <set name="container">Heavy</set>
 	    <set name="armor">Heavy</set>
 	    <set name="weapon" />
-	    <set name="weapon" />
+	    <set name="type">Armor</set>
 	    <set name="shield" />
 	    <set name="slot">body</set>
 	    <set name="range" />
