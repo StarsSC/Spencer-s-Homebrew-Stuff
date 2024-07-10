@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<!-- +3 plate armor -->
-	<element name="Astral Plates" type="Item" source="Homebrew" id="ID_WOTC_ARMOR_HEAVY_PLATE_ENHANCEMENT_2">
+	<element name="Astral Plates" type="Item" source="Homebrew" id="ID_WOTC_ARMOR_DND_HOMEBREW_PLATES">
 	<description>
 	    <p>This armour was forged to Vlakith's standards under the exacting eye of a githyanki smith.</p>
 	</description>
