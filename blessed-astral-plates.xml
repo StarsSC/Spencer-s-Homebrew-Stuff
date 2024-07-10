@@ -8,7 +8,7 @@
 	    <p>This armour was forged to Vlaakith's standards under the exacting eye of a githyanki smith.</p>
 	  </description>
 	  <setters>
-	    <set name="category">Armor</set>
+	    <set name="category">Homebrew</set>
 	    <set name="cost" currency="gp">15000</set>
 	    <set name="weight" lb="30">10 lb.</set>
 	    <set name="container">Heavy</set>
