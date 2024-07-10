@@ -10,8 +10,9 @@
     </info>
     <files>
         <!-- Items -->
-        <file name="items-weapons.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/items-weapons.xml" />
-        <file name="items-armor.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/items-armor.xml" />
+        <file name="infernal-robes.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/infernal-robes.xml" />
+        <file name="blessed-astral-plates.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/items-armor.xml" />
+        <file name="astral_plates.xml" url=
         <!-- Feats -->
         <file name="feats.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/feats.xml" />
     </files>
