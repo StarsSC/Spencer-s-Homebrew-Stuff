@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.4">
+    <update version="0.0.5">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -38,6 +38,30 @@
       <set name="type">Weapon</set>
       <set name="attunement">true</set>
       <set name="Weapon">Simple Dagger</set>
+    </setters>
+  </element>
+	<element name="The Offering" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_OFFERING">
+    <description>
+	    <p>This dagger has a sharp metal blade, similar to normal daggers of its kind, but the hilt is made of leather in the shape of a human hand. Wielding this blade would make it seem as though it were a handshake. Once initiative has been rolled but before combat starts, you may choose one of these effects that will last until the end of the initiative.</p>
+    	<ul>
+        <li>The blade is engulfed in a hellish flame, gain 1d8 fire damage on all damage rolls.</li>
+        <li>The blade extends and is either transformed into a scimitar or a shortsword, changing the damage roll to be 1d6 Slashing.</li>
+        <li>Roars of thunder echo off the blade, gain 1d8 thunder damage on all damage rolls.</li>
+        <li>The River Styx coat this weapon in a unfathomable frost, deal 1d8 cold damage on all damage rolls.</li>
+        <li>Light cannot determine where this weapon is at all times, whenever this weapon is thrown, it is immediately returned to the wielder.</li>
+        <li>At the cost of part of your own life (1d6 hit points of your maximum is reduced) to cast the Blight spell. May increase spell level up to 9th but must increase d6 per spell level increase.</li>
+        <li>Whatever obstacle troubles you, it shall know your wrath, give yourself over to me, and triumph you shall find.</li>
+      </ul>
+    </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">2</set>
+      <set name="rarity">Legendary</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="type">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="Weapon">Dagger</set>
     </setters>
   </element>
 	<element name="Githyanki Greatsword" type="Weapon" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_GITHYANKI_GREATSWORD">
