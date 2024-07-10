@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<!-- +2 plate armor -->
-	<element name="Infernal Robes" type="Item" source="System Reference Document" id="ID_WOTC_ARMOR_HEAVY_PLATE_ENHANCEMENT_2">
+	<element name="Infernal Robes" type="Magic Item" source="System Reference Document" id="ID_WOTC_ARMOR_HEAVY_PLATE_ENHANCEMENT_2">
 	  <supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 	  <description>
 	    <p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p>
 	  </description>
 	  <setters>
-	    <set name="category">Armor</set>
+	    <set name="category">Homebrew</set>
 	    <set name="cost" currency="gp">15000</set>
 	    <set name="weight" lb="65">10 lb.</set>
 	    <set name="container">Light</set>
