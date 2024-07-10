@@ -2,11 +2,23 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
-  <element name="Silver Sword of the Astral Plane" type="Weapon" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_ASTRAL_SWORD">
+	<element name="Githyanki Greatsword" type="Weapon" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_GITHYANKI_GREATSWORD">
+    <description>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="5.4">5.4 lb.</set>
+      <set name="slot">twohand</set>
+      <set name="range">5 ft</set>
+      <set name="damage" type="slashing">2d6</set>
+    </setters>
+  </element>
+  <element name="Silver Sword of the Astral Plane" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_ASTRAL_SWORD">
     <supports>ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_WEAPON_CATEGORY_MARTIAL_MELEE</supports>
     <description>
       <p>The holder of this item gains:
@@ -20,10 +32,10 @@
       <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="5.4">5.4 lb.</set>
-      <set name="slot">twohand</set>
-      <set name="range">5 ft</set>
-      <set name="damage" type="slashing">2d6</set>
-      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD</set>
+      <set name="enhancement">3</set>
+      <set name="type">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Githyanki Greatsword</set>
     </setters>
       <rules>
         <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC"/>
