@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -27,25 +27,21 @@
 	<element name="Blessed Astral Plates" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_MAGIC_PLATES">
 	  <supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 	  <description>
-		<p>This armour was forged to Vlaakith's standards under the exacting eye of a githyanki smith</p>
+		<p>This armour was forged to Vlaakith's standards under the exacting eye of a githyanki smith, resulting in the wearer receiving Resistance to Psychic damage. If the armor detects that the wearer is gith, they have Immunity to Psychic damage and whenever the wearer succeeds on a Saving throw against a spell, they regain 1d4 hit points.</p>
 	  </description>
-		<sheet display="true"/>
-		<sheet>
-			<description>
-				<p><b>Psionic Ward:</b> If the item detects that the wearer is gith, they have Immunity to Psychic Damage.</p>
-			</description>
-		</sheet>
 	  <setters>
 		  <set name="category">Homebrew</set>
 		  <set name="cost" currency="gp">1500</set>
 		  <set name="weight" lb="45">45 lb.</set>
 		  <set name="armor">Medium</set>
 		  <set name="type">Armor</set>
+		  <set name="rarity">Very Rare</set>
 		  <set name="slot">body</set>
 		  <set name="enhancement">3</set>
 	  </setters>
 	  <rules>
 		  <stat name="ac:armored:armor" value="18"/>
+		  <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC"/>
 	  </rules>
 	</element>
 	<element name="Astral Plates" type="Item" source="Homebrew" id="ID_WOTC_ARMOR_DND_HOMEBREW_PLATES">
