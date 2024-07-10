@@ -10,7 +10,7 @@
     </info>
     <files>
         <!-- Items -->
-        <file name="infernal-robes.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/infernal-robes.xml" />
+        <file name="homebrew-armor.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/infernal-robes.xml" />
         <file name="Astral Plates.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/Astral%20Plates.xml" />
     </files>
 </index>
