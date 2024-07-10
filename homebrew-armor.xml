@@ -13,15 +13,10 @@
 	    <set name="container">Light</set>
 	    <set name="armor">Light</set>
 	    <set name="type">Armor</set>
-	    <set name="weapon" />
-	    <set name="shield" />
-	    <set name="slot">body</set>
-	    <set name="range" />
-	    <set name="damage" />	    
+	    <set name="slot">body</set>	    
 	  </setters>
 	  <rules>
-	    <stat name="AC" value="10" bonus="Armor"/>
-	    <stat name="AC" value="12" bonus="enhancement"/>
+	    <stat name="ac:armored:armor" value="20"/>
 	  </rules>
 	</element>
 	<element name="Blessed Astral Plates" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_MAGIC_PLATES">
@@ -43,4 +38,5 @@
 		  <stat name="ac:armored:armor" value="18"/>
 	  </rules>
 	</element>
+	<element name="Astral Plates"
 </elements>
