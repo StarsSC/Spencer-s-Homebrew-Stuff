@@ -52,7 +52,7 @@
         <li>At the cost of part of your own life (1d6 hit points of your maximum is reduced) to cast the Blight spell. May increase spell level up to 9th but must increase d6 per spell level increase.</li>
         <li>Whatever obstacle troubles you, it shall know your wrath, give yourself over to me, and triumph you shall find.</li>
       </ul>
-    </p>
+     </p>
     </description>
     <setters>
       <set name="category">Homebrew</set>
