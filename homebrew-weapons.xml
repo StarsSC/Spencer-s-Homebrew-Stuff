@@ -2,10 +2,23 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.7">
+    <update version="0.0.8">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Stagweald, Forest Warden" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_STAGWEALD_FOREST_WARDEN">
+    <description>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="6">6 lb.</set>
+      <set name="rarity">Very Rare</set>
+      <set name="enhancement">2</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Greatsword</set>
+    </setters>
+  </element>
 	<element name="Simple Dagger" type="Weapon" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_SIMPLE_DAGGER">
 	<supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_WEAPON_GROUP_DAGGER</supports>
     <description>
