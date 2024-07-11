@@ -2,10 +2,86 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.5">
+    <update version="0.0.6">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Reel of Fortune" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_REEL_OF_FORTUNE">
+	  <description>
+	    <p>An ostentatious and alluring shield made in a covenant between the upper and lower planes. It seems to beckon those who gaze upon it to test their luck. While holding this shield, you have a +3 bonus to AC. While attuned to this shield you have proficiency with all gaming sets.</p>
+      <p class="indent">
+        <strong>
+          <em>Jackpot.</em>
+        </strong>
+        When you or a creature within 60 feet of you is hit by an attack or forced to make a saving throw, you can spend any number of hit dice to cause the slots of this shield to spin. Roll a d100 and consult the following table to determine the effect;
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <td>d100</td>
+            <td>Effect</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td>The attack is considered a critical hit and the target automatically fails its save. Roll the hit dice. The target takes an amount of force damage equal to the roll. This damage cannot be reduced in any way. Afterwards, the target becomes vulnerable to all damage types until the start of its next turn (ignore any resistances and immunities the creature has for the duration).</td>
+          </tr>
+          <tr>
+            <td>02-05</td>
+            <td>The attack is considered a critical hit and the target automatically fails its save. Roll the hit dice. The target takes an amount of force damage equal to the roll. This damage cannot be reduced in any way.</td>
+          </tr>
+          <tr>
+            <td>06-20</td>
+            <td>The attack is considered a critical hit and the target makes their saving throw with disadvantage. Roll the dice spent and the creature takes an amount of force damage equal to half the roll. This damage cannot be reduced in any way.</td>
+          </tr>
+          <tr>
+            <td>21-45</td>
+            <td>The target takes one additional dice of damage from the attack and makes their saving throw with disadvantage</td>
+          </tr>
+          <tr>
+            <td>46-55</td>
+            <td>No Effect</td>
+          </tr>
+          <tr>
+            <td>56-80</td>
+            <td>The target takes half damage from the attack makes their saving throw with advantage. Roll the hit dice spent and the creature regains a number of hit points equal to half the roll rounded up</td>
+          </tr>
+          <tr>
+            <td>81-95</td>
+            <td>The attacking creature must reroll the d20 and use the lower roll and the target of this property makes their saving throw with advantage. Roll the hit dice spent and the creature regains a number of hit points equal to roll rounded up</td>
+          </tr>
+          <tr>
+            <td>96-99</td>
+            <td>The attack automatically misses and the target automatically succeeds its save. Roll the hit dice spent and the creature regains a number of hit points equal to double the roll.</td>
+          </tr>
+          <tr>
+            <td>100</td>
+            <td>The target becomes immune to all damage types until the start of its next turn and automatically succeeds its save. Roll the hit dice. The target regains all its hit points and gains a number of temporary hit points equal to the roll.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="indent">
+        <strong>
+          <em>Curse: Ludomania.</em>
+        </strong>
+        This shield is cursed, and attuning to it extends the curse to you. Until the curse is broken you are unwilling to part with it, keeping it within reach at all times. You cannot resist a good game of chance, taking part in any gamble or bet proposed to you no matter how potentially disastrous the outcome.
+	  </description>
+	  <setters>
+      <set name="keywords">shield</set>
+	    <set name="category">Homebrew Armor</set>
+	    <set name="cost" currency="gp">N/A</set>
+	    <set name="weight" lb="6">6 lb.</set>
+      <set name="rarity">Very Rare</set>
+	    <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+	    <set name="type" addition="shield">Armor</set>
+      <set name="enhancement">2</set>
+	  </setters>
+	  <rules>
+	    <stat name="ac:shield" value="2" bonus="enhancement"/>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE"/>
+	  </rules>
+	</element>
 	<!-- +2 robes -->
 	<element name="Infernal Robes" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_ROBES">
 	  <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
