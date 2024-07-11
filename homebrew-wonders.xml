@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.15">
+    <update version="0.0.16">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -29,7 +29,8 @@
 			  <li>You gain a +2 bonus to spell attack rolls.</li>
         <li>This item now can hold up to 6 charges and regains 1d6+1 charges daily at dawn.</li>
         <li><em>Black Hole.</em> When you or a creature within 40 feet of you is targeted by a spell of 6th level or lower that targets only a single creature, you can use your reaction to absorb the magic of the spell, canceling its effect. This item then gains a number of charges equal to the level of the absorbed spell. Once you use this property it can't be used again until to finish a long rest.</li>
-      </p>
+		  </ul>
+	  </p>
     <p class="indent">
       <strong>
         <em>Exalted.</em>
@@ -40,6 +41,8 @@
         <li>This item now can hold up to 8 charges and regains 1d8+2 charges daily at dawn</li>
         <li><em>Constellation.</em> You can spend 7 charges to cast the Crown of Stars spell. Once you use this property, it cannot be used again for 1d6+1 number of days. When you make a spell attack against a creature with a mote created by the Crown of Stars spell while attuned to this item, you can use the Protostar property to increase the number of damage dice you roll for that spell attack.</li>
         <li><em>Shooting Star.</em> You can cast the Wish spell without expending a spell slot. When you cast the spell through this item, your attunement to it is broken and this item vanishes, back to the realm from whence it came.</li>
+      </ul>
+    </p>
   </description>
 	  <setters>
 		  <set name="category">Homebrew Wondrous Items</set>
