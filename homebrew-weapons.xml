@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.13">
+    <update version="0.0.14">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -24,7 +24,7 @@
       </p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="1">1 lb.</set>
       <set name="enhancement">2</set>
@@ -62,7 +62,7 @@
       </p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
       <set name="enhancement">3</set>
@@ -101,7 +101,7 @@
       </p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
       <set name="enhancement">1</set>
@@ -123,7 +123,7 @@
       </p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
       <set name="enhancement">1</set>
@@ -155,7 +155,7 @@
       </p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="6">6 lb.</set>
       <set name="rarity">Very Rare</set>
@@ -170,7 +170,7 @@
     <description>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">2</set>
       <set name="weight" lb="1">1 lb.</set>
       <set name="slot">onehand</set>
@@ -190,7 +190,7 @@
       </p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">2</set>
       <set name="rarity">Legendary</set>
       <set name="weight" lb="1">1 lb.</set>
@@ -214,7 +214,7 @@
      </p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">2</set>
       <set name="rarity">Legendary</set>
       <set name="weight" lb="1">1 lb.</set>
@@ -227,7 +227,7 @@
     <description>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="5.4">5.4 lb.</set>
       <set name="slot">twohand</set>
@@ -245,7 +245,7 @@
       </p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="5.4">5.4 lb.</set>
       <set name="enhancement">3</set>
