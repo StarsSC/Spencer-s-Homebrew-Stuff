@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.2">
+    <update version="0.0.4">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -10,11 +10,11 @@
 	<element name="Infernal Robes" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_ROBES">
 	  <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 	  <description>
-	    <p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p>
+	    <p>These robes were weaved by the stern hand of an Infernal Webweaver under the care of Orcus the Demon Lord. These robes were specially designed for his Countess of Destruction, Nyxara Ozata to help aid her in her conquest of the material plane. The hells flow through each fiber of these robes granting the wearer Immunity to Fire damage.</p>
 	  </description>
 	  <setters>
-	    <set name="category">Homebrew</set>
-	    <set name="cost" currency="gp">15000</set>
+	    <set name="category">Homebrew Armor</set>
+	    <set name="cost" currency="gp">N/A</set>
 	    <set name="weight" lb="65">10 lb.</set>
 	    <set name="armor">Light</set>
 	    <set name="type">Armor</set>
@@ -22,6 +22,7 @@
 	  </setters>
 	  <rules>
 	    <stat name="ac:armored:armor" value="20"/>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE"/>
 	  </rules>
 	</element>
 	<element name="Blessed Astral Plates" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_MAGIC_PLATES">
@@ -30,8 +31,8 @@
 		<p>This armour was forged to Vlaakith's standards under the exacting eye of a githyanki smith, resulting in the wearer receiving Resistance to Psychic damage. If the armor detects that the wearer is gith, they have Immunity to Psychic damage and whenever the wearer succeeds on a Saving throw against a spell, they regain 1d4 hit points.</p>
 	  </description>
 	  <setters>
-		  <set name="category">Homebrew</set>
-		  <set name="cost" currency="gp">1500</set>
+		  <set name="category">Homebrew Armor</set>
+		  <set name="cost" currency="gp">N/A</set>
 		  <set name="weight" lb="45">45 lb.</set>
 		  <set name="armor">Medium</set>
 		  <set name="type">Armor</set>
@@ -55,8 +56,8 @@
 			</description>
 		</sheet>
 	<setters>
-	    <set name="category">Homebrew</set>
-	    <set name="cost" currency="gp">1500</set>
+	    <set name="category">Homebrew Armor</set>
+	    <set name="cost" currency="gp">N/A</set>
 	    <set name="weight" lb="55">55 lb.</set>
 	    <set name="container">Heavy</set>
 	    <set name="armor">Heavy</set>
