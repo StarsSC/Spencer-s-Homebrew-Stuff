@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.17">
+    <update version="0.0.18">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
