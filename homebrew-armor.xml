@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.9">
+    <update version="0.0.10">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
