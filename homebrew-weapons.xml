@@ -8,6 +8,25 @@
   </info>
 	<element name="Stagweald, Forest Warden" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_STAGWEALD_FOREST_WARDEN">
     <description>
+	    <p>You gain a +2 bonus to attack and damage rolls you make with this magic weapon. The gifted horns of woodland creatures were ritually fused to create this massive blade. While attuned, you are considered proficient with it and you may add your Wisdom modifier instead of your Strength modifier to damage and attack rolls with it. This weapon has a number of charges equal to twice your proficiency bonus and regains all charges at dawn.</p>
+		    <p class="indent">
+          <strong>
+            <em>Evolutionary Gifts.</em>
+          </strong>
+          While attuned to this weapon you grow a pair of large horns from your head. These horns remain when you Wild Shape and change in size to match any form. Your horns are a natural weapon that count as simple melee weapons with which you are proficient. You add either your Strength modifier to the attack and damage rolls when you attack with these horns. On a hit this weapon deals 1d8 piercing damage and you can spend a charge to deal an amount of additional radiant damage equal to your proficiency bonus.
+        </p>
+      <p class="indent">
+        <strong>
+          <em>Gouging Branch.</em>
+        </strong>
+        When you hit a creature with this weapon or your horns you can spend a charge to have the ends of the blade or horns pierce a creatures body. The target must make a DC 16 Strength saving throw. On a failed save the target takes 2d6 piercing damage and becomes grappled by the weapon. On a successful save the target only takes half as much damage and is not grappled. If the grappled creature breaks the grapple it takes an additional 1d6 piercing damage as the horns tear at its body. You cannot attack any creatures with the weapon other than the grappled creature as long as they remain grappled this way. You can choose to end the grapple as a bonus action, causing the horns to shrink back to their original size.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Fury of the Forest</em>
+        </strong>
+        As an action you can spend up to 3 charges to plunge this weapon into the ground and cause a forest of horns to burst from the earth. Each other creature within a 30-foot radius of you must make a DC 16 Dexterity saving throw, taking 6d6 piercing damage per charge on a failed save. On a successful save the target only takes half as much damage.
+      </p>
     </description>
     <setters>
       <set name="category">Homebrew</set>
