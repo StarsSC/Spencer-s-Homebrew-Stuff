@@ -8,10 +8,8 @@
   </info>
   <element name="Cosmic Coronet" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_COSMIC_CORONET"
   <description>
-  <p>The thrall of cosmic power, of infinite potential; who could resist? A golden crown roiling with interstellar energy.
-  </p>
-  <p class="indent">While you are attuned to this item you can speak, read, and write Celestial and can use it as an arcane focus. This item has 4 charges and regains 1d4 charges daily at dawn. Through time, accomplishment, and growth, this item can grow into its Awakened state, then into its Exalted state (according to your DM)
-</p>
+  <p>The thrall of cosmic power, of infinite potential; who could resist? A golden crown roiling with interstellar energy.</p>
+  <p class="indent">While you are attuned to this item you can speak, read, and write Celestial and can use it as an arcane focus. This item has 4 charges and regains 1d4 charges daily at dawn. Through time, accomplishment, and growth, this item can grow into its Awakened state, then into its Exalted state (according to your DM)</p>
   <p class="indent">The crown grants the following benefits in its dormant state.</p>
 </element>
 </elements>
