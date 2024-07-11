@@ -25,6 +25,7 @@
           When you roll for damage as a result of a spell that targets a single creature you can spend up to 3 charges to increase the amount of damage dice you roll by the number of charges spent.</li>
       </ul>
         </p>
+    </p>
   </description>
 	  <setters>
 		  <set name="category">Homebrew Wondrous Items</set>
