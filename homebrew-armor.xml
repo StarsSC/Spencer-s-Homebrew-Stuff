@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.8">
+    <update version="0.0.9">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -61,12 +61,8 @@
           </tr>
         </tbody>
       </table>
-      <p class="indent">
-        <strong>
-          <em>Curse: Ludomania.</em>
-        </strong>
-        This shield is cursed, and attuning to it extends the curse to you. Until the curse is broken you are unwilling to part with it, keeping it within reach at all times. You cannot resist a good game of chance, taking part in any gamble or bet proposed to you no matter how potentially disastrous the outcome.</p>
-	  </description>
+		  <p>This shield is cursed, and attuning to it extends the curse to you. Until the curse is broken you are unwilling to part with it, keeping it within reach at all times. You cannot resist a good game of chance, taking part in any gamble or bet proposed to you no matter how potentially disastrous the outcome.</p>
+     </description>
 	  <setters>
       <set name="keywords">shield</set>
 	    <set name="category">Homebrew Armor</set>
