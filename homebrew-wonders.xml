@@ -2,14 +2,15 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.7">
+    <update version="0.0.8">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
   <element name="Cosmic Coronet" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_COSMIC_CORONET"
-    <description>
-	<p>The thrall of cosmic power, of infinite potential; who could resist? A golden crown roiling with interstellar energy. While attuned to this item you can speak, read, and write Celestial can use it as an arcane focus. This item has 4 charges and regains 1d4 charges daily at dawn. Through time, accomplishment, and growth, this item can grow into its Awakened state, then into its Exalted state (according to your DM).</p>
-    </description>
+  <description>
+    <p>The thrall of cosmic power, of infinite potential; who could resist? A golden crown roiling with interstellar energy. While attuned to this item you can speak, read, and write Celestial can use it as an arcane focus. This item has 4 charges and regains 1d4 charges daily at dawn. Through time, accomplishment, and growth, this item can grow into its Awakened state, then into its Exalted state (according to your DM).
+    </p>
+  </description>
 	  <setters>
 		  <set name="category">Wondrous Items</set>
 		  <set name="cost" currency="gp">N/A</set>
