@@ -2,23 +2,89 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.10">
+    <update version="0.0.11">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Burnt End" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_BURNT_END">
+    <description>
+	    <p>A dark dagger whose blade fades into sofly billowing smoke and embers. You gain a +2 bonus to attack and damage rolls you make with this magic weapon. This weapon has 3 charges and regains all charges after a long rest.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Smoking Shank.</em>
+        </strong>
+        While holding this weapon you can spend a charge to cast the Misty Step spell, vanishing into a puff of black smoke. If you teleport within 5 feet of another creature you can make an attack against it with this weapon as part of the spell.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Where There's Fire.</em>
+        </strong>
+        If you take 10 or more fire damage from a single source you can use your reaction to channel the fire into this blade and have this weapon regain a charge.
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="enhancement">2</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Dagger</set>
+    </setters>
+  </element>
+	<element name="The Skeleton Key" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_SKELETON_KEY">
+    <description>
+	    <p>An odd-looking blade that seems to hum with a power not of this world. You gain a +3 bonus to attack and damage rolls you make with this magic weapon. While attuned to this item magical effects and abilities cannot alter your physical form (ex. Enlarge/Reduce, Polymorph, etc) or ability scores in any way (ex. Belt of Giant Strength, Feeblemind, etc.) other than the Overwrite property.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Reformat.</em>
+        </strong>
+        As a bonus action you can reconfigure the teeth of this weapon to take on the form of any sword.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Overwrite.</em>
+        </strong>
+        As an action you can touch another creature with this weapon to increase or decrease an ability score of the creature by your Intelligence modifier for 1 minute or until you are knocked unconscious. An unwilling creature must succeed on a DC (8 + your Intelligence bonus + your proficiency bonus) saving throw of the ability score you are attempting to affect to resist this property. This property cannot reduce a creature's ability score below 1 or increase it beyond 30. If this property increases a creature's ability score above 25, the target gains a point of exhaustion after the effect ends. Once you use this property it can't be used again until you finish a long rest.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Malware.</em>
+        </strong>
+        When a creature you can see within 60 feet of you makes an attack roll, ability check, or saving throw you can have the creature roll an additional d20. You can choose to use this property after the die is rolled, but before the outcome is determined. You can choose which of the d20 is used for the attack roll, ability check, or saving throw. Once you use this property it can't be used again until you finish a long rest or you score a critical hit with this weapon.
+      </p>
+      <p class="indent">
+        <em>Curse: Firewall.</em>
+        When you have used the Malware property of this weapon, it gains a Firewall charge. When you make an attack roll, an bility check, or a saving throw, the DM can spend a Firewall charge to have you roll an additional d20, and then choose which of the d20 you use for your roll.
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="enhancement">3</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Legendary</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Longsword</set>
+    </setters>
+  </element>
   <element name="Blackheart Butcher" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_BLACKHEART_BUTCHER">
     <description>
       <p>You gain a +1 bonus to spell attack rolls you make while holding this weapon and only spellcasters may attune. A sickly butcher's blade of cold black iron. It seethes with eldritch magicks emitting from harshly carved hex runes. While holding this weapon you can use it as an arcane focus. This weapon has 3 charges. Once per day in place of an attack you can carve at your flesh to have this item regain a charge, taking 1d10 slashing damage in the process. Alternatively, as a 1-hour ritual you can infuse the blade with sinister energies to have it regain a charge. This ritual requires at least a pound of natural animal or plant matter, regaining a charge for each pound of material which is consumed by the ritual.
       </p>
       <p class="indent">
         <strong>
-          <em>Malignant Jinx</em>
+          <em>Malignant Jinx.</em>
         </strong>
         While attuned to this weapon you can spend a charge to cast the Hex spell without expending a spell slot. You have advantage on concentration checks to maintain concentration on a Hex spell while attuned to this weapon.
       </p>
       <p class="indent">
         <strong>
-          <em>Wretched Puppet</em>
+          <em>Wretched Puppet.</em>
         </strong>
         As a bonus action you can spend a charge to make a creature within 30 feet of you the victim of your hideous magicks. The creature must make a DC 14 Charisma saving throw. If the creature is cursed by a Hex spell cast by you, the DC is raised to 16. On a failed save you choose one of the following effects to take place.
         <ul>
@@ -29,7 +95,7 @@
       </p>
       <p class="indent">
         <strong>
-          <em>Curse</em>
+          <em>Curse.</em>
         </strong>
         While attuned to this weapon you can sense the presence and direction of cursed items within 60 feet of you. When you sense a cursed item you must succeed on a DC 16 Wisdom saving throw or become compelled to seek out and attune to the item you sense. This effect ends after 1 minute or if you take damage while compelled. You gain an additional +1 bonus to spell attack rolls you make while holding this weapon for each other cursed item you are attuned to.
       </p>
@@ -39,6 +105,7 @@
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
       <set name="enhancement">1</set>
+      <set name="attunement">true</set>
       <set name="rarity">Rare</set>
       <set name="type">Weapon</set>
       <set name="Weapon">Scimitar</set>
