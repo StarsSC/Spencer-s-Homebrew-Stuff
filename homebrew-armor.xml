@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.4">
+    <update version="0.0.5">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -42,7 +42,7 @@
 	  </setters>
 	  <rules>
 		  <stat name="ac:armored:armor" value="18"/>
-		  <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC"/>
+		  <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_PSYCHIC"/>
 	  </rules>
 	</element>
 	<element name="Astral Plates" type="Item" source="Homebrew" id="ID_WOTC_ARMOR_DND_HOMEBREW_PLATES">
@@ -66,6 +66,7 @@
 	  </setters>
 	  <rules>
 	    <stat name="ac:armored:armor" value="18"/>
+	    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC"/>
 	  </rules>
 	</element>
 </elements>
