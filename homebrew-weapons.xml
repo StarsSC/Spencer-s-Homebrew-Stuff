@@ -2,10 +2,52 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.14">
+    <update version="0.0.16">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Simple Shortsword" type="Weapon" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_SIMPLE_SHORTSWORD">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_GROUP_SHORTSWORD</supports>
+    <description>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="range">5 ft</set>
+      <set name="damage">1d6 piercing+1d6 lightning</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
+    </setters>
+  </element>
+	<element name="Crashing Fang" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_CRASHING_FANG">
+    <description>
+	    <p>A sacred blade charged with divine lightning that carries the authority of the Heavenly Dragon within itself; mighty and unstoppable.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Dragons Wrath.</em>
+        </strong>
+       When you attune to this weapon, gain the following benefits;
+	      <ul>
+		      <li>When you make a melee attack with this weapon you can use your choice of Strength or Charisma for the attack roll and damage rolls. You must use the same modifier for both rolls.</li>
+		      <li>You gain a +2 bonus to attack and damage rolls made using the weapon. On a hit, this weapon deals an additional 1d6 lightning damage.</li>
+		      <li>As a bonus action while holding this weapon, you can channel the energy of the Heavenly Dragon into your enemies. For 1 minute, this weapon deals an additional 1d6 lightning damage on a hit equal to the number of times the target has been hit with this weapon this turn (ex. if a creature is hit twice in a turn with this weapon, it takes an additional 1d6 lightning damage on the first hit, and 2d6 on the second). You can use this property a number of times up to your Charisma modifier before finishing a long rest.</li>
+          <li>While holding this weapon, you can cast the Haste spell targeting yourself. Once you use this property it can't be used again until you finish a short or long rest.</li>
+        </ul>
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="enhancement">2</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Simple Shortsword</set>
+    </setters>
+  </element>
   <element name="Burnt End" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_BURNT_END">
     <description>
 	    <p>A dark dagger whose blade fades into sofly billowing smoke and embers. You gain a +2 bonus to attack and damage rolls you make with this magic weapon. This weapon has 3 charges and regains all charges after a long rest.
