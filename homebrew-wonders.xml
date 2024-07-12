@@ -2,10 +2,39 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.27">
+    <update version="0.0.28">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Moonsliver Cloak" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_MOONSLIVER_CLOAK">
+    <description>
+     <p>The Moonsliver Cloak is an enchanting garment woven from the finest silken threads, imbued with the ethereal essence of moonlight itself. This cloak, lightweight and flowing, shimmers with a delicate silvery hue, reminiscent of the moon's glow on a clear night. The fabric is soft to the touch, yet incredibly durable, designed to withstand the rigors of any adventure.</p>
+      <p>The cloak grants the wearer these benefits;
+        <ul>
+          <li>The wearer may become invisible as a bonus action while outdoors in moonlight</li>
+          <li>+1 to AC and all saving throws</li>
+        </ul>
+      </p>
+    </description>
+    <setters>
+      <set name="keywords">cloak</set>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">shoulders</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Rare</set>
+    </setters>
+    <rules>
+      <stat name="ac:misc" value="1"/>
+      <stat name="strength:save:misc" value="1"/>
+      <stat name="dexterity:save:misc" value="1"/>
+      <stat name="constitution:save:misc" value="1"/>
+      <stat name="intelligence:save:misc" value="1"/>
+      <stat name="wisdom:save:misc" value="1"/>
+      <stat name="charisma:save:misc" value="1"/>
+    </rules>
+  </element>
   <element name="Hood of the Dragonturtle" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_DRAGONTURTLE_HOOD">
     <description>
       <p>The Hood of the Dragonturtle is a majestic and awe-inspiring piece of headgear, crafted with the scales and essence of the legendary Dragonturtle. This hood is renowned for its distinctive design, which combines the robust, textured scales of the Dragonturtle with elegant craftsmanship. The scales shimmer with hues of deep green, azure, and hints of gold, reflecting the mystical aura of its origin.</p>
