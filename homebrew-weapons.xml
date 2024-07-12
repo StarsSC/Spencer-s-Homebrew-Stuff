@@ -2,10 +2,71 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.29">
+    <update version="0.0.30">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Acid Flail" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_ACID_FLAIL">
+    <description>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="rarity">Rare</set>
+      <set name="range">5 ft</set>
+      <set name="damage">1d8+1 acid</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL</set>
+    </setters>
+  </element>
+  <element name="Quicksilver Flail" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_QUICKSILVER_FLAIL">
+    <description>
+	    <p>The Quicksilver Flail is a formidable and enigmatic weapon, expertly crafted to combat the undead with devastating efficiency. This flail features a sleek, metallic handle that is both sturdy and lightweight, allowing for swift and precise strikes. The handle is intricately engraved with arcane symbols and runes, which pulse with a faint, silvery glow, hinting at the weapon's potent enchantments.</p>
+      <p class="indent">
+        <strong>
+          <em>Liquid Flail.</em>
+        </strong>
+        You gain a +1 bonus to attack rolls you make with this weapon.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Blessed Silver.</em>
+        </strong>
+        When you successfully hit an Undead creature with this weapon, it deals an extra 1d8 Acid damage.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Lob Blob.</em>
+        </strong>
+        You can use an action to hurl the ball of this flail to a location within 45ft. of you. All creatures within a 5ft radius of the point of impact have to make a Dexterity saving throw (DC 15). On a failed save they take 4d4 Acid damage. Afterwards, the drops of quicksilver float back towards the flail and the weapon reforms at the start of your next turn. Until it is reformed, you cannot make an attack with this weapon. You can use this feature twice per long rest.
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Acid Flail</set>
+    </setters>
+  </element>
+	<element name="Billsby Cosbony's Urge" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BILLCOSBY_URGE">
+    <description>
+	    <p>The Blade of Cosbony is a masterfully crafted shortsword, forged by the legendary blacksmith and enchanter, Billsby Cosbony. Renowned for his unparalleled skill and innovative enchantments, Cosbony created this blade with a singular purpose: to incapacitate foes with a single, precise strike. This elegant shortsword is forged from a rare, silvery metal that gleams with a faint, otherworldly light. The blade is perfectly balanced, with a keen edge that promises both precision and lethality. Its hilt is wrapped in supple, dark leather, providing a secure grip, while the guard is adorned with intricate, swirling patterns that seem to dance and shift when viewed in the light. When a foe is hit with this weapon, the chance to score a critical hit is reduced by one (ex. 19-20 for Critical) and when you score a critical hit, the target is paralyzed for its next turn.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Simple Shortsword</set>
+    </setters>
+  </element>
   <element name="Carrion Longsword" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_CARRION_LONGSWORD">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_GROUP_LONGSWORD</supports>
     <description>
