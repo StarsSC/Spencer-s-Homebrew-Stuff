@@ -2,14 +2,209 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.19">
+    <update version="0.0.20">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
-  <element name="Zephyr Shard" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_ZEPHYR_SHARD">
+  <element name="Carrion Longsword" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_CARRION_LONGSWORD">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_GROUP_LONGSWORD</supports>
+    <description>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="slot">twohand</set>
+      <set name="range">5 ft</set>
+      <set name="damage">1d8 piercing</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
+    </setters>
+  </element>
+  <element name="Carrion Eater" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_CARRION_EATER">
+    <description>
+     <p>Modeled after birds of prey, this sword was made to pierce through armor, rewarding vicious wielders. It deals piercing damage instead of slashing damage and has 3 charges, recovering 1d3 of them every day at dusk.</p>
+      <p class="indent">
+        <strong>
+          <em>Talon.</em>
+        </strong>
+        Enchanted with a taste for death, this sword seeks enemies. You have a +1 bonus to attack and damage rolls made with this magical weapon.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Beak.</em>
+        </strong>
+        When you make an attack with Carrion Eater against a creature wearing armor, you can choose to deal no damage on a hit to pierce through said armor. On a hit, roll 1d8 and reduce their AC by 1 on rolls of 1 to 5 and by 2 on rolls of 6 to 8. If this would reduce their AC without counting any ability modifier bonuses below 10, it stops at 10.
+        <p class="indent">If you roll a critical hit on a creature with armor, you both deal damage and reduce their AC as written above.</p>
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Appetite.</em>
+        </strong>
+        Carrion Eater is sustained by death and shares its meals with you. Whenever you reduce a hostile creature to 0 hit points with an attack made with it, you can expend a number of charges to recover 1d6 hit points per charge expended.
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Carrion Longsword</set>
+    </setters>
+  </element>
+  <element name="Murder of Crows" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_MURDER_OF_CROWS">
+    <description>
+     <p>Gifted by the Murder, this dagger's pommel is decorated by a different trinket whenever it's unsheathed - shiny rocks, pieces of metal or colored glass shards are the most common finds. It has 3 charges that are regained every day at dusk.</p>
+      <p class="indent">
+        <strong>
+          <em>Birds of a Feather.</em>
+        </strong>
+        When you make an attack with Murder of Crows, you can summon a spectral copy of it on your other hand. This copy disappears at the start of your next turn (or before it, if you wish to).
+        <p class="indent">Additionally, you can expend 1 charge when you make a ranged attack with the original to summon it back to your hand.</p>
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Sharp Beak and Claws.</em>
+        </strong>
+        When you make an attack with Murder of Crows, you can spend a number of charges so the Murder aids you. You deal an extra 1d6 slashing damage per charge on a hit and you score a critical hit on a number lower than 20 per charge expended - from 17 to 20 with 3 charges, for example.
+        <p class="indent">However, your critical failure chance is raised in the same way - from 1 to 4 with 3 charges, for example - and you suffer 1d6 + your Dexterity modifier slashing damage on such a failure.</p>
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Simple Dagger</set>
+    </setters>
+  </element>
+   <element name="Trout" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_TROUT">
+    <description>
+     <p>The <em>Trout</em> is a large fish, weighing rougly 3 pounds, that is enchanted with a prpensity to tell everybody and their mums that you just whacked somebody about the face with a fish. A soul-crushing moment indeed for your victims</p>
+      <p>The Trout acts as a club with a +1 bonus to all attack and damage rolls.</p>
+      <p class="indent">
+        <strong>
+          <em>Swings of Haste.</em>
+          <strong>
+            You may attack with the <em>Trout</em> up to two times in a single action if you do not already possess the ability to do so.
+          </p>
+      <p class="indent">
+        <strong>
+          <em>Psychic Humiliation.</em>
+          <strong>
+            Each time you successfully land an attack with the <em>Trout</em>, it telepathically messages all creatures within 1 mile of you that the creature being hit has been whacked by the <em>Trout</em>.
+          </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="enhancement">1</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Club</set>
+    </setters>
+  </element>
+  <element name="Blessing in Disguise" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BLESSING_IN_DISGUISE">
+    <description>
+     <p>A Quarterstaff that looks like a dirty, run-down, beat-up stick that looks like it would crumble if you sneezed on it. Um... don't sneeze on it. Anyway, the weapon itself has 5 charges to it.<p>
+       <p class="indent">
+         <strong>
+           <em>Blessed Weapon.</em>
+         </strong>
+         Despite its looks, this weapon is something that you'd want in your pack/scabbard/(eh, you get it). When you make an attack with it, you can spend a charge on it to do one of the following;
+         <ul>
+           <li>Cast a spell level 3 or lower</li>
+           <li>Give yourself or an ally +1 on their next attack roll</li>
+           <li>Give your target an extra 2d8 radiant damage</li>
+         </ul>
+       </p>
+     <p>This weapon regains 1 charge for every hour it is in direct sunlight</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="4">4 lb.</set>
+      <set name="enhancement">1</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Quarterstaff</set>
+    </setters>
+    <rules>
+        <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
+      </rules>
+  </element>
+  <element name="Sword of Armageddon" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SWORD_OF_ARMAGEDDON">
+    <description>
+      <p>You gain a +1 bonus to attack and damage rolls with this magic weapon. While the sword is on your person, you also have resistance to fire damage.</p>
+      <p class="indent">
+        <strong>
+          <em>Power of Fire.</em>
+          <strong>
+            You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40‑foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
+          </p>
+      <p class="indent">
+        <strong>
+          <em>Armageddon.</em>
+        </strong>
+        This sword has 3 charges. While holding it, you can use an action to expend 1 charge and cast <em>meteor swarm</em> from it (save DC 19). This property can't be used again until the next dawn. The sword regains 1d3 expended charges yearly at the dawn of the new year.
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="5.4">5.4 lb.</set>
+      <set name="enhancement">1</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Legendary</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Simple Greatsword</set>
+    </setters>
+    <rules>
+        <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
+      </rules>
+  </element>
+  <element name="Smart Sword" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SMART_SWORD">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_GROUP_SHORTSWORD</supports>
+    <description>
+      <p>An intelligent blade that guides you as much as you guide it. When you make an attack with this magic weaponAn intelligent blade that guides you as much as you guide it. When you make an attack with this magic weapon;
+        <ul>
+          <li>You add your proficiency modifier to attack rolls with this weapon, regardless of whether you have proficiency in this type of weapon or not.</li>
+          <li>You ignore AC granted by Dexterity and disadvantage imposed by the Dodge action.</li>
+        </ul>
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="enhancement">1</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Simple Shortsword 2</set>
+    </setters>
+  </element>
+	<element name="Simple Shortsword 2" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SIMPLE_SHORTSWORD_2">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_GROUP_SHORTSWORD</supports>
+    <description>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="range">5 ft</set>
+      <set name="damage">1d6 piercing</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
+    </setters>
+  </element>
+  <element name="Zephyr Shard" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_ZEPHYR_SHARD">
     <description>
       <p>The winds of the Heavenly Dragon infuse the missiles of this bow, precise and irresistible. The DC of any of the properties of this weapon is equal to 8 + your Wisdom modifier + your proficiency bonus.</p>
-      <p class="index">
+      <p class="indent">
         <strong>
           <em>Holy Gusts</em>
         </strong>
@@ -32,7 +227,7 @@
       <set name="Weapon">Simple Longbow</set>
     </setters>
   </element>
-	<element name="Simple Longbow" type="Weapon" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_SIMPLE_LONGBOW">
+	<element name="Simple Longbow" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SIMPLE_LONGBOW">
     <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
     <description>
     </description>
@@ -46,7 +241,7 @@
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW</set>
     </setters>
   </element>
-  <element name="Simple Shortsword" type="Weapon" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_SIMPLE_SHORTSWORD">
+  <element name="Simple Shortsword" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SIMPLE_SHORTSWORD">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_GROUP_SHORTSWORD</supports>
     <description>
     </description>
@@ -60,7 +255,7 @@
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
     </setters>
   </element>
-	<element name="Crashing Fang" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_CRASHING_FANG">
+	<element name="Crashing Fang" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_CRASHING_FANG">
     <description>
 	    <p>A sacred blade charged with divine lightning that carries the authority of the Heavenly Dragon within itself; mighty and unstoppable.
       </p>
@@ -88,7 +283,7 @@
       <set name="Weapon">Simple Shortsword</set>
     </setters>
   </element>
-  <element name="Burnt End" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_BURNT_END">
+  <element name="Burnt End" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BURNT_END">
     <description>
 	    <p>A dark dagger whose blade fades into sofly billowing smoke and embers. You gain a +2 bonus to attack and damage rolls you make with this magic weapon. This weapon has 3 charges and regains all charges after a long rest.
       </p>
@@ -116,7 +311,7 @@
       <set name="Weapon">Dagger</set>
     </setters>
   </element>
-	<element name="The Skeleton Key" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_SKELETON_KEY">
+	<element name="The Skeleton Key" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SKELETON_KEY">
     <description>
 	    <p>An odd-looking blade that seems to hum with a power not of this world. You gain a +3 bonus to attack and damage rolls you make with this magic weapon. While attuned to this item magical effects and abilities cannot alter your physical form (ex. Enlarge/Reduce, Polymorph, etc) or ability scores in any way (ex. Belt of Giant Strength, Feeblemind, etc.) other than the Overwrite property.
       </p>
@@ -154,7 +349,7 @@
       <set name="Weapon">Longsword</set>
     </setters>
   </element>
-  <element name="Blackheart Butcher" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_BLACKHEART_BUTCHER">
+  <element name="Blackheart Butcher" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BLACKHEART_BUTCHER">
     <description>
       <p>You gain a +1 bonus to spell attack rolls you make while holding this weapon and only spellcasters may attune. A sickly butcher's blade of cold black iron. It seethes with eldritch magicks emitting from harshly carved hex runes. While holding this weapon you can use it as an arcane focus. This weapon has 3 charges. Once per day in place of an attack you can carve at your flesh to have this item regain a charge, taking 1d10 slashing damage in the process. Alternatively, as a 1-hour ritual you can infuse the blade with sinister energies to have it regain a charge. This ritual requires at least a pound of natural animal or plant matter, regaining a charge for each pound of material which is consumed by the ritual.
       </p>
@@ -193,7 +388,7 @@
       <set name="Weapon">Scimitar</set>
     </setters>
   </element>
-  <element name="Unseemly Sabre" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_UNSEEMLY_SABRE">
+  <element name="Unseemly Sabre" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_UNSEEMLY_SABRE">
     <description>
       <p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. The cold iron of this blade emanates an eerie hostility. While a Fey creature is within 10 feet of you the blade of this weapons glows with iridescent light.
       </p>
@@ -214,7 +409,7 @@
       <set name="Weapon">Scimitar</set>
     </setters>
   </element>
-	<element name="Stagweald, Forest Warden" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_STAGWEALD_FOREST_WARDEN">
+	<element name="Stagweald, Forest Warden" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_STAGWEALD_FOREST_WARDEN">
     <description>
 	    <p>You gain a +2 bonus to attack and damage rolls you make with this magic weapon. The gifted horns of woodland creatures were ritually fused to create this massive blade. While attuned, you are considered proficient with it and you may add your Wisdom modifier instead of your Strength modifier to damage and attack rolls with it. This weapon has a number of charges equal to twice your proficiency bonus and regains all charges at dawn.</p>
 		    <p class="indent">
@@ -247,7 +442,7 @@
       <set name="Weapon">Greatsword</set>
     </setters>
   </element>
-	<element name="Simple Dagger" type="Weapon" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_SIMPLE_DAGGER">
+	<element name="Simple Dagger" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SIMPLE_DAGGER">
 	<supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_WEAPON_GROUP_DAGGER</supports>
     <description>
     </description>
@@ -261,7 +456,7 @@
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
     </setters>
   </element>
-	<element name="Soulshard" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_SOULSHARD">
+	<element name="Soulshard" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SOULSHARD">
     <description>
 	    <p>This magical obsidian dagger has three white crystals embedded in its hilt and a blade that never needs sharpening. It seems to exude an aura of malice.
         <ul>
@@ -281,7 +476,7 @@
       <set name="Weapon">Simple Dagger</set>
     </setters>
   </element>
-	<element name="The Offering" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_OFFERING">
+	<element name="The Offering" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_OFFERING">
     <description>
 	    <p>This dagger has a sharp metal blade, similar to normal daggers of its kind, but the hilt is made of leather in the shape of a human hand. Wielding this blade would make it seem as though it were a handshake. Once initiative has been rolled but before combat starts, you may choose one of these effects that will last until the end of the initiative.
     	<ul>
@@ -305,7 +500,7 @@
       <set name="Weapon">Dagger</set>
     </setters>
   </element>
-	<element name="Githyanki Greatsword" type="Weapon" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_GITHYANKI_GREATSWORD">
+	<element name="Simple Greatsword" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SIMPLE_GREATSWORD">
     <description>
     </description>
     <setters>
@@ -317,7 +512,7 @@
       <set name="damage" type="slashing">2d6</set>
     </setters>
   </element>
-  <element name="Silver Sword of the Astral Plane" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_ASTRAL_SWORD">
+  <element name="Silver Sword of the Astral Plane" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_ASTRAL_SWORD">
     <supports>ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_WEAPON_CATEGORY_MARTIAL_MELEE</supports>
     <description>
       <p>The holder of this item gains:
@@ -333,7 +528,7 @@
       <set name="enhancement">3</set>
       <set name="type">Weapon</set>
       <set name="attunement">true</set>
-      <set name="weapon">Githyanki Greatsword</set>
+      <set name="weapon">Simple Greatsword</set>
     </setters>
       <rules>
         <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC"/>
