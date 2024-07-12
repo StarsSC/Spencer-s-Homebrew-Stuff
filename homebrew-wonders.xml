@@ -2,10 +2,48 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.28">
+    <update version="0.0.30">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Satchel of Sustenance" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SUSTENANCE_SATCHEL">
+    <description>
+	<p>The Satchel of Sustenance is a remarkable and essential item for any adventurer, crafted from durable, enchanted leather with intricate embroidery depicting scenes of bountiful harvests and feasts. This satchel combines the expansive capacity of a bag of holding with unique magical properties specifically attuned to preserving and providing nourishment. The interior of the Satchel of Sustenance is vast, capable of holding an impressive array of items without ever becoming cumbersome. What sets this satchel apart is its ability to preserve food indefinitely; no matter how long it is stored, food remains fresh and unspoiled, ready to be consumed at any time.</p>
+      <p class="indent">
+        <strong>
+          <em>Extradimensional Stockpile</em>
+        </strong>
+        This bag functions as a Bag of Holding with the extra property that food and drink does not decay when it is stored inside the bag.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Commoner's Feast.</em>
+        </strong>
+        You can put a gold coin in the bag and speak a command word which consumes the coin. The bag fills with enough food and drink to sustain 5 humanoids for 1 day. The food consists of various breads, nuts, fruits, vegetables and raw meats. The drinks are an assortement of juices and fresh water. The satchel can store up to 10 of these feasts before it is completely filled up. You can use this feature 5 times per day.
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="15">15 lb.</set>
+      <set name="stash" lb="500" weightless="true">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
+	<element name="Immortal Amulet" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_IMMORTAL_AMULET">
+    <description>
+	<p>The amulet deepens your connection with death. You can use an action to touch a corpse or undead to experieence a short sequence of images on its final moments before death. Once you use this feature you cannot do so again until the next dawn.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">neck</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
 	<element name="Moonsliver Cloak" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_MOONSLIVER_CLOAK">
     <description>
      <p>The Moonsliver Cloak is an enchanting garment woven from the finest silken threads, imbued with the ethereal essence of moonlight itself. This cloak, lightweight and flowing, shimmers with a delicate silvery hue, reminiscent of the moon's glow on a clear night. The fabric is soft to the touch, yet incredibly durable, designed to withstand the rigors of any adventure.</p>
