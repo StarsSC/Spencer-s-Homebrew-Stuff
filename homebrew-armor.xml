@@ -2,12 +2,31 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.19">
+    <update version="0.0.20">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
   <element name="Tombstone Shield" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_TOMBSTONE_SHIELD">
 	  <description>
+      <p>The Tombstone Shield is a grim and imposing shield, forged with a dark and somber aesthetic that evokes the essence of the grave. Crafted from a heavy, darkened metal, the shield has the appearance of a weathered tombstone, with rough edges and a surface marred by time and battles. Its surface is engraved with intricate, morbid designs, depicting scenes of death and the afterlife, and it radiates an aura of eerie stillness.</p>
+      <p class="indent">
+        <strong>
+          <em>Spirit Absorbtion.</em>
+        </strong>
+        When a humoid creature dies within 15ft of you while carrying this shield, you can use your reaction to absorb its spirit. The name of the creature is carved on the shield, for a maximum of 10 names. When found, the shield has 1d10 names on it already.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Guardian Angel</em>
+        </strong>
+        When you take damage while using the shield, you can use a reaction to call forth any number of the spirits named on the shield and reduce the damage by 1d10 and +1 per spirit. Alternatively, you can use the spell <em>Speak with dead</em> on one of the names, without needing the body. After using either of these effects, the name disappears and the spirit is gone.
+      </p>
+        <p class="indent">
+          <strong>
+            <em>Cursed.</em>
+          </strong>
+          If you die and less than 10 names are written on the shield, your spirit is trapped in it, your name appears on it, and you can't be resurrected in any way unless the shield is cleansed by a <em>Greater Restoration</em> spell.
+      </p>
 		</description>
 	  <setters>
 		  <set name="keywords">shield</set>
