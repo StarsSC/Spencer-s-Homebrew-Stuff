@@ -6,6 +6,47 @@
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Tombstone Shield" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_TOMBSTONE_SHIELD">
+	  <description>
+		</description>
+	  <setters>
+		  <set name="keywords">shield</set>
+	    <set name="category">Homebrew Armor</set>
+	    <set name="cost" currency="gp">N/A</set>
+	    <set name="weight" lb="6">6 lb.</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+	    <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+	    <set name="type" addition="shield">Armor</set>
+	  </setters>
+	</element>
+	<element name="Shadowborn's Second Skin" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SHADOWBORN_SECOND_SKIN">
+	  <description>
+		<p>The Shadowborn's Second Skin is a sleek and enigmatic suit of armor, tailored for those who dwell in the shadows and move unseen. Crafted from a blend of dark leather and shadow-infused silk, this armor clings to the wearer like a second skin, providing unparalleled flexibility and silence in movement. The material is imbued with shadow magic, giving it a faint, almost imperceptible shimmer that absorbs and diffuses light, making the wearer difficult to detect in dim environments.</p>
+      <p class="indent">
+        <strong>
+          <em>Shadow Stalker.</em>
+        </strong>
+        When attuned to this armor you gain a +2 bonus on any Dexterity (Stealth) checks you make. When you are in dim light or darkness this bonus becomes +4.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Swift as Nightfall.</em>
+        </strong>
+        As a bonus action you can cast <em>Misty Step</em> using this armor. In a flash of darkness you teleport up to 30 feet to an unoccupied space that you can see. You can use this feature once per day.
+	  </description>
+	  <setters>
+		  <set name="category">Homebrew Armor</set>
+		  <set name="cost" currency="gp">N/A</set>
+		  <set name="weight" lb="13">13 lb.</set>
+      <set name="slot">body</set>
+      <set name="rarity">Rare</set>
+      <set name="enhancement">1</set>
+      <set name="armor">Medium</set>
+      <set name="armorClass">13 + Dex modifier</set>
+      <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
+	  </setters>
+	</element>
 	<element name="Armor of the Warmage's Apprentice" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_WARMAGE_ARMOR">
 	  <description>
 		<p>The Armor of the Warmage's Apprentice is a finely crafted suit of armor designed to balance protection and arcane utility, perfect for those who are learning the ways of battle magic. Made from lightweight yet durable materials, this armor features a sleek design that allows for freedom of movement, essential for both casting spells and engaging in physical combat.</p>
@@ -33,10 +74,6 @@
       <set name="armorClass">12 + Dex modifier</set>
       <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER</set>
 	  </setters>
-	  <rules>
-		  <stat name="ac:armored:armor" value="12"/>
-		  <stat name="ac:misc" value="1"/>
-	  </rules>
 	</element>
 	<element name="Armor of the Grave" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_GRAVE_ARMOR">
 	  <description>
