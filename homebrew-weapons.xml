@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.26">
+    <update version="0.0.27">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -210,7 +210,7 @@
         </strong>
         When you attune to this weapon, gain the following benefits;
         <ul>
-        <li>While holding this bow, your walking speed increases by 10 feet and your jump distance is doubled.</li>
+        <li>While holding this bow, your walking speed increases to 45 feet and your jump distance is doubled.</li>
         <li>You gain a +1 bonus to attack and damage rolls to attacks made with this magic weapon. This weapon has a number of charges equal to two times your Wisdom modifier and regains all charges on a long rest.</li>
           <li>You can use your action to spend 2 charges and call upon the Heavenly Dragon's winds to guide your arrows. You can fire a number of pieces of ammunition equal to your Wisdom modifier. Make a separate attack roll for each piece of ammunition spent, which targets a creature of your choice you can see within the normal range of this weapon.</li>
         </ul>
@@ -226,6 +226,9 @@
       <set name="type">Weapon</set>
       <set name="Weapon">Simple Longbow</set>
     </setters>
+	  <rules>
+		  <stat name="speed" value="45" bonus="base"/>
+	  </rules>
   </element>
 	<element name="Simple Longbow" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SIMPLE_LONGBOW">
     <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
