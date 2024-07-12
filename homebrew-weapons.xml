@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.28">
+    <update version="0.0.29">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -51,34 +51,6 @@
       <set name="rarity">Rare</set>
       <set name="type">Weapon</set>
       <set name="Weapon">Carrion Longsword</set>
-    </setters>
-  </element>
-  <element name="Murder of Crows" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_MURDER_OF_CROWS">
-    <description>
-     <p>Gifted by the Murder, this dagger's pommel is decorated by a different trinket whenever it's unsheathed - shiny rocks, pieces of metal or colored glass shards are the most common finds. It has 3 charges that are regained every day at dusk.</p>
-      <p class="indent">
-        <strong>
-          <em>Birds of a Feather.</em>
-        </strong>
-        When you make an attack with Murder of Crows, you can summon a spectral copy of it on your other hand. This copy disappears at the start of your next turn (or before it, if you wish to).
-        <p class="indent">Additionally, you can expend 1 charge when you make a ranged attack with the original to summon it back to your hand.</p>
-      </p>
-      <p class="indent">
-        <strong>
-          <em>Sharp Beak and Claws.</em>
-        </strong>
-        When you make an attack with Murder of Crows, you can spend a number of charges so the Murder aids you. You deal an extra 1d6 slashing damage per charge on a hit and you score a critical hit on a number lower than 20 per charge expended - from 17 to 20 with 3 charges, for example.
-        <p class="indent">However, your critical failure chance is raised in the same way - from 1 to 4 with 3 charges, for example - and you suffer 1d6 + your Dexterity modifier slashing damage on such a failure.</p>
-      </p>
-    </description>
-    <setters>
-      <set name="category">Homebrew Weapons</set>
-      <set name="cost" currency="gp">N/A</set>
-      <set name="weight" lb="1">1 lb.</set>
-      <set name="attunement">true</set>
-      <set name="rarity">Uncommon</set>
-      <set name="type">Weapon</set>
-      <set name="Weapon">Simple Dagger</set>
     </setters>
   </element>
    <element name="Trout" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_TROUT">
