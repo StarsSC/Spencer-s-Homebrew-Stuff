@@ -2,11 +2,11 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.12">
+    <update version="0.0.13">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
-	<element name="Reel of Fortune" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_REEL_OF_FORTUNE">
+	<element name="Reel of Fortune" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_REEL_OF_FORTUNE">
 	  <description>
 	    <p>An ostentatious and alluring shield made in a covenant between the upper and lower planes. It seems to beckon those who gaze upon it to test their luck. While holding this shield, you have a +3 bonus to AC. While attuned to this shield you have proficiency with all gaming sets.</p>
       <p class="indent">
@@ -77,7 +77,7 @@
 	  </rules>
 	</element>
 	<!-- +2 robes -->
-	<element name="Infernal Robes" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_ROBES">
+	<element name="Infernal Robes" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_ROBES">
 	  <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 	  <description>
 	    <p>These robes were weaved by the stern hand of an Infernal Webweaver under the care of Orcus the Demon Lord. These robes were specially designed for his Countess of Destruction, Nyxara Ozata to help aid her in her conquest of the material plane. The hells flow through each fiber of these robes granting the wearer Immunity to Fire damage.</p>
@@ -95,7 +95,7 @@
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE"/>
 	  </rules>
 	</element>
-	<element name="Blessed Astral Plates" type="Magic Item" source="Homebrew" id="ID_WOTC_DND_HOMEBREW_MAGIC_PLATES">
+	<element name="Blessed Astral Plates" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_MAGIC_PLATES">
 	  <supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 	  <description>
 		<p>This armour was forged to Vlaakith's standards under the exacting eye of a githyanki smith, resulting in the wearer receiving Resistance to Psychic damage. If the armor detects that the wearer is gith, they have Immunity to Psychic damage and whenever the wearer succeeds on a Saving throw against a spell, they regain 1d4 hit points.</p>
@@ -115,7 +115,7 @@
 		  <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_PSYCHIC"/>
 	  </rules>
 	</element>
-	<element name="Astral Plates" type="Item" source="Homebrew" id="ID_WOTC_ARMOR_DND_HOMEBREW_PLATES">
+	<element name="Astral Plates" type="Item" source="Spencer's Homebrew" id="ID_WOTC_ARMOR_DND_HOMEBREW_PLATES">
 	<description>
 	    <p>This armour was forged to Vlakith's standards under the exacting eye of a githyanki smith.</p>
 	    <p>This armor gives the wearer Resistance to Psychic damage and heals them if they pass a Saving throw.</p>
