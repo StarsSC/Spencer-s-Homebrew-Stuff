@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.18">
+    <update version="0.0.19">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -35,6 +35,7 @@
 	  </setters>
 	  <rules>
 		  <stat name="ac:armored:armor" value="12"/>
+		  <stat name="ac:misc" value="1"/>
 	  </rules>
 	</element>
 	<element name="Armor of the Grave" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_GRAVE_ARMOR">
@@ -62,6 +63,7 @@
 	  </setters>
 	  <rules>
 		  <stat name="ac:armored:armor" value="12"/>
+		  <stat name="ac:misc" value="1"/>
 	  </rules>
 	</element>
 	<element name="Blooming Guard" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BLOOMING_GUARD">
