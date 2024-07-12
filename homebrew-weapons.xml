@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.21">
+    <update version="0.0.22">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -94,7 +94,7 @@
       <p class="indent">
         <strong>
           <em>Psychic Humiliation.</em>
-          <strong>
+	</strong>
             Each time you successfully land an attack with the <em>Trout</em>, it telepathically messages all creatures within 1 mile of you that the creature being hit has been whacked by the <em>Trout</em>.
           </p>
     </description>
@@ -110,7 +110,7 @@
   </element>
   <element name="Blessing in Disguise" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BLESSING_IN_DISGUISE">
     <description>
-     <p>A Quarterstaff that looks like a dirty, run-down, beat-up stick that looks like it would crumble if you sneezed on it. Um... don't sneeze on it. Anyway, the weapon itself has 5 charges to it.<p>
+     <p>A Quarterstaff that looks like a dirty, run-down, beat-up stick that looks like it would crumble if you sneezed on it. Um... don't sneeze on it. Anyway, the weapon itself has 5 charges to it.</p>
        <p class="indent">
          <strong>
            <em>Blessed Weapon.</em>
@@ -143,7 +143,7 @@
       <p class="indent">
         <strong>
           <em>Power of Fire.</em>
-          <strong>
+	</strong>
             You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40‑foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
           </p>
       <p class="indent">
@@ -151,6 +151,7 @@
           <em>Armageddon.</em>
         </strong>
         This sword has 3 charges. While holding it, you can use an action to expend 1 charge and cast <em>meteor swarm</em> from it (save DC 19). This property can't be used again until the next dawn. The sword regains 1d3 expended charges yearly at the dawn of the new year.
+      </p>
     </description>
     <setters>
       <set name="category">Homebrew Weapons</set>
