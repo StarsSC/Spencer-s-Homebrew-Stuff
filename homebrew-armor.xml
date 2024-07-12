@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.20">
+    <update version="0.0.21">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -53,6 +53,7 @@
           <em>Swift as Nightfall.</em>
         </strong>
         As a bonus action you can cast <em>Misty Step</em> using this armor. In a flash of darkness you teleport up to 30 feet to an unoccupied space that you can see. You can use this feature once per day.
+      </p>
 	  </description>
 	  <setters>
 		  <set name="category">Homebrew Armor</set>
