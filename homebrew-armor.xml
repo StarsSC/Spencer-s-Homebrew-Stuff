@@ -2,10 +2,36 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.17">
+    <update version="0.0.18">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Armor of the Grave" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_GRAVE_ARMOR">
+	  <description>
+		<p>The Armor of the Grave is a somber yet powerful suit of armor, meticulously forged with an eerie, otherworldly aesthetic. Crafted from dark, matte steel, this armor is adorned with ghostly etchings and faintly glowing runes that seem to shift and shimmer in dim light. Despite its intimidating appearance, the armor is surprisingly lightweight, allowing for ease of movement while providing robust protection.</p>
+      <p>The armor grants the wearer these benefits;
+        <ul>
+          <li>Gain +1 to AC</li>
+          <li>While you hold your breath you can chose to play dead as if effected by the <em>feign death</em> spell.</li>
+          <li>You become immune to the natural effects of exhaustion.</li>
+          <li>This armor protects its wearer with the <em>death ward</em> spell. Each day at dawn the armor casts <em>death ward</em> on the wearer with a duration of 24 hours.</li>
+        </ul>
+      </p>
+	  </description>
+	  <setters>
+		  <set name="category">Homebrew Armor</set>
+		  <set name="cost" currency="gp">N/A</set>
+		  <set name="weight" lb="13">13 lb.</set>
+      <set name="slot">body</set>
+      <set name="enhancement">1</set>
+      <set name="armor">Light</set>
+      <set name="armorClass">12 + Dex modifier</set>
+      <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER</set>
+	  </setters>
+	  <rules>
+		  <stat name="ac:armored:armor" value="12"/>
+	  </rules>
+	</element>
 	<element name="Blooming Guard" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BLOOMING_GUARD">
 	  <description>
       <p>This magical shield blooms from a seed planted into the wielder's flesh, protecting and regenerating. It has 3 charges and recovers 1d4 charges every day at dawn.</p>
