@@ -6,6 +6,37 @@
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Armor of the Warmage's Apprentice" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_WARMAGE_ARMOR">
+	  <description>
+		<p>The Armor of the Warmage's Apprentice is a finely crafted suit of armor designed to balance protection and arcane utility, perfect for those who are learning the ways of battle magic. Made from lightweight yet durable materials, this armor features a sleek design that allows for freedom of movement, essential for both casting spells and engaging in physical combat.</p>
+      <p class="indent">
+        <strong>
+          <em>Spell Infused.</em>
+        </strong>
+        This armor is infused with the spell Mage Armor, granting an additional +1 AC
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Apprentice of the Arcane.</em>
+        </strong>
+        This armor grants a +1 bonus on all ranged spell attack rolls you make. Additionally, you deal +2 bonus damage on Evocation and Abjuration spells that deal damage.
+      </p>
+	  </description>
+	  <setters>
+		  <set name="category">Homebrew Armor</set>
+		  <set name="cost" currency="gp">N/A</set>
+		  <set name="weight" lb="13">13 lb.</set>
+      <set name="slot">body</set>
+      <set name="rarity">Very Rare</set>
+      <set name="enhancement">2</set>
+      <set name="armor">Light</set>
+      <set name="armorClass">12 + Dex modifier</set>
+      <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER</set>
+	  </setters>
+	  <rules>
+		  <stat name="ac:armored:armor" value="12"/>
+	  </rules>
+	</element>
 	<element name="Armor of the Grave" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_GRAVE_ARMOR">
 	  <description>
 		<p>The Armor of the Grave is a somber yet powerful suit of armor, meticulously forged with an eerie, otherworldly aesthetic. Crafted from dark, matte steel, this armor is adorned with ghostly etchings and faintly glowing runes that seem to shift and shimmer in dim light. Despite its intimidating appearance, the armor is surprisingly lightweight, allowing for ease of movement while providing robust protection.</p>
@@ -23,6 +54,7 @@
 		  <set name="cost" currency="gp">N/A</set>
 		  <set name="weight" lb="13">13 lb.</set>
       <set name="slot">body</set>
+      <set name="rarity">Rare</set>
       <set name="enhancement">1</set>
       <set name="armor">Light</set>
       <set name="armorClass">12 + Dex modifier</set>
