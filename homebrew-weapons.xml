@@ -2,10 +2,65 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.30">
+    <update version="0.0.31">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Astralis - The Eye of the Universe" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_EYE_OF_UNIVERSE">
+    <description>
+	   <p>The Eye of the Universe is a mesmerizing staff intricately crafted from deep purple wood and adorned with silver inlays that twist and wind their way along its length. At the top, a large, multifaceted amethyst is encased in delicate silver filigree, giving the appearance of a watchful eye. The staff is said to grant its wielder enhanced perception and insight into the workings of the cosmos, allowing them to cast divination spells with greater ease. It is also rumored to possess the ability to reveal hidden truths and secrets, making it a prized possession for seers and mystics.</p>
+      <p class="indent">
+        <strong>
+          <em>Arcana Astra.</em>
+        </strong>
+        You gain a +1 bonus on your spell attack modifier and your spell save DC.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Blinding Stars.</em>
+        </strong>
+        As an action you can unleash a flurry of stars. Each creature of your choice within 20ft. of you has to make a Dexterity saving throw. On a failed save they take 5d8 Radiant damage and are Blinded until the end of their next turn. On a successful save they only take half damage. You can use this feature once per long rest.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Dimension Walker.</em>
+        </strong>
+        This staff holds 3 charges. You can expend charges to cast one of the spells in the table below. The staff regains all charges after you finish a long rest.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <td>Charges</td>
+            <td>Spell</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Dimension Door</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Scrying</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Planeshift</td>
+          </tr>
+        </tbody>
+      </table>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="4">4 lb.</set>
+      <set name="slot">twohand</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Legendary</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Quarterstaff</set>
+    </setters>
+  </element>
   <element name="Acid Flail" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_ACID_FLAIL">
     <description>
     </description>
