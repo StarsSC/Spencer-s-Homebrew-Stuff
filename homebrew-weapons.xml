@@ -2,10 +2,44 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.31">
+    <update version="0.0.32">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Heartbreaker" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_HEARTBREAKER">
+    <description>
+	  <p>This heavy, intricately designed weapon features a heart-shaped gem at its apex, glowing with a gentle, soothing light. Each strike with Heartbreaker not only delivers devastating physical damage but also transfers a portion of the inflicted damage as healing energy back to the user. This magical heart-shaped gem serves as the core of the maul's healing abilities, making Heartbreaker both a weapon of destruction and restoration.</p>
+      <p class="indent">
+        <strong>
+          <em>Forged with Love.</em>
+        </strong>
+        You receive a +1 bonus to Attack rolls you make when attacking with this Maul.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Aura of the Heart.</em>
+        </strong>
+        When attuned to this hammer the heart-shaped gem pulses with a soft life. All creatures within 20ft. of the gem gain a +3 bonus on Charisma and Constitution saving throws. When it shatters the aura fades.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Shattered Heart.</em>
+        </strong>
+        When you critically hit a creature with this maul the gem on top of it shatters in a flash of light. All allies within 45ft that can see you regain an amount of hit points equal to the damage you dealt with the triggering attack +2d6. They also receive the benefits of Aura of the Heart for 24 hours. After the gem has been shattered it magically reforms over the course of 24 hours after which it can be used again.
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="10">10 lb.</set>
+      <set name="slot">twohand</set>
+      <set name="enhancement">1</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Maul</set>
+    </setters>
+  </element>
 	<element name="Astralis - The Eye of the Universe" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_EYE_OF_UNIVERSE">
     <description>
 	   <p>The Eye of the Universe is a mesmerizing staff intricately crafted from deep purple wood and adorned with silver inlays that twist and wind their way along its length. At the top, a large, multifaceted amethyst is encased in delicate silver filigree, giving the appearance of a watchful eye. The staff is said to grant its wielder enhanced perception and insight into the workings of the cosmos, allowing them to cast divination spells with greater ease. It is also rumored to possess the ability to reveal hidden truths and secrets, making it a prized possession for seers and mystics.</p>
