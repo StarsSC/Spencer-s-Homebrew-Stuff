@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.23">
+    <update version="0.0.24">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -40,6 +40,7 @@
 	  </setters>
       <rules>
         <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD"/>
+        <stat name="ac:armored:armor" value="14"/>
       </rules>
 	</element>
   <element name="Tombstone Shield" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_TOMBSTONE_SHIELD">
