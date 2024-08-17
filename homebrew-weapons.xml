@@ -2,10 +2,36 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.32">
+    <update version="0.0.33">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Shadow Maul" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SHADOW_MAUL">
+    <description>
+      <p class="indent">
+        <strong>
+          <em>Peer in the Shadows.</em>
+        </strong>
+        While Attuned to this item, the wielder has Darkvision up to 60 feet.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Storm of Shadows.</em>
+        </strong>
+        Upon making a successful melee attack against a creature, you may use a Bonus Action to cause a burst of shadows to shoot from the head of your maul. Select a number of targets you can see within 30 feet of you, equal to your proficiency bonus. Those targets must make a <em>DC 17</em> Wisdom Saving Throw or be <em>Blinded</em> and <em>Deafened</em> as shadows meld around their heads. This effect lasts until the end of your next turn. You can only perform this action once per long rest.
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="10">10 lb.</set>
+      <set name="slot">twohand</set>
+      <set name="enhancement">2</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Legendary</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Maul</set>
+    </setters>
 	<element name="Heartbreaker" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_HEARTBREAKER">
     <description>
 	  <p>This heavy, intricately designed weapon features a heart-shaped gem at its apex, glowing with a gentle, soothing light. Each strike with Heartbreaker not only delivers devastating physical damage but also transfers a portion of the inflicted damage as healing energy back to the user. This magical heart-shaped gem serves as the core of the maul's healing abilities, making Heartbreaker both a weapon of destruction and restoration.</p>
