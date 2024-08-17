@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.24">
+    <update version="0.0.25">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -34,6 +34,7 @@
       <set name="slot">body</set>
       <set name="rarity">Rare</set>
       <set name="enhancement">1</set>
+      <set name="attunement">true</set>
       <set name="armor">Medium</set>
       <set name="armorClass">14 + Dex modifier</set>
       <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
@@ -41,6 +42,7 @@
       <rules>
         <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD"/>
         <stat name="ac:armored:armor" value="14"/>
+        <stat name="ac:armored:enhancement" value="1" bonus="enhancement"/>
       </rules>
 	</element>
   <element name="Tombstone Shield" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_TOMBSTONE_SHIELD">
