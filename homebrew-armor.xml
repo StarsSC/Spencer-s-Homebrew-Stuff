@@ -2,10 +2,46 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.22">
+    <update version="0.0.23">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  	<element name="Hide of the Great Wolf" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_HIDE_OF_GREAT_WOLF">
+	  <description>
+		<p class="indent">
+      <strong>
+        <em>Vigor.</em>
+      </strong>
+      While wearing this armor you gain resistance to Cold damage.
+    </p>
+      <p class="indent">
+        <strong>
+        <em>Pack Tactics.</em>
+        </strong>
+        While wearing this armor you have advantage on the first attack roll of your turn if at least one of your allies is within 5ft. of your target and the ally isn't incapacitated
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Avatar of the Wolf.</em>
+        </strong>
+        You can use an action to transform into the Winterwolf for 1 hour. Your AC in this form is 12 + your Dexterity modifier. Additionally you can make a multiattack in this form, making two attacks with your bite. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall Unconscious, drop to 0 hit points, or die. Other rules that apply to the druid Wild Shape feature apply to this feature as well. You can use this feature once per long rest.
+      </p>
+	  </description>
+	  <setters>
+		  <set name="category">Homebrew Armor</set>
+		  <set name="cost" currency="gp">N/A</set>
+		  <set name="weight" lb="13">13 lb.</set>
+      <set name="slot">body</set>
+      <set name="rarity">Rare</set>
+      <set name="enhancement">1</set>
+      <set name="armor">Medium</set>
+      <set name="armorClass">14 + Dex modifier</set>
+      <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
+	  </setters>
+      <rules>
+        <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD"/>
+      </rules>
+	</element>
   <element name="Tombstone Shield" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_TOMBSTONE_SHIELD">
 	  <description>
       <p>The Tombstone Shield is a grim and imposing shield, forged with a dark and somber aesthetic that evokes the essence of the grave. Crafted from a heavy, darkened metal, the shield has the appearance of a weathered tombstone, with rough edges and a surface marred by time and battles. Its surface is engraved with intricate, morbid designs, depicting scenes of death and the afterlife, and it radiates an aura of eerie stillness.</p>
