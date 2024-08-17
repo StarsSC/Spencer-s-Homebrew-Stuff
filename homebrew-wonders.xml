@@ -2,10 +2,76 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.31">
+    <update version="0.0.34">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Crown of the Great Wolf" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_CROWN_OF_GREAT_WOLF">
+    <description>
+<p class="indent">
+  <strong>
+    <em>Mind of the Wolf.</em>
+  </strong>
+  While attuned to this crown you have darkvision up to 90ft. You are immune to being Frightened or Charmed and have advantage on saving throws against being Stunned. Additionally you may add your proficiency bonus to Survival checks you make to track other creatures.
+</p>
+      <p class="indent">
+        <strong>
+        <em>Final Battle.</em>
+        </strong>
+        If you drop to 0 hit points while attuned to this crown, you regain 5d12 hit points when you roll a successful death save or when you regain any number of hit points. You can benefit from this feature once per long rest
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Parts of a Whole.</em>
+        </strong>
+        If you are also attuned to the Hide of the Great Wolf, the AC of that armor increases by 1. If you are attuned to the Gloves of the Great Wolf, they deal 1d8 Necrotic damage instead of 1d6.
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">head</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+    <rules>
+      <grant type="Vision" id="ID_VISION_DARKVISION"/>
+    </rules>
+  </element>
+  <element name="Gloves of the Great Wolf" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_GLOVES_OF_GREAT_WOLF">
+    <description>
+      <p>Requires attunement by a Druid or Monk</p>
+      <p class="indent">
+        <strong>
+          <em>Dark Claws.</em>
+        </strong>
+        When wearing these gauntlets, your unarmed strikes deal an extra 1d6 Necrotic damage. This bonus is also applied to attacks you make while you are Wild Shaped or Polymorphed.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Bloodthirst.</em>
+        </strong>
+        Whenever you reduce a creature to 0 hit points, you gain advantage on your next attack roll within the next minute.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Ravager of the Divine.</em>
+        </strong>
+        Whenever you receive Fire, Lightning, Radiant, or Thunder damage, you may use your reaction to reduce that damage. Make a Wisdom saving throw. The DC equals 10 or a number equal to half of the damage, whichever is higher. On a successful save you reduce the damage by 2d6+ your Wisdom modifier. You may use this feature twice per long rest.
+    </description>
+    <setters>
+      <set name="keywords">athletics</set>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">hands</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
   <element name="Satchel of Sustenance" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SUSTENANCE_SATCHEL">
     <description>
 	<p>The Satchel of Sustenance is a remarkable and essential item for any adventurer, crafted from durable, enchanted leather with intricate embroidery depicting scenes of bountiful harvests and feasts. This satchel combines the expansive capacity of a bag of holding with unique magical properties specifically attuned to preserving and providing nourishment. The interior of the Satchel of Sustenance is vast, capable of holding an impressive array of items without ever becoming cumbersome. What sets this satchel apart is its ability to preserve food indefinitely; no matter how long it is stored, food remains fresh and unspoiled, ready to be consumed at any time.</p>
