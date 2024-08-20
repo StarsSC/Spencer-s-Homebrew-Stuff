@@ -2,10 +2,57 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.36">
+    <update version="0.0.37">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Court Jewel" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_COURT_JEWEL">
+    <description>
+     <p>This rapier can take the form of a piece of jewelry of your choice (a ring, a pendant, a bracelet, etc). On your turn, you can speak its command word to change it into a rapier or change it back into a jewel without the cost of an action.</p>
+      <p class="indent">
+        <strong>
+          <em>Fancy Magic.</em>
+        </strong>
+        This rapier holds 4 charges and regains 1d4 charges at dawn. You can use these charges to cast the following spells;
+        <table>
+          <thead>
+            <tr>
+              <td>Charges</td>
+              <td>Spell</em>
+              </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Disguise Self</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Compelled Duel</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Faerie Fire</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Misty Step</td>
+            </tr>
+          </tbody>
+        </table>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="enhancement">1</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Rapier</set>
+    </setters>
+	</element>
   <element name="Prophet's Quill" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_PROPHETS_QUILL">
     <description>
      <p class="indent">
