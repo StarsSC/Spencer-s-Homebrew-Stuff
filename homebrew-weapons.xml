@@ -2,10 +2,31 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.35">
+    <update version="0.0.36">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Prophet's Quill" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_PROPHETS_QUILL">
+    <description>
+     <p class="indent">
+       <strong>
+         <em>Will of the Prophet.</em>
+       </strong>
+       On each attack, the wielder can try to predict the d20 dice roll outcome. If the prediction is correct and the attack is a hit, the target creature suffers an additional 3d6 psychic damage. If the prediction is correct but the attack is a miss, the attack is instead considered a hit.
+     </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="enhancement">2</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Weapon</set>
+      <set name="Weapon">Rapier</set>
+    </setters>
+	</element>
 	<element name="Shattered Sword" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SHATTERED_SWORD">
     <description>
      <p>A prismatic glass sword that starts out intact, but once per day, can be shattered by smashing it against the ground or a solid object.</p>
