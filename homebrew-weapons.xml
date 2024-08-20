@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.33">
+    <update version="0.0.34">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -32,6 +32,7 @@
       <set name="type">Weapon</set>
       <set name="Weapon">Maul</set>
     </setters>
+	</element>
 	<element name="Heartbreaker" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_HEARTBREAKER">
     <description>
 	  <p>This heavy, intricately designed weapon features a heart-shaped gem at its apex, glowing with a gentle, soothing light. Each strike with Heartbreaker not only delivers devastating physical damage but also transfers a portion of the inflicted damage as healing energy back to the user. This magical heart-shaped gem serves as the core of the maul's healing abilities, making Heartbreaker both a weapon of destruction and restoration.</p>
