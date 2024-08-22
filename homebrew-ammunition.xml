@@ -2,8 +2,26 @@
 <elements>
 	<info>
     <name>Ammunition</name>
-    <update version="0.0.25">
+    <update version="0.0.1">
       <file name="homebrew-ammunition.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+<element name="Shifter Arrow" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_ARROW">
+<description>
+<p>This arrow has an arrowhead with 3 golden teardrops engraved in it with a slight glow to the gold.</p>
+  <p class="indent">
+    <strong>
+      <em>Shift.</em>
+    </strong>
+    Whenever this arrow is fired, may choose to either have the arrow return to the one who fired it or create a spectral copy in its place as long as the original is no longer in the owners possession.
+  </p>
+</description>
+<setters>
+<set name="category">Homebrew Ammunition</set>
+<set name="cost" currency="cp">0</set>
+<set name="weight" lb="0.05">1/20 lb.</set>
+<set name="type">Ammunition</set>
+<set name="stackable">true</set>
+</setters>
+</element>
 </elements>
