@@ -2,10 +2,38 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.38">
+    <update version="0.0.39">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Shifter Arrow" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SHIFTER_ARROW">
+    <description>
+	    <p>This arrow has an arrowhead engraved with 3 golden teardrops that seem to shimmer moreso in the sunlight.</p>
+	    <p class="indent">
+		    <strong>
+			    <em>Shift.</em>
+		    </strong>
+		    Whenever you fire this arrow, you may choose to have this arrow come back to you or if not, summon a spectral arrow to take its place to fire.
+	    </p>
+	    <p class="indent">
+		    <strong>
+			    <em>Bloodlust.</em>
+		    </strong>
+		    Attacks against the same target increase in damage by 2 for each consecutive hit. There is no limit to the damage, just in what you give for it.
+		    <p class="indent">
+			    <strong>
+				    <em>Cursed.</em>
+			    </strong>
+			    You cannot get rid of this arrow, it is eternally soulbound to the wielder.
+		    </p>
+    </description>
+    <setters>
+      <set name="category">Ammunition</set>
+      <set name="cost" currency="cp">5</set>
+      <set name="weight" lb="0.05">1/20 lb.</set>
+      <set name="type">Ammunition</set>
+    </setters>
+  </element>
 	<element name="Bracer of the Emerald Stag" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BRACER_OF_EMERALD_STAG">
     <description>
 	    <p>May only be attuned to a Cleric, Paladin, or Ranger.</p>
