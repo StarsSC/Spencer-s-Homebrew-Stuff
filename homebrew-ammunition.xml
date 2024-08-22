@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Ammunition</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="homebrew-ammunition.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -21,6 +21,7 @@
 <set name="cost" currency="cp">0</set>
 <set name="weight" lb="0.05">1/20 lb.</set>
 <set name="type">Ammunition</set>
+<set name="Ammunition">SAMPLE Arrow</set>
 <set name="stackable">true</set>
 </setters>
 </element>
