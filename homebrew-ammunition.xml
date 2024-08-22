@@ -24,4 +24,28 @@
 <set name="stackable">true</set>
 </setters>
 </element>
+	<element name="Arrow" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_ARROW">
+<description>
+<p>Arrows are used with a bow to make a ranged attack.</p>
+</description>
+<setters>
+<set name="category">Ammunition</set>
+<set name="cost" currency="cp">5</set>
+<set name="weight" lb="0.05">1/20 lb.</set>
+<set name="type">Ammunition</set>
+<set name="stackable">true</set>
+</setters>
+</element>
+	<element name="SAMPLE Arrow" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_SAMPLE_ARROW">
+<description>
+<p>Arrows are used with a bow to make a ranged attack.</p>
+</description>
+<setters>
+<set name="category">Ammunition</set>
+<set name="cost" currency="cp">5</set>
+<set name="weight" lb="0.05">1/20 lb.</set>
+<set name="type">Ammunition</set>
+<set name="stackable">true</set>
+</setters>
+</element>
 </elements>
