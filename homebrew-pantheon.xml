@@ -2,23 +2,248 @@
 <elements>
 	<info>
     <name>Deities</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="homebrew-pantheon.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
 <element name="Auralis" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_AURALIS">
-<description>
-<p class="flavor">God of the Sun and Healing</p>
-</description>
-<setters>
-<set name="setting">Lands of Eldrimor</set>
-<set name="alignment">NG</set>
-<set name="domains">Light, Life, Healing</set>
-<set name="symbol">A radiant sunburst with a heart at its center</set>
-<set name="gender">male</set>
-</setters>
-<sheet>
-<description>god of the sun and healing</description>
-</sheet>
-</element>
+	<description>
+		<p class="flavor">God of the Sun and Healing</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">NG</set>
+	<set name="domains">Light, Life, Healing</set>
+	<set name="symbol">A radiant sunburst with a heart at its center</set>
+	<set name="gender">male</set>
+	</setters>
+	<sheet>
+		<description>god of the sun and healing</description>
+	</sheet>
+	</element>
+  <element name="Valandor" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_VALANDOR">
+	<description>
+		<p class="flavor">God of Honor and Justice</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">LG</set>
+	<set name="domains">War, Protection, Law</set>
+	<set name="symbol">A golden sword crossed with a silver shield</set>
+	<set name="gender">male</set>
+	</setters>
+	<sheet>
+		<description>god of honor and justice</description>
+	</sheet>
+	</element>
+    <element name="Nyxalia" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_NYXALIA">
+	<description>
+		<p class="flavor">Goddess of Shadows and Secrets</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">CN</set>
+	<set name="domains">Trickery, Knowledge, Darkness</set>
+	<set name="symbol">A crescent moon with a veil of shadows</set>
+	<set name="gender">female</set>
+	</setters>
+	<sheet>
+		<description>goddess of shadows and secrets</description>
+	</sheet>
+	</element>
+      <element name="Thalorath" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_THALORATH">
+	<description>
+		<p class="flavor">Goddess of the Oceans</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">CN</set>
+	<set name="domains">Tempest, Water, Chaos</set>
+	<set name="symbol">A trident surrounded by crashing waves</set>
+	<set name="gender">female</set>
+	</setters>
+	<sheet>
+		<description>goddess of the oceans</description>
+	</sheet>
+	</element>
+        <element name="Eldara" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_ELDARA">
+	<description>
+		<p class="flavor">Goddess of Nature and Growth</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">N</set>
+	<set name="domains">Nature, Life, Earth</set>
+	<set name="symbol">A blooming tree with entwined roots</set>
+	<set name="gender">female</set>
+	</setters>
+	<sheet>
+		<description>goddess of nature and growth</description>
+	</sheet>
+	</element>
+          <element name="Morthanax" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_MORTHANAX">
+	<description>
+		<p class="flavor">God of Death and the Afterlife</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">LN</set>
+	<set name="domains">Death, Grave, Order</set>
+	<set name="symbol">A skeletal hand holding a scales of balance</set>
+	<set name="gender">male</set>
+	</setters>
+	<sheet>
+		<description>goddess of death and the afterlife</description>
+	</sheet>
+	</element>
+            <element name="Lunara" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_LUNARA">
+	<description>
+		<p class="flavor">Goddess of Dreams and the Night Sky</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">NG</set>
+	<set name="domains">Arcana, Knowledge, Peace</set>
+	<set name="symbol">A starry night sky with a shooting star</set>
+	<set name="gender">Female</set>
+	</setters>
+	<sheet>
+		<description>goddess of dreams and the night sky</description>
+	</sheet>
+	</element>
+              <element name="Voragoth" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_VORAGOTH">
+	<description>
+		<p class="flavor">God of War and Destruction</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">CE</set>
+	<set name="domains">War, Destruction, Fire</set>
+	<set name="symbol">A blood-red axe with flames engulfing it</set>
+	<set name="gender">male</set>
+	</setters>
+	<sheet>
+		<description>god of war and destruction</description>
+	</sheet>
+	</element>
+                <element name="Zyphira" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_ZYPHIRA">
+	<description>
+		<p class="flavor">Goddess of the Winds and Freedom</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">CG</set>
+	<set name="domains">Tempest, Air, Freedom</set>
+	<set name="symbol">A feather encircled by gusts of wind</set>
+	<set name="gender">Female</set>
+	</setters>
+	<sheet>
+		<description>goddess of the winds and freedom</description>
+	</sheet>
+	</element>
+                  <element name="Kharon" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_KHARON">
+	<description>
+		<p class="flavor">God of Knowledge and Time</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">N</set>
+	<set name="domains">Knowledge, Time, Magic</set>
+	<set name="symbol">An hourglass with an open book</set>
+	<set name="gender">male</set>
+	</setters>
+	<sheet>
+		<description>god of knowledge and time</description>
+	</sheet>
+	</element>
+                    <element name="Xelar" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_XELAR">
+	<description>
+		<p class="flavor">Goddess of Dreams and Inspiration</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">N</set>
+	<set name="domains">Knowledge, Illusion, Creativity</set>
+	<set name="symbol">A crescent moon cradling a star</set>
+	<set name="gender">Female</set>
+	</setters>
+	<sheet>
+		<description>goddess of dreams and inspiration</description>
+	</sheet>
+	</element>
+                      <element name="Braxis" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_BRAXIS">
+	<description>
+		<p class="flavor">God of Forge and Craftsmanship</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">LG</set>
+	<set name="domains">Forge, Craft, Strength</set>
+	<set name="symbol">A hammer striking an anvil</set>
+	<set name="gender">male</set>
+	</setters>
+	<sheet>
+		<description>god of forge and craftsmanship</description>
+	</sheet>
+	</element>
+                        <element name="Sela" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_SELA">
+	<description>
+		<p class="flavor">Goddess of the Moon and Enchantment</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">CG</set>
+	<set name="domains">Magic, Celestials</set>
+	<set name="symbol">A full moon with a silver star</set>
+	<set name="gender">Female</set>
+	</setters>
+	<sheet>
+		<description>Goddess of the Moon and Enchantment</description>
+	</sheet>
+	</element>
+                          <element name="Drakor" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_DRAKOR">
+	<description>
+		<p class="flavor">God of Mountains and Endurance</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">LN</set>
+	<set name="domains">Earth, Endurance, Strength</set>
+	<set name="symbol">A mountain with a rising sun</set>
+	<set name="gender">male</set>
+	</setters>
+	<sheet>
+		<description>god of mountains and endurance</description>
+	</sheet>
+	</element>
+                            <element name="Arielle" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_ARIELLE">
+	<description>
+		<p class="flavor">Goddess of Love and Harmony</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">NG</set>
+	<set name="domains">Life, Peace, Community</set>
+	<set name="symbol">Two interlocking hearts encircled by olive branches</set>
+	<set name="gender">Female</set>
+	</setters>
+	<sheet>
+		<description>goddess of love and harmony</description>
+	</sheet>
+	</element>
+                              <element name="Liora" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_LIORA">
+	<description>
+		<p class="flavor">Goddess of Harvest and Fertility</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">CG</set>
+	<set name="domains">Nature, Agriculture, Growth</set>
+	<set name="symbol">A sheaf of wheat with a blooming flower</set>
+	<set name="gender">Female</set>
+	</setters>
+	<sheet>
+		<description>goddess of harvest and fertility</description>
+	</sheet>
+	</element>
 </elements>
