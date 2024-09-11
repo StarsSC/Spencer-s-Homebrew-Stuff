@@ -2,11 +2,11 @@
 <elements>
 	<info>
 		<name>Animated Armor</name>
-		<update version="0.0.1">
-			<file name="homebrew-animatedarmor.xml" url="https://www.dandwiki.com/wiki/Animated_Armor_(5e_Race)" />
+		<update version="0.0.3">
+			<file name="animatedarmor.xml" url="https://www.dandwiki.com/wiki/Animated_Armor_(5e_Race)" />
 		</update>
 	</info>
-	<element name="Animated Armor" type="Race" source="DANDDWIKI" id="ID_RACE_ANIMATEDARMOR">
+	<element name="Animated Armor" type="Race" source="Spencer's Homebrew" id="ID_RACE_ANIMATEDARMOR">
 		<description>
 			<p class="flavor">Animated suits of armor, or simply 'anarmors', are created to serve a specific purpose under their creator. When their creator dies, they are often left to lie dormant, waiting for the right moment to spring back into action. They find their place in vaults, towers, gardens, dungeons, mansions, castles; anywhere a sentry or guard might be. When animated armors are left alone for long enough, their magical programming comes undone. Oftentimes, upon awakening, these constructs attain a new level of sentience and seek out a new purpose. Some animated armors are inhabited by the souls of other sentient races, making them a living weapon.</p>
 			<h4>Living Weapons</h4>
