@@ -2,10 +2,62 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.48">
+    <update version="0.0.50">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Mimicry Coin" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_MIMICRY_COIN">
+    <description>
+	   <p>This small coin, about the size of a silver piece, bears intricate engravings of a raven. When held in hand, it radiates a faint aura of mischievous charm.</p>
+      <p class="indent">
+        <strong>
+          <em>Mimicry</em>
+        </strong>
+        The Mimicry Coin grants its wielder the ability to mimic sounds and voices with uncanny accuracy, akin to that of a Kenku. The coin holds a limited reservoir of mimicry power, allowing the wielder to mimic any sound or voice they have heard, replicating it with precision.</p>
+      <p class="indent">
+        By expending 1 charge from the coin, the wielder can activate the Mimicry ability for 1 minute. The coin has 4 charges in total, and it regains 1d4 expended charges at dawn.</p>
+      <p class="indent">
+        If the wielder already possesses the ability to mimic, they gain advantage on their mimicry checks for 1 minute instead when a charge is expended.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Coin</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
+  <element name="Jar of Eyeballs" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_JAR_OF_EYEBALLS">
+    <description>
+	   <p>Whenever you kill a hostile creature, you can choose to remove its eyeballs and place them into a jar. About 50 eyeballs can fit into the jar. During a short or long rest, if the jar is covered in fine cloth for at least 20 minutes, each eyeball in the jar transforms into a gold coin. Eyeballs of creatures that weren't hostile at the time they were killed remain untransformed.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="type">Jar</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
+	<element name="Aether Vial" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_AETHER_VILE">
+    <description>
+	   <p>This small ornate glass vial contains a mysterious blue misty liquid inside. The Aether Vial has 1d4 doses. As a bonus action, you or another creature can consume a dose of the liquid from the vial. After drinking it, the consumer can choose one effect from the following:
+       <ul>
+         <li><strong>Aetheric Surge:</strong> The consumer gains advantage on the next saving throw they make within the next minute.</li>
+         <li><strong>Arcane Vitality:</strong> The consumer gains temporary hit points equal to 1d8 + their proficiency bonus + their choice of Charisma, Intelligence, or Wisdom modifier.</li>
+         <li><strong>Ethereal Resistance:</strong> The consumer gains resistance to all damage of spells for 1 minute.</li>
+         <li><strong>Mystical Agility:</strong> The consumer's speed increases by 10 feet, and they don't provoke opportunity attacks for 1 minute.</li>
+       </ul>
+     </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="type">Wonderous Item</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
 	 <element name="Azure Flow" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_AZURE_FLOW">
     <description>
 	    <p>This ring appears to be crafted from flowing light blue water, with gentle ripples constantly moving around its band. When submerged in a natural source of water (such as a pond, lake, river, or sea) for at least 1 minute, the ring becomes imbued with the essence of that water, adopting its color, scent, and taste.</p>
