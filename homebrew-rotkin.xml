@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<info>
-    <name>Races</name>
-    <update version="0.0.6">
-      <file name="homebrew-races.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
+    <name>Rotkin</name>
+    <update version="0.0.7">
+      <file name="homebrew-rotkin.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
   <element>
