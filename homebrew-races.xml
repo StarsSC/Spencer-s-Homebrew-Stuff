@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.2">
+    <update version="0.0.3">
       <file name="homebrew-races.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -11,26 +11,14 @@
       <element name="Rotkin" type="Race" source="Spencer's Homebrew" id="ID_RACE_ROTKIN">
         <description>
           <p class="flavor">The secretive race of ratfolk known as the Rotkin inhabit Mudflat Village. While their interests align with those of the other animalfolk in fighting against the Calamity Beasts, they do things in their own peculiar manner. Their seclusion and general reluctance to deal with outsiders often makes it difficult for allies, let alone enemies, to make contact with them when their services are needed.</p>
-		<p class="indent">
-          <strong>
-		  <em>PSYCHIC MANIPULATORS</em>
-	  </strong>
-			Subtle and cunning. Rotkin rely most heavily on their innate psychic powers. They use such powers in attempts to influence others so that the tides of events turn in their favor. They nonetheless maintain a firm alignment with good. Using their talents to bring the hidden truths to light, they navigate the complex Calamity movement.</p>
-			<p class="indent">
-				<strong>
-				<em>INQUISITORS AND ROGUE</em>
-				</strong>
-				There are primarily two roles amongst the Rotkin: Inquisitors, who use their psychic magic to wring out information, and Sneaks, who do it with stealth and cunning. From merely overhearing crucial conversations to revealing damning evidence, the Rotkin have become integral to the process from revealing the plans of those bent upon threatening their world.</p>
-				<p class="indent">
-					<strong>
-						<em>INDEPENDENT AND EGALITARIAN</em>
-					</strong>
-					Though Rotkin society is very egalitarian, meaning all of its members are considered to be equal regardless of role, from a skilled psychic to the stealthy rogue and to a caretaker whose role is to ensure the well-being of the community, every Rotkin is equally valued. But then, they do not really take pleasure in being too social, speaking to each other only if need be. That is independence and individual self-sufficiency for the people who can thrive in isolation in this village setting but keep watch for the ever-presence of the Calamity Beasts.</p>
-          <p class="indent">
-						<strong>
-							<em>ROTKIN TRAITS</em>
-						</strong>
-						Most Rotkin are very similar but there are occasional differences, but your Rotkin has these traits.</p>
+          <h4>PSYCHIC MANIPULATORS</h4>
+          <p>Subtle and cunning. Rotkin rely most heavily on their innate psychic powers. They use such powers in attempts to influence others so that the tides of events turn in their favor. They nonetheless maintain a firm alignment with good. Using their talents to bring the hidden truths to light, they navigate the complex Calamity movement.</p>
+          <h4>INQUISITORS AND ROGUE</h4>
+          <p>There are primarily two roles amongst the Rotkin: Inquisitors, who use their psychic magic to wring out information, and Sneaks, who do it with stealth and cunning. From merely overhearing crucial conversations to revealing damning evidence, the Rotkin have become integral to the process from revealing the plans of those bent upon threatening their world.</p>
+          <h4>INDEPENDENT AND EGALITARIAN</h4>
+          <p>Though Rotkin society is very egalitarian, meaning all of its members are considered to be equal regardless of role, from a skilled psychic to the stealthy rogue and to a caretaker whose role is to ensure the well-being of the community, every Rotkin is equally valued. But then, they do not really take pleasure in being too social, speaking to each other only if need be. That is independence and individual self-sufficiency for the people who can thrive in isolation in this village setting but keep watch for the ever-presence of the Calamity Beasts.</p>
+          <h4>ROTKIN TRAITS</h4>
+          <p>Most Rotkin are very similar but there are occasional differences, but your Rotkin has these traits.</p>
           <p>
             <span class="feature">Ability Score Increase.</span>
             Your Dexterity, Intelligence, or Constitution increases by 2, and one other ability score of your choice increases by 1.
