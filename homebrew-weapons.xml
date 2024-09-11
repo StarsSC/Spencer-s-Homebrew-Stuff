@@ -2,10 +2,84 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.43">
+    <update version="0.0.44">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Essence Tether" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_ESSENCE_TETHER">
+    <description>
+      <p>Forged from a mysterious substance known as Oozeron, the blade of Essence Tether embodies the resilience of the oozes it represents. This material renders the greatsword impervious to all forms of conventional damage, ensuring its longevity on the battlefield...</p>
+      <p class="indent">
+        Essence Tether is considered magical and its blade cannot be destroyed by any means short of a <em>Wish</em> spell, <em>Divine Intervention</em>, or chaotic extraplanar effectts.</p>
+      <p class="indent">
+        Once per short rest, the wielder can evoke the latent power within the Essence Tether to bind the essence of a struck creature to the blade momentarily. Upon hitting the creature with an attack using this greatsword, the wielder can choose to activate this ability. The target must make a DC 14 Wisdom saving throw. On a failed save, the creature's essence becomes tethered to the sword, granting the wielder a +2 bonus to attack and damage rolls against the tethered creature for 1 minute.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="6">6 lb.</set>
+      <set name="slot">twohand</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Greatsword</set>
+      <set name="Weapon">Greatsword</set>
+    </setters>
+	</element>
+  <element name="Quartz Cleaver" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_QUARTZ_CLEAVER">
+    <description>
+      <p>Carved from a single, massive piece of quartz, the Quartz Cleaver is a formidable weapon with a distinctively rugged and natural appearance. The middle section of the blade is hollowed out, revealing the mesmerizing glow of the quartz within.</p>
+      <p class="indent">
+        This weapon has a +1 bonus to attack and damage rolls and is considered magical.</p>
+      <p class="indent">
+        <strong>
+          <em>Crystalline Petrification.</em>
+        </strong>
+        With a focused strike, the wielder can imbue the Quartz Cleaver with the power to petrify their foes. When the wielder hits a creature with an attack using the Quartz Cleaver, they can choose to activate this ability. The target must make a Constitution saving throw (DC 14) or begin to petrify, becoming restrained as their body turns to crystal. At the end of each of its turns, the target can repeat the saving throw, ending the effect on a success. If a creature fails the saving throw three times in a row, they become fully petrified, as per the Flesh to Stone spell, until they receive a Greater Restoration or similar magic. This ability can only affect creatures of Large size or smaller and can be used once per short rest.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="6">6 lb.</set>
+      <set name="slot">twohand</set>
+      <set name="enhancement">1</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Greatsword</set>
+      <set name="Weapon">Greatsword</set>
+    </setters>
+	</element>
+	 <element name="Seaslicer" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SEASLICER">
+    <description>
+    <p>The Seaslicer is a stunning weapon that resembles a beautiful seahorse. Its hilt is made of a durable material that resembles the body of a seahorse, which the blades, one at the rear of the seahorse's head a smaller one at its chest, shimmer in a light grey tint, much like the gleaming scales of a real seahorse. When the axe is activated, the seahorse's eyes, which are normally calm and misty, burst into a dark orange flame, producing an eerie aura around it. The lower section of the axe is meticulously wrapped in bandages, providing both a pleasant grip and a touch of mystery about its origins.</p>
+      <p class="indent">
+        The Seaslicer has a +2 bonus to attack and damage rolls and is considered magical</p>
+      <p class="indent">
+        <strong>
+          <em>Tidecaller's Fury.</em>
+        </strong>
+        Once per long rest, as a bonus action, the wielder can evoke the power imbued within the Seaslicer. As they do so, the eyes of the seahorse begin to glow with a dark orange radiance. Upon activation, the wielder gains the following benefits for 1 minute:
+        <ul>
+          <li>The wielder gains a swim speed equal to their walking speed and can breathe underwater as easily as they breathe air.</li>
+          <li>When the wielder hits a creature with the Seaslicer, the target takes an additional 1d6 force damage. Additionally, they can choose to unleash a burst of booming energy. The target must succeed on a Strength saving throw (DC equal to 8 + the wielder's Strength modifier + their proficiency bonus) or be pushed back 10 feet and knocked prone if they are Huge or smaller.</li>
+          <li>The wielder gains resistance to force and fire damage</li>
+        </ul>
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="4">4 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="enhancement">2</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Battleaxe</set>
+      <set name="Weapon">Battleaxe</set>
+    </setters>
+     <rules>
+       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE"/>
+       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
+     </rules>
+	</element>
 	<element name="Court Jewel" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_COURT_JEWEL">
     <description>
      <p>This rapier can take the form of a piece of jewelry of your choice (a ring, a pendant, a bracelet, etc). On your turn, you can speak its command word to change it into a rapier or change it back into a jewel without the cost of an action.</p>
