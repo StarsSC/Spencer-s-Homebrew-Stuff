@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Broxclaw</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="broxclaw.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
 		</update>
 	</info>
@@ -10,16 +10,21 @@
 		<description>
 			<p class="flavor">The Broxclaw are a strong and resilient race of humanoid badgers, known for their physical power, druidic magic, and deep connection to nature. These black-and-white-striped beings stand tall on two legs, radiating both strength and wisdom. With their sturdy build and nomadic lifestyle, the Broxclaw are a formidable presence, both in battle and in the wild.</p>
 			<h4>Nomads of the Wild</h4>
+			<br/>
 			<p>The Broxclaw live a nomadic life, avoiding big cities in favor of the untamed wilderness. They travel from place to place, often in small, close-knit groups, setting up temporary camps in secluded forests or rugged hills. They choose this lifestyle to stay connected to nature, which they see as the source of their strength and magic. Rarely do they settle in one spot for long, preferring the freedom of the open road and the ever-changing landscape.</p>
             <h4>Druidic Battle Magic</h4>
+			<br/>
 			<p>Broxclaw society is deeply rooted in druidic magic. They have a natural talent for harnessing the primal forces of nature, which they use to great effect in battle. By combining their raw physical strength with nature's magic, Broxclaw warriors are a powerful force. Their magic often enhances their physical abilities, protects them with natural elements, or unleashes the fury of the wild on their enemies. This unique blend of druidic power and brute strength makes them versatile and unpredicatable fighters.</p>
 			<h4>Strength and Resilience</h4>
+			<br/>
 			<p>Physically, the Broxclaw are large for medium-sized creatures, usually standing a bit over 7 feet tall with broad shoulders and muscular bodies. Their fur is often striped in black and white, much like the badgers they resemble. The Broxclaw's physical strength is matched by their mental toughness; they are known for their stubbornness and determination, traits that help them survive in the wild.</p>
 			<h4>BROXCLAW NAMES</h4>
+			<br/>
 			<p class="indent">The names for Broxclaws typically draw on their tenacious, burrowing, and fierce nature. These creatures might have names that evoke strength, persistence, or ties to the earth.</p>
 			<p>
 			<span class="feature">Names:</span>Burrowgrin, Tuskthorn, Durgar, Grimclaw, Ruggedfang, Thornroot, Garrek, Stonepelt, Braylock, Orrik, Earthmaw, Thistleclaw, Mossra, Grizzlefur, Roottail, Duralis, Briarcoat, Tarka, Fernclaw, Harliss</p>
 			<h4>BROXCLAW TRAITS</h4>
+			<br/>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength is increased by 2 and your Constitution is increased by 1.</p>
 			<p class="indent"><strong><em>Age.</em></strong> Broxclaws mature by age 15 and can live up to 120 years.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong> Broxclaws tend toward true neutrality, valuing balance and survival above rigid codes of conduct. However, their alignment can vary based on personal experiences.</p>
