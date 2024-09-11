@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Rotkin</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="rotkin.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
 		</update>
 	</info>
@@ -50,7 +50,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MYSTERIOUS_MIND" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MINDWHISK" />
 			<select type="Proficiency" name="Skill Proficiency, Information Gatherer"
-				supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_STEALTH"
+				supports="ID_PROFICIENCY_SKILL_STEALTH |ID_PROFICIENCY_SKILL_INSIGHT"
 				number="1"/>
 		</rules>
 	</element>
