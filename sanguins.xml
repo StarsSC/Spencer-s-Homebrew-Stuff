@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Broxclaw</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="sanguins.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
 		</update>
 	</info>
@@ -40,7 +40,7 @@
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC"/>
       <grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-      <grant type="Language" id="ID_LANGUAGE_VAMPIRE" />
+      <grant type="Language" id="ID_WOTC_PSI_LANGUAGE_VAMPIRE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DARKVISION" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_VAMPIRIC_RESILIENCE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SANGUINE_MAGIC" />
