@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.40">
+    <update version="0.0.41">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -60,7 +60,7 @@
        <strong>
          <em>Will of the Prophet.</em>
        </strong>
-       On each attack, the wielder can try to predict the d20 dice roll outcome. If the prediction is correct and the attack is a hit, the target creature suffers an additional 3d6 psychic damage. If the prediction is correct but the attack is a miss, the attack is instead considered a hit.
+       On each attack, the wielder can use this rapier to try to predict the d20 dice roll outcome. If the prediction is correct and the attack is a hit, the target creature suffers an additional 3d6 psychic damage. If the prediction is correct but the attack is a miss, the attack is instead considered a hit.
      </p>
     </description>
     <setters>
@@ -77,7 +77,7 @@
 	</element>
 	<element name="Shattered Sword" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SHATTERED_SWORD">
     <description>
-     <p>A prismatic glass sword that starts out intact, but once per day, can be shattered by smashing it against the ground or a solid object.</p>
+     <p>A prismatic glass shortsword that starts out intact, but once per day, can be shattered by smashing it against the ground or a solid object.</p>
 	    <p class="indent">
 		    <strong>
 			    <em>Collective Might.</em>
@@ -126,7 +126,7 @@
 	</element>
 	<element name="Heartbreaker" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_HEARTBREAKER">
     <description>
-	  <p>This heavy, intricately designed weapon features a heart-shaped gem at its apex, glowing with a gentle, soothing light. Each strike with Heartbreaker not only delivers devastating physical damage but also transfers a portion of the inflicted damage as healing energy back to the user. This magical heart-shaped gem serves as the core of the maul's healing abilities, making Heartbreaker both a weapon of destruction and restoration.</p>
+	  <p>This heavy, intricately designed maul features a heart-shaped gem at its apex, glowing with a gentle, soothing light. Each strike with Heartbreaker not only delivers devastating physical damage but also transfers a portion of the inflicted damage as healing energy back to the user. This magical heart-shaped gem serves as the core of the maul's healing abilities, making Heartbreaker both a weapon of destruction and restoration.</p>
       <p class="indent">
         <strong>
           <em>Forged with Love.</em>
@@ -160,7 +160,7 @@
   </element>
 	<element name="Astralis - The Eye of the Universe" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_EYE_OF_UNIVERSE">
     <description>
-	   <p>The Eye of the Universe is a mesmerizing staff intricately crafted from deep purple wood and adorned with silver inlays that twist and wind their way along its length. At the top, a large, multifaceted amethyst is encased in delicate silver filigree, giving the appearance of a watchful eye. The staff is said to grant its wielder enhanced perception and insight into the workings of the cosmos, allowing them to cast divination spells with greater ease. It is also rumored to possess the ability to reveal hidden truths and secrets, making it a prized possession for seers and mystics.</p>
+	   <p>The Eye of the Universe is a mesmerizing quarterstaff intricately crafted from deep purple wood and adorned with silver inlays that twist and wind their way along its length. At the top, a large, multifaceted amethyst is encased in delicate silver filigree, giving the appearance of a watchful eye. The staff is said to grant its wielder enhanced perception and insight into the workings of the cosmos, allowing them to cast divination spells with greater ease. It is also rumored to possess the ability to reveal hidden truths and secrets, making it a prized possession for seers and mystics.</p>
       <p class="indent">
         <strong>
           <em>Arcana Astra.</em>
@@ -290,7 +290,7 @@
   </element>
   <element name="Carrion Eater" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_CARRION_EATER">
     <description>
-     <p>Modeled after birds of prey, this sword was made to pierce through armor, rewarding vicious wielders. It deals piercing damage instead of slashing damage and has 3 charges, recovering 1d3 of them every day at dusk.</p>
+     <p>Modeled after birds of prey, this longsword was made to pierce through armor, rewarding vicious wielders. It deals piercing damage instead of slashing damage and has 3 charges, recovering 1d3 of them every day at dusk.</p>
       <p class="indent">
         <strong>
           <em>Talon.</em>
@@ -379,7 +379,7 @@
   </element>
   <element name="Sword of Armageddon" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SWORD_OF_ARMAGEDDON">
     <description>
-      <p>You gain a +1 bonus to attack and damage rolls with this magic weapon. While the sword is on your person, you also have resistance to fire damage.</p>
+      <p>This greatsword give you a +1 bonus to attack and damage rolls with this magic weapon. While the sword is on your person, you also have resistance to fire damage.</p>
       <p class="indent">
         <strong>
           <em>Power of Fire.</em>
@@ -409,7 +409,7 @@
   </element>
   <element name="Smart Sword" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SMART_SWORD">
     <description>
-      <p>An intelligent blade that guides you as much as you guide it. When you make an attack with this magic weaponAn intelligent blade that guides you as much as you guide it. When you make an attack with this magic weapon;
+      <p>An intelligent shortsword that guides you as much as you guide it. When you make an attack with this magic weapon;
         <ul>
           <li>You add your proficiency modifier to attack rolls with this weapon, regardless of whether you have proficiency in this type of weapon or not.</li>
           <li>You ignore AC granted by Dexterity and disadvantage imposed by the Dodge action.</li>
@@ -443,7 +443,7 @@
   </element>
   <element name="Zephyr Shard" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_ZEPHYR_SHARD">
     <description>
-      <p>The winds of the Heavenly Dragon infuse the missiles of this bow, precise and irresistible. The DC of any of the properties of this weapon is equal to 8 + your Wisdom modifier + your proficiency bonus.</p>
+      <p>The winds of the Heavenly Dragon infuse the missiles of this longbow, precise and irresistible. The DC of any of the properties of this weapon is equal to 8 + your Wisdom modifier + your proficiency bonus.</p>
       <p class="indent">
         <strong>
           <em>Holy Gusts</em>
@@ -500,7 +500,7 @@
   </element>
 	<element name="Crashing Fang" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_CRASHING_FANG">
     <description>
-	    <p>A sacred blade charged with divine lightning that carries the authority of the Heavenly Dragon within itself; mighty and unstoppable.
+	    <p>A sacred blade in the form of a shortsword charged with divine lightning that carries the authority of the Heavenly Dragon within itself; mighty and unstoppable.
       </p>
       <p class="indent">
         <strong>
@@ -556,7 +556,7 @@
   </element>
 	<element name="The Skeleton Key" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SKELETON_KEY">
     <description>
-	    <p>An odd-looking blade that seems to hum with a power not of this world. You gain a +3 bonus to attack and damage rolls you make with this magic weapon. While attuned to this item magical effects and abilities cannot alter your physical form (ex. Enlarge/Reduce, Polymorph, etc) or ability scores in any way (ex. Belt of Giant Strength, Feeblemind, etc.) other than the Overwrite property.
+	    <p>An odd-looking longsword that seems to hum with a power not of this world. You gain a +3 bonus to attack and damage rolls you make with this magic weapon. While attuned to this item magical effects and abilities cannot alter your physical form (ex. Enlarge/Reduce, Polymorph, etc) or ability scores in any way (ex. Belt of Giant Strength, Feeblemind, etc.) other than the Overwrite property.
       </p>
       <p class="indent">
         <strong>
@@ -594,7 +594,7 @@
   </element>
   <element name="Blackheart Butcher" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BLACKHEART_BUTCHER">
     <description>
-      <p>You gain a +1 bonus to spell attack rolls you make while holding this weapon and only spellcasters may attune. A sickly butcher's blade of cold black iron. It seethes with eldritch magicks emitting from harshly carved hex runes. While holding this weapon you can use it as an arcane focus. This weapon has 3 charges. Once per day in place of an attack you can carve at your flesh to have this item regain a charge, taking 1d10 slashing damage in the process. Alternatively, as a 1-hour ritual you can infuse the blade with sinister energies to have it regain a charge. This ritual requires at least a pound of natural animal or plant matter, regaining a charge for each pound of material which is consumed by the ritual.
+      <p>You gain a +1 bonus to spell attack rolls you make while holding this scimitar and only spellcasters may attune. A sickly butcher's blade of cold black iron. It seethes with eldritch magicks emitting from harshly carved hex runes. While holding this weapon you can use it as an arcane focus. This weapon has 3 charges. Once per day in place of an attack you can carve at your flesh to have this item regain a charge, taking 1d10 slashing damage in the process. Alternatively, as a 1-hour ritual you can infuse the blade with sinister energies to have it regain a charge. This ritual requires at least a pound of natural animal or plant matter, regaining a charge for each pound of material which is consumed by the ritual.
       </p>
       <p class="indent">
         <strong>
@@ -633,7 +633,7 @@
   </element>
   <element name="Unseemly Sabre" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_UNSEEMLY_SABRE">
     <description>
-      <p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. The cold iron of this blade emanates an eerie hostility. While a Fey creature is within 10 feet of you the blade of this weapons glows with iridescent light.
+      <p>You gain a +1 bonus to attack and damage rolls made with this magic scimitar. The cold iron of this blade emanates an eerie hostility. While a Fey creature is within 10 feet of you the blade of this weapons glows with iridescent light.
       </p>
       <p class="indent">
         <strong>
@@ -654,7 +654,7 @@
   </element>
 	<element name="Stagweald, Forest Warden" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_STAGWEALD_FOREST_WARDEN">
     <description>
-	    <p>You gain a +2 bonus to attack and damage rolls you make with this magic weapon. The gifted horns of woodland creatures were ritually fused to create this massive blade. While attuned, you are considered proficient with it and you may add your Wisdom modifier instead of your Strength modifier to damage and attack rolls with it. This weapon has a number of charges equal to twice your proficiency bonus and regains all charges at dawn.</p>
+	    <p>You gain a +2 bonus to attack and damage rolls you make with this magic greatsword. The gifted horns of woodland creatures were ritually fused to create this massive blade. While attuned, you are considered proficient with it and you may add your Wisdom modifier instead of your Strength modifier to damage and attack rolls with it. This weapon has a number of charges equal to twice your proficiency bonus and regains all charges at dawn.</p>
 		    <p class="indent">
           <strong>
             <em>Evolutionary Gifts.</em>
