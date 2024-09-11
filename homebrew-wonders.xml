@@ -2,10 +2,36 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.42">
+    <update version="0.0.43">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Greaves of Chain Lightning" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_GREAVES_OF_CHAIN_LIGHTNING">
+    <description>
+	    <p>These finely crafted leather and iron greaves crackle with arcane lightning. As a bonus action, you can activate the greaves, gaining the following benefits for 1 minute:
+		    <p class="indent">
+			    <strong>
+				    <em>Galvanic Charge.</em>
+			    </strong>
+			    You gain resistance to lightning damage, and your attacks deal an additional 1d6 lightning damage on a hit.</p>
+		    <p class="indent">
+			    <strong>
+				    <em>Bolt.</em>
+			    </strong>
+			    Your speed increases by 10 feet. Additionally, you can take the Dash action as a bonus action on each of your turns for the duration.</p>
+		    <p>Once you activate the greaves, you can't do so again until you finish a long rest. If you score a critical hit or are subjected to a critical hit while the greaves are active, you gain one additional use of this ability. This additional use must be expended before your next long rest.</p>
+    </description>
+    <setters>
+      <set name="keywords">athletics</set>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">legs</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
 	<element name="Shifter Arrow" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SHIFTER_ARROW">
     <description>
 	    <p>This arrow has an arrowhead engraved with 3 golden teardrops that seem to shimmer moreso in the sunlight.</p>
