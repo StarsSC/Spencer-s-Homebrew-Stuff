@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.3">
+    <update version="0.0.4">
       <file name="homebrew-races.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -21,7 +21,7 @@
           <p>Most Rotkin are very similar but there are occasional differences, but your Rotkin has these traits.</p>
           <p>
             <span class="feature">Ability Score Increase.</span>
-            Your Dexterity, Intelligence, or Constitution increases by 2, and one other ability score of your choice increases by 1.
+            Your Dexterity, Intelligence, and Constitution increase by 1.
             <br/>
             <span class="feature">Age.</span>
             Rotkin mature quickily, reaching adulthood around 5 years old. They live up to 50 years.
@@ -53,12 +53,9 @@
           </p>
         </description>
           <rules>
-            <select type="Ability Score Improvement" name="Ability Score Increase, Rotkin"
-              supports="ID_INTERNAL_ASI_DEXTERITY| ID_INTERNAL_ASI_INTELLIGENCE| ID_INTERNAL_ASI_CONSTITUTION"/>
-            <select type="Ability Score Improvement" name="Ability Score Increase, Rotkin"
-              supports="ID_INTERNAL_ASI_DEXTERITY| ID_INTERNAL_ASI_INTELLIGENCE| ID_INTERNAL_ASI_CONSTITUTION"/>
-            <select type="Ability Score Imrpovement" name=Ability Score Increase, Rotkin"
-              supports="ID_INTERNAL_ASI_STRENGTH| ID_INTERNAL_ASI_DEXTERITY| ID_INTERNAL_ASI_CONSTITUTION| ID_INTERNAL_ASI_INTELLIGENCE| ID_INTERNAL_ASI_WISDOM| ID_INTERNAL_ASI_CHARISMA"/>
+            <stat name="dexterity" value="1"/>
+						<stat name="intelligence" value="1"/>
+						<stat name="constitution" value="1"/>
             <grant type="Size" id="ID_SIZE_SMALL"/>
             <stat name="innate speed" value="25" bonus="base"/>
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MYSTERIOUS_MIND"/>
