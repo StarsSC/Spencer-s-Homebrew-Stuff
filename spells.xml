@@ -1,13 +1,21 @@
-<element name="Acid Splash" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ACID_SPLASH">
-<supports>Sorcerer, Wizard, Artificer</supports>
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+    <name>Wondrous Items</name>
+    <update version="0.0.1">
+      <file name="spells.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
+    </update>
+  </info>
+<element name="Drain Life" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DRAIN_LIFE">
+<supports>Sorcerer, Wizard, Warlock</supports>
 <description>
-<p>You hurl a bubble of acid. Choose one creature you can see within range, or choose two creatures you can see within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.</p>
-<p class="indent">This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+<p>You point your finger to a creature to siphon its life force. Make a ranged spell attack against the target. On a hit, target takes 1d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt.</p>
+<p class="indent">The spell's damage increases by 1d6 at 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
 </description>
 <setters>
-<set name="keywords">acid</set>
+<set name="keywords">necrotic</set>
 <set name="level">0</set>
-<set name="school">Conjuration</set>
+<set name="school">Necromancy</set>
 <set name="time">1 action</set>
 <set name="duration">Instantaneous</set>
 <set name="range">60 feet</set>
@@ -19,3 +27,4 @@
 <set name="isRitual">false</set>
 </setters>
 </element>
+</elements>
