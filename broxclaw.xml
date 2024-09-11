@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Broxclaw</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="broxclaw.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
 		</update>
 	</info>
