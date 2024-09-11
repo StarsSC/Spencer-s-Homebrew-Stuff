@@ -2,10 +2,63 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.44">
+    <update version="0.0.47">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Soulscent Bloom" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SOULSCENT_BLOOM">
+    <description>
+	    <p>A jade carved into the shape of a flower. A phantom scent, here one instant and gone the next, swirls around it.</p>
+      <p class="indent">
+        When attuned to the Soulscent Bloom, the bearer gains the ability to cast the Bless spell once per day without expending a spell slot. Additionally, when the bearer casts Bless using the Soulscent Bloom, each creature affected by the spell gains temporary hit points equal to 1d6 + the bearer's proficiency bonus</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
+  <element name="Amulet of Intertwining" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_AMULET_OF_INTERTWINING">
+    <description>
+	    <p>Gold chain attached to a glass diamond. Inside you can see a blue-red ball of mysterious energy.</p>
+      <p class="indent">
+        <strong>
+          <em>Duality</em>
+        </strong>
+        Whenever you successfully hit a creature with a weapon attack, you can expend a spell slot. The attack deals an additional 1d8 force damage for each spell slot level expended, up to a maximum of 9d8.</p>
+      <p class="indent">
+        Furthermore, when you cast a spell using a spell slot of 1st level or higher, you can choose to sacrifice hit points equal to 1d6 for each level you wish to upcast the spell, up to a maxiumum of 9d6 hit points lost. However, you cannot upcast the spell to a level higher than your highest available spell slot (the spell slot can already be expended), limited to a maximum of 9th level. If your hit points would be reduced to 0 because of this effect, the spell is cast before you become unconcious. You cannot sacrifice more hit points than you currently have.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">neck</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
+		<element name="Evocation Key" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_EVOCATION_KEY">
+    <description>
+	    <p>The Evocation Key appears as a twisted and unpolished golden key with colored symbols representing various types of evocation magic at its head. When the key touches a weapon or armor (magical or non-magical) and a spell from the school of evocation, with an associated damage type, is cast on it, the key begins to absorb and redistribute the spell's energy...</p>
+	    <p class="indent">
+        If the key is touching a weapon, the weapon gains a +1 bonus to both attack and damage rolls, up to a maximum of +4. Additionally, the weapon becomes magical if it wasn't already, and it deals an additional 1d6 damage of the spell's damage type on a successful hit.</p>
+	    <p class="indent">
+        If they key is touching an armor, the armor gains a +1 bonus to its AC, up to a maximum of +4. Furthermore, the armor becomes magical if it wasn't already, and the wearer gains resistance to the spell's damage type.</p>
+      <p>Once the energy transfer is complete, the Evocation Key becomes a non-magical golden key. However, perhads there's a door somewhere that this key could unlock.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
 	<element name="Greaves of Chain Lightning" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_GREAVES_OF_CHAIN_LIGHTNING">
     <description>
 	    <p>These finely crafted leather and iron greaves crackle with arcane lightning. As a bonus action, you can activate the greaves, gaining the following benefits for 1 minute:</p>
