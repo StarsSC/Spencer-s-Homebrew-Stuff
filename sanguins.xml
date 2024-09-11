@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Broxclaw</name>
+		<update version="0.0.2">
+			<file name="sanguins.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
+		</update>
+	</info>
+	<element name="Sanguin" type="Race" source="Spencer's Homebrew" id="ID_RACE_SANGUIN">
+		<description>
+			<p class="flavor">Born out of a sinister rite that blended celestial and ancient vampire energy with sorcerous magic, sanguins were designed to fit in with human society while carrying out the vampire creators' wishes. Many sanguins eventually broke away from their sinister beginnings in an effort to find a method to reconcile their vampire and human halves.</p>
+			<h4>Twilight Born</h4>
+			<br/>
+			<p>Sanguins, descendants of ancient bloodlines, possess a primarily human appearance that allows them to blend seamlessly into society. However, their eerie heritage manifests in subtle but distinct traits, such as unnaturally bright eyes that often shimmer in low light and sharp, slightly pointed teeth that evoke suspicions of vampiric ancestry. These physical markers, though rare and often overlooked, can occasionally stir fear or fascination in those who notice them. Despite these hints of their supernatural lineage, sanguins are adept at navigating human communities, using their resemblance to humanity to form lasting relationships and lead lives of duality. Some sanguins choose to embrace their hidden heritage, wielding the powers passed down from their ancestors in secret, while others suppress these gifts in an effort to assimilate completely. Their ability to move between worlds—one mundane, the other shadowed by their mysterious origins—makes them versatile and complex beings, often torn between the need for belonging and the call of something darker.</p>
+			<p>
+			<span class="feature">Names:</span>Nightborne, Veilblood, Shadowkin, Duskwraith, Noctisborn, Bloodveil, Lumenfang, Gloommarked, Shadeborn, Dreadkin, Twilightbound, Eclipsed, Umbravine, Silvershade, Fellborn.</p>
+			<h4>SANGUIN TRAITS</h4>
+			<br/>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2 and your Charisma score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Sanguins mature at the same rate as humans but can live up to 500 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Sanguins tend to fall within Neutral to Neutral Evil, though it can vary widely depending on the individual's background, upbringing, and personal choices.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Sanguins stand between 5 and 6 feet tall, generally weighing from 125 to 250 pounds. Your size is medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your part unholy and vampiric nature sets your base walking speed to 35 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Vampiric Resilience.</em></strong> You have resistance to necrotic damage.</p>
+			<p class="indent"><strong><em>Sanguine Magic.</em></strong> You know the Drain Life cantrip. When you reach 3rd level, you can cast Charm Person once, and regain the ability to do so when you finish a long rest. When you reach 5th level, you can also cast Invisibility on yourself once, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Bloodthirst Quench.</em></strong> As an action, you can drink a bit of blood of a willing creature, or one that is incapacitated or dead within the last minute. Drinking blood this way deals 1 piercing damage to the creature. This effect provides you the benefits of a short rest. Once you use this feature, you cannot use it again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Vampiric.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="custom">Nightborne, Veilblood, Shadowkin, Duskwraith, Noctisborn, Bloodveil, Lumenfang, Gloommarked, Shadeborn, Dreadkin, Twilightbound, Eclipsed, Umbravine, Silvershade, Fellborn.</set>
+			<set name="names-format">{{name}}</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" requirements="!ID_RACE_ANIMATEDARMOR" />
+			<stat name="constitution" value="2" requirements="!ID_RACE_ANIMATEDARMOR" />
+			<stat name="innate speed" value="35" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC"/>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_VAMPIRE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DARKVISION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_VAMPIRIC_RESILIENCE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SANGUINE_MAGIC" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BLOODTHIRST_QUENCH" />
+		</rules>
+	</element>
+	<element name="Darkvision" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_DARKVISION">
+		<description>
+			<p>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+		</description>
+		<sheet display="false">
+			<description>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</description>
+		</sheet>
+	</element>
+	<element name="Vampiric Resilience" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_VAMPIRIC_RESILIENCE">
+		<description>
+			<p>You have resistance to necrotic damage.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to necrotic damage.</description>
+		</sheet>
+	</element>
+	<element name="Sanguine Magic" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_SANGUINE_MAGIC">
+		<description>
+			<p>You know the Drain Life cantrip. When you reach 3rd level, you can cast Charm Person once, and regain the ability to do so when you finish a long rest. When you reach 5th level, you can also cast Invisibility on yourself once, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description>You know the Drain Life cantrip. When you reach 3rd level, you can cast Charm Person once, and regain the ability to do so when you finish a long rest. When you reach 5th level, you can also cast Invisibility on yourself once, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.
+      </description>
+			</sheet>
+	</element>
+	<element name="Bloodthirst Quench" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_BLOODTHIRST_QUENCH">
+		<description>
+			<p>As an action, you can drink a bit of blood of a willing creature, or one that is incapacitated or dead within the last minute. Drinking blood this way deals 1 piercing damage to the creature. This effect provides you the benefits of a short rest. Once you use this feature, you cannot use it again until you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>As an action, you can drink a bit of blood of a willing creature, or one that is incapacitated or dead within the last minute. Drinking blood this way deals 1 piercing damage to the creature. This effect provides you the benefits of a short rest. Once you use this feature, you cannot use it again until you finish a long rest.</description>
+		</sheet>
+	</element>
+</elements>
