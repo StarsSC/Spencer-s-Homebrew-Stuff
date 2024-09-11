@@ -2,10 +2,36 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.47">
+    <update version="0.0.48">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	 <element name="Azure Flow" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_AZURE_FLOW">
+    <description>
+	    <p>This ring appears to be crafted from flowing light blue water, with gentle ripples constantly moving around its band. When submerged in a natural source of water (such as a pond, lake, river, or sea) for at least 1 minute, the ring becomes imbued with the essence of that water, adopting its color, scent, and taste.</p>
+      <p class="indent">
+        <strong>
+          <em>Aquatic Empowerment</em>
+        </strong>
+        While attuned to the Azure Flow, the wearer gains the ability to speak and understand Aquan. Additionally, the wearer gains a unique passive benefit based on the specific source of water from which the ring is currently imbued.</p>
+      <p>
+        <ul>
+          <li><em>Pond.</em> The wearer gains a sense of serenity and tranquility, gaining a +1 bonus on Wisdom saving throws against being frightened</li>
+          <li><em>Lake.</em> The wearer feels a connection to the depths, gaining a +1 bonus on Athletics checks related to swimming and diving</li>
+          <li><em>River.</em> The wearer gains the strength of ever-flowing river streams, gaining a bonus +1 bonus on Strength saving throws to avoid being knocked prone or pushed.</li>
+          <li><em>Sea/Ocean.</em> The wearer harnesses the boundless energy of the ocean, allowing them to cast the Shape Water cantrip at will.</li>
+        </ul>
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="attunement">true</set>
+      <set name="type">Ring</set>
+      <set name="rarity">Common</set>
+    </setters>
+  </element>
   <element name="Soulscent Bloom" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SOULSCENT_BLOOM">
     <description>
 	    <p>A jade carved into the shape of a flower. A phantom scent, here one instant and gone the next, swirls around it.</p>
