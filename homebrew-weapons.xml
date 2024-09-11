@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.42">
+    <update version="0.0.43">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -71,7 +71,7 @@
       <set name="enhancement">2</set>
       <set name="attunement">true</set>
       <set name="rarity">Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Rapier</set>
       <set name="Weapon">Rapier</set>
     </setters>
 	</element>
@@ -93,7 +93,7 @@
       <set name="enhancement">2</set>
       <set name="attunement">true</set>
       <set name="rarity">Very Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Shortsword</set>
       <set name="Weapon">Shortsword</set>
     </setters>
 	</element>
@@ -120,7 +120,7 @@
       <set name="enhancement">2</set>
       <set name="attunement">true</set>
       <set name="rarity">Legendary</set>
-      <set name="type">Weapon</set>
+      <set name="type">Maul</set>
       <set name="Weapon">Maul</set>
     </setters>
 	</element>
@@ -154,7 +154,7 @@
       <set name="enhancement">1</set>
       <set name="attunement">true</set>
       <set name="rarity">Very Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Maul</set>
       <set name="Weapon">Maul</set>
     </setters>
   </element>
@@ -209,7 +209,7 @@
       <set name="slot">twohand</set>
       <set name="attunement">true</set>
       <set name="rarity">Legendary</set>
-      <set name="type">Weapon</set>
+      <set name="type">Quarterstaff</set>
       <set name="Weapon">Quarterstaff</set>
     </setters>
   </element>
@@ -256,7 +256,7 @@
       <set name="slot">onehand</set>
       <set name="attunement">true</set>
       <set name="rarity">Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Flail</set>
       <set name="Weapon">Acid Flail</set>
     </setters>
   </element>
@@ -270,7 +270,7 @@
       <set name="weight" lb="2">2 lb.</set>
       <set name="slot">onehand</set>
       <set name="rarity">Very Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Shortsword</set>
       <set name="Weapon">Simple Shortsword</set>
     </setters>
   </element>
@@ -317,7 +317,7 @@
       <set name="weight" lb="3">3 lb.</set>
       <set name="attunement">true</set>
       <set name="rarity">Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Longsword</set>
       <set name="Weapon">Carrion Longsword</set>
     </setters>
   </element>
@@ -344,7 +344,7 @@
       <set name="weight" lb="3">3 lb.</set>
       <set name="enhancement">1</set>
       <set name="rarity">Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Club</set>
       <set name="Weapon">Club</set>
     </setters>
   </element>
@@ -370,7 +370,7 @@
       <set name="weight" lb="4">4 lb.</set>
       <set name="enhancement">1</set>
       <set name="rarity">Very Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Quarterstaff</set>
       <set name="Weapon">Quarterstaff</set>
     </setters>
     <rules>
@@ -400,7 +400,7 @@
       <set name="enhancement">1</set>
       <set name="attunement">true</set>
       <set name="rarity">Legendary</set>
-      <set name="type">Weapon</set>
+      <set name="type">Greatsword</set>
       <set name="Weapon">Simple Greatsword</set>
     </setters>
     <rules>
@@ -423,7 +423,7 @@
       <set name="enhancement">1</set>
       <set name="attunement">true</set>
       <set name="rarity">Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Shortsword</set>
       <set name="Weapon">Simple Shortsword 2</set>
     </setters>
   </element>
@@ -463,7 +463,7 @@
       <set name="enhancement">1</set>
       <set name="attunement">true</set>
       <set name="rarity">Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Longbow</set>
       <set name="Weapon">Simple Longbow</set>
     </setters>
 	  <rules>
@@ -522,7 +522,7 @@
       <set name="enhancement">2</set>
       <set name="attunement">true</set>
       <set name="rarity">Very Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Shortsword</set>
       <set name="Weapon">Simple Shortsword</set>
     </setters>
   </element>
@@ -550,7 +550,7 @@
       <set name="enhancement">2</set>
       <set name="attunement">true</set>
       <set name="rarity">Very Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Dagger</set>
       <set name="Weapon">Dagger</set>
     </setters>
   </element>
@@ -588,7 +588,7 @@
       <set name="enhancement">3</set>
       <set name="attunement">true</set>
       <set name="rarity">Legendary</set>
-      <set name="type">Weapon</set>
+      <set name="type">Longsword</set>
       <set name="Weapon">Longsword</set>
     </setters>
   </element>
@@ -627,7 +627,7 @@
       <set name="enhancement">1</set>
       <set name="attunement">true</set>
       <set name="rarity">Rare</set>
-      <set name="type">Weapon</set>
+      <set name="type">Scimitar</set>
       <set name="Weapon">Scimitar</set>
     </setters>
   </element>
@@ -648,7 +648,7 @@
       <set name="weight" lb="3">3 lb.</set>
       <set name="enhancement">1</set>
       <set name="rarity">Uncommon</set>
-      <set name="type">Weapon</set>
+      <set name="type">Scimitar</set>
       <set name="Weapon">Scimitar</set>
     </setters>
   </element>
@@ -681,7 +681,7 @@
       <set name="rarity">Very Rare</set>
       <set name="enhancement">2</set>
       <set name="attunement">true</set>
-      <set name="type">Weapon</set>
+      <set name="type">Greatsword</set>
       <set name="Weapon">Greatsword</set>
     </setters>
   </element>
@@ -714,7 +714,7 @@
       <set name="cost" currency="gp">2</set>
       <set name="rarity">Legendary</set>
       <set name="weight" lb="1">1 lb.</set>
-      <set name="type">Weapon</set>
+      <set name="type">Dagger</set>
       <set name="attunement">true</set>
       <set name="Weapon">Simple Dagger</set>
     </setters>
@@ -738,7 +738,7 @@
       <set name="cost" currency="gp">2</set>
       <set name="rarity">Legendary</set>
       <set name="weight" lb="1">1 lb.</set>
-      <set name="type">Weapon</set>
+      <set name="type">Dagger</set>
       <set name="attunement">true</set>
       <set name="Weapon">Dagger</set>
     </setters>
@@ -769,7 +769,7 @@
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="5.4">5.4 lb.</set>
       <set name="enhancement">3</set>
-      <set name="type">Weapon</set>
+      <set name="type">Greatsword</set>
       <set name="attunement">true</set>
       <set name="weapon">Simple Greatsword</set>
     </setters>
