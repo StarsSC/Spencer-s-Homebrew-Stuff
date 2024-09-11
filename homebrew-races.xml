@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<info>
-    <name>Weapons</name>
-    <update version="0.0.5">
+    <name>Races</name>
+    <update version="0.0.6">
       <file name="homebrew-races.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
