@@ -2,10 +2,25 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.2">
+    <update version="0.0.3">
       <file name="homebrew-consumables.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Rothe's Riddle" type="Magic Item" source="Spencer's Homebrew" id="ID_HOMEBREW_ROTHES_RIDDLE">
+  <description>
+    <p>Created by a solitary alchemist who is said to have researched the mysterious Deep Rothes, this poinson is just as cunning as the animals themselves. To create it, you'll need some uncommon ingredients, like a drop of blood from Deep Rothe, plus the know-how to combine strong illusions with lethal effects. According to legend, the alchemist aimed to test the bravery and brains of anyone who ventured to take a taste, awarding the survivors with fresh insights and understanding into the mysteries of the Underdark.</p>
+    <p class="indent">Upon ingesting or being injected with this green liquid, the drinker perceives three hostile Deep Rothes in a random unoccupied space within 25 feet, visible only to them. These illusions, incredibly lifelike, attack the drinker, dealing psychic damage with their attacks instead of their regular damage type.</p>
+    <p class="indent">If the drinker damages any of the illusions, the illusions vanish. The drinker needs to make a DC 18 Wisdom saving throw, taking 6d12 psychic damage on a failure and half as much on a success. The effect then ends.</p>
+    <p class="indent">If the drinker avoids harming the illusions for 30 seconds (5 turns) straight and remains conscious, the illusions dissapear and the drinker learns the Dancing Lights cantrip (even if not a spellcaster), gains proficiency in the History skill if they haven't had it already, and a permanent +1 bonus to their Intelligence score. The effect then ends.</p>
+  </description>
+  <setters>
+    <set name="category">Homebrew Consumables</set>
+    <set name="weight" lb="0.5">½ lb.</set>
+    <set name="type">Poison</set>
+    <set name="rarity">Very Rare</set>
+    <set name="stackable">true</set>
+  </setters>
+</element>
 <element name="Culmados" type="Magic Item" source="Spencer's Homebrew" id="ID_HOMEBREW_CULMADOS">
   <description>
     <p>The taste of this potion is quite bitter and some may argue that the pickled catchy culm foaling in there seems a bit repulsive. Its effect, however, is said to be moving - in the most literal sense.</p>
