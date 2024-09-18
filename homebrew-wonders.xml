@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.54">
+    <update version="0.0.55">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -26,6 +26,7 @@
            <li><strong>Lengthen:</strong> If the spell has a range of at least 5 feet and doesn't have a range of Self, you can increase the range of the spell by 30 times your Intelligence modifier.</li>
            <li><strong>Timing:</strong> You can change the casting time of a spell from 1 action to 1 bonus action, or vice-versa.</li>
 	 </ul>
+       </p>
     </description>
     <setters>
       <set name="category">Homebrew Wondrous Items</set>
@@ -56,6 +57,7 @@
            <li><strong>Lengthen:</strong> If the spell has a range of at least 5 feet and doesn't have a range of Self, you can increase the range of the spell by 30 times your Intelligence modifier.</li>
            <li><strong>Timing:</strong> You can change the casting time of a spell from 1 action to 1 bonus action, or vice-versa.</li>
 	 </ul>
+       </p>
            <p class="indent">
              <strong>
                <em>Very Rare</em>
@@ -96,6 +98,7 @@
            <li><strong>Lengthen:</strong> If the spell has a range of at least 5 feet and doesn't have a range of Self, you can increase the range of the spell by 30 times your Intelligence modifier.</li>
            <li><strong>Timing:</strong> You can change the casting time of a spell from 1 action to 1 bonus action, or vice-versa.</li>
 	 </ul>
+       </p>
            <p class="indent">
              <strong>
                <em>Very Rare</em>
@@ -115,7 +118,7 @@
              <strong>
                <em>Overrule</em>
              </strong>
-             Your mastery of the arcane arts has advanced to such a degree that all magic is at your beck and call. You can use your reaction to use the Rewrite property to alter spells cast by other creatures within 120 feet of you. An unwilling creature must succeed on an Intelligence (Arcana) check contested by your Intelligence (Arcana) check.
+             Your mastery of the arcane arts has advanced to such a degree that all magic is at your beck and call. You can use your reaction to use the Rewrite property to alter spells cast by other creatures within 120 feet of you. An unwilling creature must succeed on an Intelligence (Arcana) check contested by your Intelligence (Arcana) check.</p>
              <p class="indent">The rewrite property gains the following ways to alter a spell:</p>
              <p class="indent">
                <strong>
