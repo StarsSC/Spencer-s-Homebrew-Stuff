@@ -2,10 +2,55 @@
 <elements>
 	<info>
     <name>Deities</name>
-    <update version="0.0.3">
+    <update version="0.0.4">
       <file name="homebrew-pantheon.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Elaia Siveth" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_ELAIA_SIVETH">
+	<description>
+		<p class="flavor">The Lady of First and Last Respite</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">NG</set>
+	<set name="domains">Life, Grave</set>
+	<set name="symbol">Two Conjoined Faces, One Grey, One Silver</set>
+	<set name="gender">female</set>
+	</setters>
+	<sheet>
+		<description>The dual goddess of life and death, Elaia Siveth presents one of her two faces to everyone who suffers or teeters in the brink of death. Those who long for healing pray for her silver face, Elaia the Lifegiver, for life and strength and recovery. Those in agony or despair, desperate for escape, may plead for her grey aspect instead, Siveth the Gentle, for the cool safety and sanctity of the grave. Elaia Siveth is the Dual Goddess of Mercy, the Lady of First and Last Respite. She has no care for names or histories or creeds, only for the easing of suffering. Across nations and races, she is worshiped by healers, midwives, funerary officials, exorcists, slaves, and all who in their distress have need of either of her aspects.</description>
+	</sheet>
+	</element>
+  <element name="Yorm" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_YORM">
+	<description>
+		<p class="flavor">The Water in the Dark, The Grey God of Sacrifice</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">LG</set>
+	<set name="domains">Twilight, War</set>
+	<set name="symbol">A White Eye on Black</set>
+	<set name="gender">male</set>
+	</setters>
+	<sheet>
+		<description>The guardian against the dark, Yorm the Watcher stands forever at the edges of the light, facing outwards, guarding against all who seek destruction, poison and harm. An ancient foe of devils, demons, and even worse and stranger things, the Watcher in the Dark stands alone, for he will force no other to stand beside him, though he gladly accepts any help that is freely offered. One eye is missing, torn from his face aeons ago by a fearsome demon. This eye fell to earth and became the Temple of the Eye, a massive stone monolith at the centre of the Margat, the fortress-temple of the Order of the Eye, Yorm’s oldest and most stalwart followers. They have sworn, as he has, to protect the world from darkness for as long as they have strength. His light shines perpetually in this temple, and the clerics, paladins and laypeople of the Order find respite and shelter there that is vanishingly rare elsewhere.</description>
+	</sheet>
+	</element>
+	<element name="Orem" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_OREM">
+	<description>
+		<p class="flavor">Thief God of the Boundary</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">CG</set>
+	<set name="domains">Grave, Trickery, Twilight</set>
+	<set name="symbol">A Hooded Lantern</set>
+	<set name="gender">male</set>
+	</setters>
+	<sheet>
+		<description>A gentle shadow padding silently through the twilight, his hooded lantern held aloft, Orem is the thief god of the grave, the boundary and the night. Believed to have once been a mortal man, he is the guardian of lost souls, all those who die alone or in dark places, the dim light of his lantern guiding them to their rest. He is the messenger between the lands of the living and the dead, and may be implored to carry messages past the bounds. He is the god of thieves, watching over all who find their comfort and their livelihood in the shadows. He is the gentle warden of the outcast and abandoned, granting shelter and comfort to any who pray in desperation. Orem is the god of the in-between, the guardian of all that is lost or fallen through the cracks of the world, and all who seek them.</description>
+	</sheet>
+	</element>
       <element name="Iskuur" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_ISKUUR">
 	<description>
 		<p class="flavor">The Storm Lord</p>
