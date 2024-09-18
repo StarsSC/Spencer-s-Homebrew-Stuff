@@ -2,10 +2,167 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.51">
+    <update version="0.0.53">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Bright Idea (Rare)" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BRIGHT_IDEA">
+    <description>
+	   <p>An ornately bound book with pages twinkling like the night sky. This item begins as Rare and through time, accomplishment, and growth, can increase in rarity to Very Rare, then Legendary (according to your GM). You must have an Intelligence score of 16 or greater to attune to this item. This item can be used as an arcane focus and spellbook.
+       <p class="indent">
+         <strong>
+           <em>Rare</em>
+         </strong>
+         This item has a number of charges equal to your Intelligence modifier. When you attune to this item, you can learn one additional cantrip of your choice that you can cast while attuned to this item.</p>
+       <p class="indent">
+         <strong>
+           <em>Rewrite</em>
+         </strong>
+         Your knowledge of arcane formulas allows you to alter the nature of your magical arsenal. As you cast a spell, you can spend a charge to alter it in one of the following ways. A spell can't be altered in more than one way:
+         <ul>
+           <li><strong>Amplify:</strong> If the spell deals damage, reroll any roll of 1 or 2 on the damage dice, but you must use the new roll</li>
+           <li><strong>Condense:</strong> If the spell deals damage in an area of effect such as a sphere, line, or cone, you can halve the area of effect (ex. 20 feet to 10 feet). Each creature in the spell's area of effect makes their saving throw with disadvantage.</li>
+           <li><strong>Type:</strong> If the spell deals one of the following damage types, you can replace it with another one of the following types: Acid, Cold, Fire, Lightning, Poison. If the spell has multiple damage types, you can change only one of them.</li>
+           <li><strong>Lengthen:</strong> If the spell has a range of at least 5 feet and doesn't have a range of Self, you can increase the range of the spell by 30 times your Intelligence modifier.</li>
+           <li><strong>Timing:</strong> You can change the casting time of a spell from 1 action to 1 bonus action, or vice-versa.</li>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
+    <element name="Bright Idea (Very Rare)" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BRIGHT_IDEA">
+    <description>
+	   <p>An ornately bound book with pages twinkling like the night sky. This item begins as Rare and through time, accomplishment, and growth, can increase in rarity to Very Rare, then Legendary (according to your GM). You must have an Intelligence score of 16 or greater to attune to this item. This item can be used as an arcane focus and spellbook.
+       <p class="indent">
+         <strong>
+           <em>Rare</em>
+         </strong>
+         This item has a number of charges equal to your Intelligence modifier. When you attune to this item, you can learn one additional cantrip of your choice that you can cast while attuned to this item.</p>
+       <p class="indent">
+         <strong>
+           <em>Rewrite</em>
+         </strong>
+         Your knowledge of arcane formulas allows you to alter the nature of your magical arsenal. As you cast a spell, you can spend a charge to alter it in one of the following ways. A spell can't be altered in more than one way:
+         <ul>
+           <li><strong>Amplify:</strong> If the spell deals damage, reroll any roll of 1 or 2 on the damage dice, but you must use the new roll</li>
+           <li><strong>Condense:</strong> If the spell deals damage in an area of effect such as a sphere, line, or cone, you can halve the area of effect (ex. 20 feet to 10 feet). Each creature in the spell's area of effect makes their saving throw with disadvantage.</li>
+           <li><strong>Type:</strong> If the spell deals one of the following damage types, you can replace it with another one of the following types: Acid, Cold, Fire, Lightning, Poison. If the spell has multiple damage types, you can change only one of them.</li>
+           <li><strong>Lengthen:</strong> If the spell has a range of at least 5 feet and doesn't have a range of Self, you can increase the range of the spell by 30 times your Intelligence modifier.</li>
+           <li><strong>Timing:</strong> You can change the casting time of a spell from 1 action to 1 bonus action, or vice-versa.</li>
+           <p class="indent">
+             <strong>
+               <em>Very Rare</em>
+             </strong>
+             You can learn one additional cantrip to cast while attuned to this item.</p>
+           <p class="indent">
+             <strong>
+               <em>Breach</em>
+             </strong>
+             Your magic shreds through magical defenses with ease. Spells you cast ignore bonuses to AC and immunities or resistances granted by magical means (ex. Shield of Faith, Ring of Resistance, Protection of Energy, etc).</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
+  <element name="Bright Idea (Legendary)" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BRIGHT_IDEA">
+    <description>
+	   <p>An ornately bound book with pages twinkling like the night sky. This item begins as Rare and through time, accomplishment, and growth, can increase in rarity to Very Rare, then Legendary (according to your GM). You must have an Intelligence score of 16 or greater to attune to this item. This item can be used as an arcane focus and spellbook.
+       <p class="indent">
+         <strong>
+           <em>Rare</em>
+         </strong>
+         This item has a number of charges equal to your Intelligence modifier. When you attune to this item, you can learn one additional cantrip of your choice that you can cast while attuned to this item.</p>
+       <p class="indent">
+         <strong>
+           <em>Rewrite</em>
+         </strong>
+         Your knowledge of arcane formulas allows you to alter the nature of your magical arsenal. As you cast a spell, you can spend a charge to alter it in one of the following ways. A spell can't be altered in more than one way:
+         <ul>
+           <li><strong>Amplify:</strong> If the spell deals damage, reroll any roll of 1 or 2 on the damage dice, but you must use the new roll</li>
+           <li><strong>Condense:</strong> If the spell deals damage in an area of effect such as a sphere, line, or cone, you can halve the area of effect (ex. 20 feet to 10 feet). Each creature in the spell's area of effect makes their saving throw with disadvantage.</li>
+           <li><strong>Type:</strong> If the spell deals one of the following damage types, you can replace it with another one of the following types: Acid, Cold, Fire, Lightning, Poison. If the spell has multiple damage types, you can change only one of them.</li>
+           <li><strong>Lengthen:</strong> If the spell has a range of at least 5 feet and doesn't have a range of Self, you can increase the range of the spell by 30 times your Intelligence modifier.</li>
+           <li><strong>Timing:</strong> You can change the casting time of a spell from 1 action to 1 bonus action, or vice-versa.</li>
+           <p class="indent">
+             <strong>
+               <em>Very Rare</em>
+             </strong>
+             You can learn one additional cantrip to cast while attuned to this item.</p>
+           <p class="indent">
+             <strong>
+               <em>Breach</em>
+             </strong>
+             Your magic shreds through magical defenses with ease. Spells you cast ignore bonuses to AC and immunities or resistances granted by magical means (ex. Shield of Faith, Ring of Resistance, Protection of Energy, etc).</p>
+           <p class="indent">
+             <strong>
+               <em>Legendary</em>
+             </strong>
+             When you use the Rewrite property you can choose to alter the affected spell in one additional way without spending an additional charge. When a creature within 120 feet of you casts a spell, you are aware of it and know the direction of the caster as you can sense all the magic around you.</p>
+           <p class="indent">
+             <strong>
+               <em>Overrule</em>
+             </strong>
+             Your mastery of the arcane arts has advanced to such a degree that all magic is at your beck and call. You can use your reaction to use the Rewrite property to alter spells cast by other creatures within 120 feet of you. An unwilling creature must succeed on an Intelligence (Arcana) check contested by your Intelligence (Arcana) check.
+             <p class="indent">The rewrite property gains the following ways to alter a spell:</p>
+             <p class="indent">
+               <strong>
+                 <em>Diminish:</em>
+               </strong>
+               If the spell deals damage, reroll any damage dice that rolled for maximum damage.</p>
+             <p class="indent">
+               <strong>
+                 <em>Redirect:</em>
+               </strong>
+               If the spell targets one creature, you can redirect the spell to target another creature within range of the original caster.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Legendary</set>
+    </setters>
+  </element>
+	 <element name="Wings of the Windborne" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_WINGS_OF_THE_WINDBORNE">
+    <description>
+	   <p>This finely crafted leather backpack, adorned with silver clasps and intricate feather-like stitching, contains an ancient magical enchantment. When worn, the backpack appears to be a normal traveler's bag, but upon the command word, it transforms into a pair of magnificent wings made of shimmering, ethereal feathers.</p>
+      <p class="indent">
+        <strong>
+          <em>Transformation</em>
+        </strong>
+        As a bonus action, the wearer can speak the command word, causing the backpack to unfold and transform into a pair of wings. While the wings are active, the wearer gains a flying speed of 60 feet.</p>
+      <p class="indent">
+        <strong>
+          <em>Wing Effects</em>
+        </strong>
+        The wings can remain active for up to 1 hour per day. The time can be split into multiple uses, but the total cannot exceed 1 hour. They regain their full flying speed at dawn, and if they are deployed while falling, the wearer immediately benefits from the feather fall spell.</p>
+      <p class="indent">
+        <strong>
+          <em>Weightless Flight</em>
+        </strong>
+        While flying, the wearer experiences almost no burden from carrying the backpack, as it magically lightens their load.
+      </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="slot">back</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
   <element name="Mimicry Coin" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_MIMICRY_COIN">
     <description>
 	   <p>This small coin, about the size of a silver piece, bears intricate engravings of a raven. When held in hand, it radiates a faint aura of mischievous charm.</p>
