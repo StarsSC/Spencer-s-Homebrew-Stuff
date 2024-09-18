@@ -2,13 +2,14 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.45">
+    <update version="0.0.46">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
 	<element name="Harmonic Lance" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_HARMONIC_LANCE">
     <description>
       <p>This long, glass lance is made up of numerous rotating disks that emit magical notes as wind passes over the grooves on their spinning surfaces. While the translucent weapon appears at first glance to be a fragile glass harmonica, it can withstand a staggering amount of speed and power, making this weapon ideal for cavaliers with a penchant for music flare.
+	      <br/>
         <p class="indent">A bard attuned to this weapon has proficiency in lances if they don't already. It also counts as a bardic spellcasting focus, as it doubles as a musical instrument (glass harmonica).</p>
       </p>
       <p>You gain +1 to attack and damage rolls made with this magical lance.</p>
