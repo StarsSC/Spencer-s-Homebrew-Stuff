@@ -2,8 +2,8 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.1">
-      <file name="homebrew-potions.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
+    <update version="0.0.2">
+      <file name="homebrew-consumables.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
 <element name="Culmados" type="Magic Item" source="Spencer's Homebrew" id="ID_HOMEBREW_CULMADOS">
@@ -12,7 +12,7 @@
     <p class="indent">When you drink this potion, the peculiar magic of the catchy culm flows through your body. Whenever you deal damage to a creature within 10 feet of you or you take damage from a creature within the same range, you can initiate a Charisma contest against that creature. If you win the contest, you teleport the creature to an unoccupied space of your choice within 5 feet of it. Otherwise, the creature teleports you to an unoccupied space of its choice within 5 feet of you. The potion's effect lasts for 1 minute.</p>
   </description>
   <setters>
-    <set name="category">Homebrew Potions</set>
+    <set name="category">Homebrew Consumables</set>
     <set name="weight" lb="0.5">½ lb.</set>
     <set name="type">Potion</set>
     <set name="rarity">Very Rare</set>
