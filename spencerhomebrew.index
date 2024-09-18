@@ -4,7 +4,7 @@
         <name>Homebrew Collection</name>
         <description>Homebrew collection from dandwiki.com for us in a campaign I'm co-dm'ing</description>
         <author url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff/tree/main">StarsSC Github</author>
-        <update version="0.0.28">
+        <update version="0.0.29">
             <file name="spencerhomebrew.index" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/spencerhomebrew.index" />
         </update>
     </info>
@@ -13,7 +13,7 @@
         <file name="homebrew-armor.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/homebrew-armor.xml" />
         <file name="homebrew-weapons.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/homebrew-weapons.xml" />
         <file name="homebrew-wonders.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/homebrew-wonders.xml" />
-        <file name="homebrew-potions.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/homebrew-potions.xml" />
+        <file name="homebrew-consumables.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/refs/heads/main/homebrew-consumables.xml" />
         <!-- Gods -->
         <file name="homebrew-pantheon.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/homebrew-pantheon.xml" />
         <!-- Races -->
