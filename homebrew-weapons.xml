@@ -2,10 +2,76 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.46">
+    <update version="0.0.48">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Severer of Smiles" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SEVERER_OF_SMILES">
+    <description>
+      <p>A cleaver sharpened finely, with several teeth along the blade, from a mix and match of races. Unknown how the teeth stay affixed to the blade, their presence seem to empower the blade.</p>
+      <p class="indent">
+        <strong>
+          <em>Teeth Thief.</em>
+        </strong>
+        When you deal damage, the machete steals 4d4 teeth from the target. For each tooth stolen this way, you heal 2 hp, and the GM will establish how many teeth the target has remaining.</p>
+      <p class="indent">
+        <strong>
+          <em>Smile Stealer.</em>
+        </strong>
+        Once a creature has had all their teeth stolen, as an action, you can steal their appearance. You gain their memories, their voice, their appearance, but don't gain any of their abilities. Can use a bonus action to dispel the fascade.</p>
+      <p class="indent">
+        <strong>
+          <em>Dental Records.</em>
+        </strong>
+        While transformed, your teeth are replaced by theirs. In this form, if you take damage, make a save vs. the damage or lose 4d4 teeth. Take 2 damage per tooth, and you revert to your true form. As long as you possess a creature's full set of teeth, you can transform into them.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="4">4 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="enhancement">2</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Legendary</set>
+      <set name="type">Longsword</set>
+      <set name="Weapon">Longsword</set>
+    </setters>
+	</element>
+	<element name="Allsword" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_LORD_OF_SWORDS">
+    <description>
+      <p>Legend tells that all swords are splinters of the one true sword, the sword was shattered, the pieces scattered, and it's children are now the intruments of war.</p>
+      <p class="indent">
+        <strong>
+          <em>Return.</em>
+        </strong>
+        All entities within a 60 foot radius wielding a sword when this ability is activated must make a DC 15 Strength Saving Throw, if failed, all swords fly towards the Allsword and fuse with it, granting you a +1 damage bonus per sword, until the end of combat.</p>
+      <p class="indent">
+        <strong>
+          <em>Refuse.</em>
+        </strong>
+        All entities within a 60 foot radius that have a sword sheated must make a DC 15 Wisdom Saving Throw, if failed, the sword refuses to be drawn and cannot be used during combat.</p>
+      <p class="indent">
+        <strong>
+          <em>Retreat.</em>
+        </strong>
+        All entities within a 60 foot radius that have a sword drawn must make a DC 15 Strength Saving Throw, if failed or the sword is not drawn, the entities sword is flung 60 feet in the opposite direction of the Allsword.</p>
+      <p>If any of the saving throws are failed, a creature may choose to take the maximum weapon damage of their sword to physically stop it.</p>
+      <p class="indent">
+        <strong>
+          <em>Attunement.</em>
+        </strong>
+        In order to wield the Allsword, you must forsake all other weapons. You can no longer wield any weapon that isn't a sword.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="4">4 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="rarity">Unique</set>
+      <set name="type">Longsword</set>
+      <set name="Weapon">Longsword</set>
+    </setters>
+	</element>
 	<element name="Harmonic Lance" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_HARMONIC_LANCE">
     <description>
       <p>This long, glass lance is made up of numerous rotating disks that emit magical notes as wind passes over the grooves on their spinning surfaces. While the translucent weapon appears at first glance to be a fragile glass harmonica, it can withstand a staggering amount of speed and power, making this weapon ideal for cavaliers with a penchant for music flare.
