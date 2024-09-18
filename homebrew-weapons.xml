@@ -2,10 +2,59 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.44">
+    <update version="0.0.45">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Harmonic Lance" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_HARMONIC_LANCE">
+    <description>
+      <p>This long, glass lance is made up of numerous rotating disks that emit magical notes as wind passes over the grooves on their spinning surfaces. While the translucent weapon appears at first glance to be a fragile glass harmonica, it can withstand a staggering amount of speed and power, making this weapon ideal for cavaliers with a penchant for music flare.
+        <p class="indent">A bard attuned to this weapon has proficiency in lances if they don't already. It also counts as a bardic spellcasting focus, as it doubles as a musical instrument (glass harmonica).</p>
+      </p>
+      <p>You gain +1 to attack and damage rolls made with this magical lance.</p>
+      <p class="indent">
+        <strong>
+          <em>Melodic Strikes</em>
+        </strong>
+        When you move at least 30 feet towards a target, you can choose to engage in a melodic strike with your bonus action provided you have charges remaining. When making a melodic strike, the distance you move (in a single, consecutive movement during your turn) determines the effect produced by the lance that is channeled through the haunting music of its magical spinning disks. The spell save DC for this weapon is 15. The follwing attacks are possible when making melodic strikes:</p>
+      <p class="indent">
+        <strong>
+          <em>30 Feet (1 charge)</em>
+        </strong>
+        The glass disks begin to generate a deep, intimidating song. You cast thunderous smite immediately before making your attack.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>40 Feet (2 charges)</em>
+        </strong>
+        The disks speed up and whine with a falsetto fury as they begin to develop a glow. You cast branding smite immediately before making your attack.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>50 Feet (3 charges)</em>
+        </strong>
+        The lance sings loudly, the disks rotating so quickly that is flashes and sparks in your hand. The musical tones grow in depth. You cast blinding smite immediately before making your attack.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>60 Feet (4 charges)</em>
+        </strong>
+        The weapon begins to blast what can only be described as a fortissimo battle hymn, unsettling all creatures around you. You cast staggering smite immediately before making your attack.
+      </p>
+      <p>The harmonic lance has 9 charges, 1d8+1 of which refresh daily at dawn. If you expend the final charge of the lance, roll a d20. If the result is a 1, the weapon shatters with a whining shriek and is destroyed, forcing each creature within a 30 foot radius to make a Dexterity saving throw or take 3d6 radiant damage and 4d6 thunder damage and become blinded until the end of their next turn. On a success they take half damage, and are not blinded. You automatically fail this save.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="6">6 lb.</set>
+      <set name="slot">twohand</set>
+      <set name="enhancement">1</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Lance</set>
+      <set name="Weapon">Lance</set>
+    </setters>
+	</element>
   <element name="Essence Tether" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_ESSENCE_TETHER">
     <description>
       <p>Forged from a mysterious substance known as Oozeron, the blade of Essence Tether embodies the resilience of the oozes it represents. This material renders the greatsword impervious to all forms of conventional damage, ensuring its longevity on the battlefield...</p>
