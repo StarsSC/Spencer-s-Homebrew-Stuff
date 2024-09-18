@@ -2,10 +2,46 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.3">
+    <update version="0.0.4">
       <file name="spells.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Cruel Word: Agony" type="Spell" source="Spencer's Homebrew" id="ID_PHB_SPELL_CRUEL_WORD_AGONY">
+<supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
+<description>
+  <p>You utter a word of pure anguish, condemning a creature within range to experience excruciating pain. Choose one of the following effects when you cast this spell:</p>
+  <p class="indent">
+    <strong>
+      <em>Torment the Flesh.</em>
+    </strong>
+    The target must make a Constitution saving throw. On a failed save, the target takes 12d6 necrotic damage, falls prone, and has its speed reduced to 0. In addition, the target suffers a cumulative -1 penalty to Strength and Dexterity ability checks and saving throws rolls for each 6 rolled on the damage dice.</p>
+  <p class="indent">
+    <strong>
+      <em>Torment the Mind.</em>
+    </strong>
+    The target must make a Wisdom saving throw. On a failed save, the target takes 12d6 psychic damage, falls prone, and has its speed reduced to 0. In addition, the target suffers a cumulative -1 penalty to Intelligence and Charisma ability checks, saving throws, and concentration saving throws for each 6 rolled on the damage dice.</p>
+  <p>The effect of this spell last until the start of your next turn. On a successful save, the target takes half as much damage and suffers none of the spell's other effects.</p>
+  <p class="indent">
+    <strong>
+      <em>A Taste of Suffering.</em>
+    </strong>
+    Whenever you roll a 6 on a damage die for this spell, you may re-roll one other damage die that is not a 6. If you ever roll a 6 on all 12 damage dice, the final damage dealt is multiplied by 6.</p>
+</description>
+<setters>
+<set name="keywords">cruel word</set>
+<set name="level">6</set>
+<set name="school">Enchantment</set>
+<set name="time">1 action</set>
+<set name="duration">Instantaneous</set>
+<set name="range">60 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">false</set>
+<set name="hasMaterialComponent">false</set>
+<set name="materialComponent"/>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
 <element name="Drain Life" type="Spell" source="Spencer's Homebrew" id="ID_PHB_SPELL_DRAIN_LIFE">
 <supports>Sorcerer, Wizard, Warlock</supports>
 <description>
