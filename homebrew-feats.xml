@@ -1,1 +1,35 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+    <name>Weapons</name>
+    <update version="0.0.2">
+      <file name="homebrew-feats.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
+    </update>
+  </info>
+<element name="Back-to-Back" type="Feat" source="Homebrew Collection" id="ID_WOTC_HOMEBREW_FEAT_BACKTOBACK">
+  <description>
+   <p>Increase your Constitution by 1.</p>
+    <p class="indent">Whenver you are 5 feet of an allies creature, gain the following effects:
+      <ul>
+        <li>Gain a +1 to spell attack and attack rolls</li>
+        <li>If the ally within range of Back-to-Back takes damage, may use your reaction to split the damage between yourself and your ally</li>
+      <ul>
+      </p>
+    <p class="indent">If another allies creature within 5 feet of you also has this feat, gain these effects on top of the others:
+      <ul>
+        <li>You get advantage on attack rolls against creatures that are within the first range bracket of your ranged weapon.</li>
+        <li>Increase your armor class by 1 as long as you are still within range of the allied creature.</li>
+      </ul>
+    </p>
+</description>
+<sheet>
+<description>
+<p>When you are within 5 feet of an ally, gain +1 to attack and spell attack rolls and may use a reaction to instead take half the damage that the ally would have originally taken.</p>
+  <p class="indent">If your ally also has this feat, gain advantage on attack rolls against creatures that are within the first range bracket of your ranged weapon and increase your armor class by 1 while within range of your ally.</p>
+</description>
+</sheet>
+<rules>
+<select type="Ability Score Improvement" name="Back-to-Back" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION"/>
+</rules>
+</element>
+</elements>
