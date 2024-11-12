@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.3">
+    <update version="0.0.4">
       <file name="homebrew-feats.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -13,7 +13,7 @@
       <ul>
         <li>Gain a +1 to spell attack and attack rolls</li>
         <li>If the ally within range of Back-to-Back takes damage, may use your reaction to split the damage between yourself and your ally</li>
-      <ul>
+      </ul>
       </p>
     <p class="indent">If another allies creature within 5 feet of you also has this feat, gain these effects on top of the others:
       <ul>
