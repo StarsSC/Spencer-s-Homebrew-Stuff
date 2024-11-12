@@ -2,13 +2,13 @@
 <elements>
 	<info>
 		<name>Broxclaw</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="nibblewhisk.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
 		</update>
 	</info>
 	<element name="Nibblewhisk" type="Race" source="Spencer's Homebrew" id="ID_RACE_NIBBLEWHISK">
 		<description>
-			<p class="flavor">Though tiny in stature, the Nibblewhisk, hamster-like beings are beyond question the defenders of Lupinflower Village and the surrounding valley. They live within the same boundaries as the Hoppwick and are known to be both brave and resilient, rising to take up their arms time and time again in defense of their homeland from terrifying Calamity Beasts that would seek to upset the peace. Their courage in the face of danger is unmatched, as they treat the protection of their valley like a duty given to them by a higher power.</p>
+			<p class="flavor">Though tiny in stature, the Nibblewhisk, hamster-like beings are beyond question the defenders of the Shadowfen Woods. They live within the same boundaries as the Hoppwick and are known to be both brave and resilient, rising to take up their arms time and time again in defense of their homeland from terrifying Calamity Beasts that would seek to upset the peace. Their courage in the face of danger is unmatched, as they treat the protection of their valley like a duty given to them by a higher power.</p>
 			<h4>Determined Heroes</h4>
 			<br/>
 			<p>The Nibblewhisk are close-knit, bound by shared purpose and unerring care for the valley and all within it. They get along well enough with other animal folk, especially if they contribute to the prosperity and safety of their home. When a Nibblewhisk sets their mind on a goal, very little can remove them from their path.</p>
