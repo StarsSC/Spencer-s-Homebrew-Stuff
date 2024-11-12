@@ -4,7 +4,7 @@
         <name>Homebrew Collection</name>
         <description>Homebrew collection from dandwiki.com for us in a campaign I'm co-dm'ing</description>
         <author url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff/tree/main">StarsSC Github</author>
-        <update version="0.0.29">
+        <update version="0.0.30">
             <file name="spencerhomebrew.index" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/spencerhomebrew.index" />
         </update>
     </info>
@@ -25,5 +25,7 @@
         <file name="dremora.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/dremora.xml" />
         <!-- Spells -->
         <file name="spells.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/spells.xml" />
+        <!-- Feats -->
+        <file name="homebrew-feats.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/refs/heads/main/homebrew-feats.xml" />
     </files>
 </index>
