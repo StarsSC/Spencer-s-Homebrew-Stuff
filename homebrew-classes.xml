@@ -1,8 +1,367 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Animated Armor</name>
+		<name>Spellslinger</name>
 		<update version="0.0.1">
-			<file name="homebrew-classes.xml" />
+			<file name="homebrew-classes.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
 		</update>
 	</info>
+  <element name="Spellslinger" type="Class" source="Spencer's Homebrew" id="ID_HOMEBREW_CLASS_SPELLSLINGER">
+    <description>Similar to the realms Sorcerers, there are some that are naturally gifted for the art of magic. There are those that don't have these abilities and use their raw intellect to out-innovate their opponents with a plethora of different weapons and techniques. But what if you combined these two ideas together? The invention of the firearm and pepperbox is a blessing and a curse, a weapon that is a great defense and incredibly dangerous in the wrong hands.
+      <p class="indent">Artificers typically imbue objects with their arcane abilities with the hope to cast spells instead of generating the magic from themselves. The Spellslinger on the other hand personally imbues the ammunition of their bow or firearm to deal the damage of the weapon, including directing the magic onto the ammunition to cast in a localized fashion, sacrificing the area of effect that some spells have to focus it into a single point for maximum damage upon an opponent.</p>
+<h3>CLASS FEATURES</h3>
+        <p>As a spellslinger, you gain the following class features.</p>
+        <h5>HIT POINTS</h5>
+        <ul class="unstyled">
+          <li>
+            <strong>Hit Dice:</strong>
+            1d8 per spellslinger level
+          </li>
+          <li>
+            <strong>Hit Points at 1st Level:</strong>
+            1d8 + your Constitution Modifier
+          </li>
+          <li>
+            <strong>Hit Points at Higher Levels:</strong>
+            1d8 (or 5) + your Constitution modifier per spellslinger level after 1st
+          </li>
+        </ul>
+        <h5>PROFICIENCIES</h5>
+        <ul class="unstyled mb">
+          <li>
+            <strong>Armor:</strong>
+            Light, Medium Armor
+          </li>
+          <li>
+            <strong>Weapons:</strong>
+            Daggers, darts, slings, light crossbows, hand crossbows, heavy crossbows, shortbows, longbows, light hammers, firearms, pepperbox
+          </li>
+          <li>
+            <strong>Tools:</strong>
+            Tinker's Tools
+          </li>
+        </ul>
+        <ul class="unstyled">
+          <li>
+            <strong>Saving Throws:</strong>
+            Constitution, Wisdom
+          </li>
+          <li>
+            <strong>Skills:</strong>
+            Choose two from Acrobatics, Arcana, Insight, Intimidation, Perception, Sleight of Hand
+          </li>
+        </ul>
+        <h5>EQUIPMENT</h5>
+        <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+        <ul>
+          <li>
+            <i>(a)</i>
+            A longbow and 20 arrows or
+            <i>(b)</i>
+            a light crossbow and 20 bolts
+          </li>
+          <li>
+            <i>(a)</i>
+            two daggers or
+            <i>(b)</i>
+            any simple melee weapon
+          </li>
+          <li>
+            <i>(a)</i>
+            a dungeoneer's pack or
+            <i>(b)</i>
+            a scholar's pack
+          </li>
+          <li>
+            <i>(a)</i>
+            leather armor or
+            <i>(b)</i>
+            scale mail armor
+          </li>
+        </ul>
+        <h5 class="caption">THE SPELLSLINGER</h5>
+        <table class='class-features">
+          <thead>
+            <tr>
+              <td class="col-5">Level</td>
+              <td class="col-60 left">Features</td>
+              <td>1st</td>
+              <td>2nd</td>
+              <td>3rd</td>
+              <td>4th</td>
+              <td>5th</td>
+            </tr>
+          </thead>
+          <tr>
+            <td> 1st</td>
+            <td class="left">Unending Ammunition, Ammo Infusion</td>
+            <td>2</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 2nd</td>
+            <td class="left">Fighting Style</td>
+            <td>3</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 3rd</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 4th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>2</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 5th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>2</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 6th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 7th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 8th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 9th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>2</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 10th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>2</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 11th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 12th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 13th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>1</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 14th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>1</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 15th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 16th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td> 17th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td> 18th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td> 19th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td> 20th</td>
+            <td class="left"></td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+          </tr>
+            
+          </table
+          <div element="ID_HOMEBREW_CLASS_FEATURE_UNENDING_AMMUNITION"/>
+          <div element="ID_HOMEBREW_CLASS_FEATURE_AMMO_INFUSION"/>
+          <div element="ID_HOMEBREW_CLASS_FEATURE_SPELLSLINGER_FIGHTING_STYLE"/>
+
+        <sheet display="false">
+          <description>A sorcerer that has found a way to materialize their spells.</description>
+        </sheet>
+        <setters>
+          <set name="short">A sorcerer that has found a way to materialize their spells.</set>
+          <set name="hd">d8</set>
+        </setters>
+        <rules>
+          <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR"
+          <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR"
+          <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS"
+          <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS"
+          <grant type="Proficiency" id="ID_RDDT_AA_PROFICIENCY_WEAPON_PROFICIENCY_LONGARMS"/>
+          <grant type="Proficiency" id="ID_RDDT_AA_PROFICIENCY_WEAPON_PROFICIENCY_SIDEARMS"/>
+          <grant type="Proficiency" id="ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED"/>
+          <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM"/>
+          <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION"/>
+          <grant type="Proficiency" name="Skill Proficiency (Spellslinger)" supports="Skill,Spellslinger" number="2"
+          <grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_UNENDING_AMMUNITION" level="1"/>
+          <grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_AMMO_INFUSION" level="1"/>
+          <grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_FIGHTING_STYLE" level="2"/>
+          </rules>
+        <multiclass id="ID_HOMEBREW_MULTICLASS_SPELLSLINGER"/>
+        <prerequisite>Wisdom 13</prerequisite>
+        <requirements>([wis:13])</requirements>
+        <setters>
+          <set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, sidearms, longarms, shortbows, longbows, light crossbows, hand crossbows, heavy crossbows</set>
+        </setters>
+        <rules>
+          <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS"/>
+          <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR"
+          <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR"
+          <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS"
+          <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS"
+          <grant type="Proficiency" id="ID_RDDT_AA_PROFICIENCY_WEAPON_PROFICIENCY_LONGARMS"/>
+          <grant type="Proficiency" id="ID_RDDT_AA_PROFICIENCY_WEAPON_PROFICIENCY_SIDEARMS"/>
+          <grant type="Proficiency" id="ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED"/>
+          </rules>
+      </multiclass>
+      </element>
+<element name="Unending Ammunition" type="Class Feature" source="Spencer's Homebrew"
+  id="ID_HOMEBREW_CLASS_FEATURE_UNENDING_AMMUNITION">
+  <description>
+    <p>You harness the power of the weave to generate your own form of ammunition. As a bonus action, you may conjure a form of ammunition to use with your ranged weapon. This piece of ammunition counts as magical for the purpose of overcoming resistances.</p>
+      <p class="indent">You can use this feature a number of times equal to 1 + your Wisdom modifier. When you finish a long rest, you regain all expended uses.</p>
+    </description>
+  <sheet usage="{{unending ammunition:count}}/Long Rest" action="Bonus Action">
+    <description>You harness the power of the weave to generate your own form of ammunition. As a bonus action, you may conjure a form of ammunition to use with your ranged weapon. This piece of ammunition counts as magical for the purpose of overcoming resistances.</description>
+  </sheet>
+  <rules>
+    <stat name="unending ammunition:count" value="1"/>
+    <stat name="unending ammunition:count" value="wisdom:modifier"/>
+  </rules>
+</element>
+            <element name="Ammo Infusion" type="Class Feature" source="Spencer's Homebrew"
+              id="ID_HOMEBREW_CLASS_FEATURE_AMMO_INFUSION">
+              <description>
+                <p>You don't cast spells the same way as others, your ammo are your spells. Whenever you choose to cast a spell, you must infuse a piece of your ammo with the spell you specify as an action. No action is needed to infuse a cantrip, meaning you can fire and cast them within the same attack action. All spells are delayed until impact regardless if it hits its designated target or not.</p>
+                <p class="indent">You can use this feature a number of times equal to the amount of spell slots you have available.</p>
+              </description>
+              <sheet usage="{{Ammo infusion}}" action="Action">
+                <description>You don't cast spells the same way as others, your ammo are your spells. Whenever you choose to cast a spell, you must infuse a piece of your ammo with the spell you specify as an action. No action is needed to infuse a cantrip, meaning you can fire and cast them within the same attack action. All spells are delayed until impact regardless if it hits its designated target or not.</description>
+              </sheet>
+            </element>
+        <element name="Fighting Style" type="Class Feature" source="Spencer's Homebrew"
+          id="ID_HOMEBREW_CLASS_FEATURE_SPELLSLINGER_FIGHTING_STYLE">
+          <description>
+          <p>At 2nd level, you adopt a particular style of fighting. Choose one of the following option. You cannot choose the same fighting style twice, even if you get to choose again.</p>
+            <h5>AKIMBO SHOOTING</h5>
+    <p>When you take the attack action with a light weapon, you can use a bonus action to make an attack with a light ranged weapon you are holding. You do not add your ability score modifier to the damage of this attack, unless that modifier is negative.</p>
+            <h5>BREACHER</h5>
+    <p>When you hit with a ranged attack roll, you roll a 1 or 2 on the damage die, you can reroll the damage die and must take the new roll, even if the number is a 1 or a 2. The weapon must have the scatter property in order to gain this benefit.</p>
+          <h5>DEADEYE</h5>
+    <p>You get a +2 bonus to attack rolls you make with martial and simple ranged weapons, as well as longarms which do not have the bulky or scatter property.</p>
+          <h5>DUELING</h5>
+    <p>When wielding a one-handed weapon in one hand and no other weapons, you get a +2 bonus to your damage rolls with these weapons. This additional damage only applies for ranged attacks made at creatures within 30 feet of you.</p>
+          <h5>SNIPER</h5>
+    <p>You gain a +2 bonus to damage rolls if you attack a creature further than 30 feet away from you with a ranged weapon or a firearm that does not have the scatter property.</p>
+          <h5>PHALANX</h5>
+    <p>You can now wield a two-handed melee weapon, heavy crossbow, light crossbow, or a longarm with a shield, but you must use an action to brace the weapon against the shield in order to attack with it.</p>
+<p>The weapon stays braced in this way as long as you move no more than 10 feet during your turn. The weapon loses any benefits you gain from using it with two hands while braced.</p>
+            <h5>DEFENSE</h5>
+    <p>While you are wearing armor, you gain a +1 bonus to AC</p>
+          </description>
+          <rules>
+            <select type="Class Feature" name="Fighting Style" supports="Fighting Style,Spellslinger"/>
+          </rules>
