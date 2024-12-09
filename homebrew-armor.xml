@@ -2,10 +2,29 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.25">
+    <update version="0.0.26">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Unyielding Scale" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_UNYIELDING_SCALE">
+	  <description><p>This scale mail armor has been imbued with protective magic, enhancing its durability. The wearer gains +1 to AC, advantage on saving throws against being grappled or restrained, and does not impose disadvantage on Stealth checks.</p>
+	  </description>
+	  <setters>
+		  <set name="category">Homebrew Armor</set>
+		  <set name="cost" currency="gp">3000</set>
+		  <set name="weight" lb="45">45 lb.</set>
+      <set name="slot">body</set>
+      <set name="rarity">Rare</set>
+      <set name="enhancement">1</set>
+      <set name="attunement">true</set>
+      <set name="armor">Medium</set>
+      <set name="armorClass">15 + Dex modifier</set>
+      <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL</set>
+	  </setters>
+      <rules>
+        <stat name="ac:armored:armor" value="15"/>
+      </rules>
+	</element>
   	<element name="Hide of the Great Wolf" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_HIDE_OF_GREAT_WOLF">
 	  <description>
 		<p class="indent">
