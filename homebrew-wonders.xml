@@ -2,10 +2,35 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.60">
+    <update version="0.0.61">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Robes of the Ancients" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_ROBES_OF_ANCIENTS">
+    <description>
+     <p>These finely crafted robes are designed for those who engage in martial combat, combining style with functionality. When worn, the Robes of the Ancients grant the following benefits:
+      <ul>
+	      <li>+1 to Armor Class.</li>
+	      <li>If the wearer has an Unarmored Defense feature (such as a Monk's Unarmored Defense), they gain a +1 bonus to AC in addition to the benefits of their Unarmored Defense.</li>
+	      <li><strong>Ki Surge:</strong> Once per short rest, the wearer can spend 1 Ki point to gain advantage on their next attack roll or saving throw.</li>
+	      <li><strong>Martial Precision:</strong> Once per day, as a bonus action, they can gain advantage on all attack rolls for the next minute.</li>
+      </ul>
+     </p>
+    </description>
+    <setters>
+      <set name="keywords">robes</set>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">2500</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="attunement">true</set>
+      <set name="slot">body</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Rare</set>
+    </setters>
+    <rules>
+      <stat name="ac:misc" value="2"/>
+    </rules>
+  </element>
   <element name="Bright Idea Rare" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BRIGHT_IDEA_RARE">
     <description>
 	   <p>An ornately bound book with pages twinkling like the night sky. This item begins as Rare and through time, accomplishment, and growth, can increase in rarity to Very Rare, then Legendary (according to your GM). You must have an Intelligence score of 16 or greater to attune to this item. This item can be used as an arcane focus and spellbook.
