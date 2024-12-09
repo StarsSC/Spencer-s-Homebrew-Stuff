@@ -2,10 +2,55 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.50">
+    <update version="0.0.53">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Sample Spear" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SAMPLE_SPEAR">
+    <description>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="range">5 ft</set>
+      <set name="damage">1d6 piercing + 1d6 lightning</set>
+    </setters>
+  </element>
+	<element name="Spear of the Tempest" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_TEMPEST_SPEAR">
+    <description>
+      <p>This spear has been infused with the power of storms. When wielded, the spear grants the user the ability to deal lightning damage with every successful hit, adding an extra 1d6 lightning damage to the weapons attack. Additionally, once per long rest, the user can cast <strong><em>Call Lightning</em></strong> (3rd-level spell) as an action, using the spear as the conduit</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">4500</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="enhancement">1</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Spear</set>
+      <set name="Weapon">Sample Spear</set>
+    </setters>
+    <div class="reference">
+<div element="ID_PHB_SPELL_CALL_LIGHTNING"/>
+</div>
+	</element>
+	<element name="Fists of the Ancients" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_FISTS_OF_ANCIENTS">
+<description>
+<p>You have a +1 bonus to attack and damage rolls made with these hand wraps. In addition, as a bonus action, the wearer can channel ancient strength, causing their unarmed strike to deal an additional 1d8 force damage on the next attack.</p>
+</description>
+<setters>
+<set name="category">Magic Weapons</set>
+<set name="cost" currency="gp">11000</set>
+<set name="type" addition="any">Weapon</set>
+<set name="rarity">Unique</set>
+<set name="enhancement">1</set>
+<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE|</set>
+<set name="name-format">{{parent}} +{{enhancement}}</set>
+</setters>
+</element>
 	<element name="Heaven's Needle" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_HEAVENS_NEEDLE">
     <description>
       <p><em>And so the archangel offered a parting gift: a lock of her golden hair, and a needle to sew with, so we may weave tapestries and vestments. The paladins of our oder, however, had a different idea...</em> - Gospel of the High Sun</p>
