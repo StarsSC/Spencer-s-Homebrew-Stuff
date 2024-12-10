@@ -2,10 +2,78 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.28">
+    <update version="0.0.30">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Ironroot Plate" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_IRONPLATE_ROOT">
+	  <description>
+      <p>This armor seems to fuse with the ground as if its part of the roots of a tree, granting advantage on saving throws to resist being moved or knocked prone.</p>
+	  </description>
+	  <setters>
+		  <set name="category">Homebrew Armor</set>
+		  <set name="cost" currency="gp">8000</set>
+		  <set name="weight" lb="45">45 lb.</set>
+      <set name="slot">body</set>
+      <set name="rarity">Rare</set>
+      <set name="armor">Medium</set>
+      <set name="armorClass">14 + Dex modifier</set>
+      <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL</set>
+	  </setters>
+		      <rules>
+        <stat name="ac:armored:armor" value="14"/>
+      </rules>
+	</element>
+  	<element name="Shimmering Mantle" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SHIMMERING_MANTLE">
+	  <description>
+		<p><strong>"This Mantle turns darkness into beauty, shielding its wearer with the quiet brilliance of hope."</strong> ~High Enchanter Aelindra Lightrune</p>
+      <p class="indent">Grants advantage on saving throws against being blinded, as the fabric glows faintly to counteract magical darkness.</p>
+	  </description>
+	  <setters>
+		  <set name="category">Homebrew Armor</set>
+		  <set name="cost" currency="gp">N/A</set>
+		  <set name="weight" lb="13">13 lb.</set>
+      <set name="slot">body</set>
+      <set name="rarity">Uncommon</set>
+      <set name="enhancement">2</set>
+      <set name="armor">Light</set>
+      <set name="armorClass">12 + Dex modifier</set>
+      <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER</set>
+	  </setters>
+	</element>
+  <element name="Bastion of Dusk" type="Item" source="Spencer's Homebrew" id="ID_WOTC_ARMOR_DND_HOMEBREW_BASTION_OF_DUSK">
+	<description>
+	    <p><strong>"This armor stands as a fortress in the fading light, shielding its wearer with the unbreakable resolve of the approaching night."</strong> ~Venryn Duskforge</p>
+			</description>
+		</sheet>
+	<setters>
+	    <set name="category">Homebrew Armor</set>
+	    <set name="cost" currency="gp">N/A</set>
+	    <set name="weight" lb="65">65 lb.</set>
+	    <set name="container">Heavy</set>
+	    <set name="armor">Heavy</set>
+	    <set name="type">Armor</set>
+	    <set name="slot">body</set>  
+	  </setters>
+	  <rules>
+	    <stat name="ac:armored:armor" value="19"/>
+	    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC"/>
+	  </rules>
+	</element>
+  <element name="Shield of Missile Attraction" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_MISSILE_ATTRACTION_SHIELD">
+	  <description>
+      <p>This shield has a slight magical presence that seems to act like a magnet for fast moving projectiles. As a reaction, you may cause a ranged attack that is directed at an ally within 10 ft to target the wearer instead.</p>
+		</description>
+	  <setters>
+		  <set name="keywords">shield</set>
+	    <set name="category">Homebrew Armor</set>
+	    <set name="cost" currency="gp">N/A</set>
+	    <set name="weight" lb="6">6 lb.</set>
+      <set name="rarity">Uncommon</set>
+	    <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+	    <set name="type" addition="shield">Armor</set>
+	  </setters>
+	</element>
 	<element name="Unyielding Scale" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_UNYIELDING_SCALE">
 	  <description><p>This scale mail armor has been imbued with protective magic, enhancing its durability. The wearer gains +1 to AC, advantage on saving throws against being grappled or restrained, and does not impose disadvantage on Stealth checks.</p>
 	  </description>
