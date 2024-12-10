@@ -2,10 +2,96 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.62">
+    <update version="0.0.65">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Bond of the Wildguard" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BOND_OF_THE_WILDGUARD">
+    <description>
+	   <p><strong><em>May only be attuned by a Ranger...</em></strong></p>
+      <p class="indent"><strong>The Bond of the Wildguard is a set of intertwined bracers and reins that seem to pulse with the heartbeat of nature itself. The bracers are crafted from living vines and reinforced with plates of smooth, polished stone, while the reins are made from braided strands of silver that shimmer in moonlight. When touched, the materials feel as though they are alive, responding subtly to the emotions and intent of the wearer.</strong></p>
+      <p class="indent"><strong>Ancient lore states that this artifact was woven by the elemental spirits of the Wilds, at the behest of the first Beastmaster and Cavalier to unify their bond with their animal companions. Legends speak of its creation during an age when nature was under siege by those who sought to exploit its bounties without reverence. The Wildguard was given to champions who vowed to defend the balance of nature and protect its creatures.</strong></p>
+      <p class="indent"><strong>When worn, the Bond strengthens the connection between the bearer and their beast companion, granting them an unparalleled synergy. The bond itself hums with a low, soothing resonance, as though it amplifies the unspoken communication between kindred spirits. Those attuned to it report feeling the raw essence of nature coursing through their veins, empowering them to fight not as individuals, but as a unified force with their beast allies.</strong></p>
+      <p class="indent"><strong>The Bond of the Wildguard is also said to house the blessing of the Primal Guardians, ancient entities tied to the preservation of life’s natural order. In moments of great peril, these guardians are rumored to manifest briefly to protect their chosen champions, their presence marked by the rustling of unseen leaves and the roar of distant storms.</strong></p>
+      <p class="indent"><em>Beastmaster's Bond:</em> Your beast companion gains the following bonuses:
+        <ul>
+          <li>+4 AC, +30 temporary hit points, and advantage on attack rolls.</li>
+          <li>Your companion can make an additional attack when you take the Attack action</li>
+        </ul>
+      </p>
+      <p class="indent"><em>Cavalier's Command:</em> While mounted, you gain the following benefits:
+        <ul>
+          <li>Enemies within 10 feet of you have disadvantage on attack rolls against anyone other than you.</li>
+          <li>Your mount gains advantage on saving throws against spells and effects that would frighten or restrain it.</li>
+        </ul>
+      </p>
+      <p class="indent"><em>Primal Rally:</em> As a bonus action, you and your companion can move up to half your speed without provoking opportunity attacks.</p>
+      <p class="indent"<em>Alpha's Cry:</em> Once per long rest, you and your companion unleash a primal roar. All allies within 30 feet gain temporary hit points equal to your level and can immediately make one weapon attack as a reaction. Enemies within the same radius must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute</p>
+    </description>
+    <sheet>
+            <p class="indent"><em>Beastmaster's Bond:</em> Your beast companion gains the following bonuses:
+        <ul>
+          <li>+4 AC, +30 temporary hit points, and advantage on attack rolls.</li>
+          <li>Your companion can make an additional attack when you take the Attack action</li>
+        </ul>
+      </p>
+      <p class="indent"><em>Cavalier's Command:</em> While mounted, you gain the following benefits:
+        <ul>
+          <li>Enemies within 10 feet of you have disadvantage on attack rolls against anyone other than you.</li>
+          <li>Your mount gains advantage on saving throws against spells and effects that would frighten or restrain it.</li>
+        </ul>
+      </p>
+      <p class="indent"><em>Primal Rally:</em> As a bonus action, you and your companion can move up to half your speed without provoking opportunity attacks.</p>
+      <p class="indent"<em>Alpha's Cry:</em> Once per long rest, you and your companion unleash a primal roar. All allies within 30 feet gain temporary hit points equal to your level and can immediately make one weapon attack as a reaction. Enemies within the same radius must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute</p>
+    </sheet>
+    <setters>
+      <set name="keywords">athletics</set>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">hands</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Trinity of Balance</set>
+    </setters>
+  </element>
+	<element name="Chaosheart Amulet" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_CHAOSHEART_AMULET">
+    <description>
+      <p><strong><em>Must be attuned by a Warlock...</em></strong></p>
+   	    <p class="indent"><strong>The Chaosheart Amulet is a mesmerizing, otherworldly artifact, its core resembling a living, unblinking eye set within a jagged crystal. The "eye" shifts colors constantly, cycling through hues of fiery orange, icy blue, venomous green, and more, as though it reflects the chaos of the multiverse itself. When attuned, the amulet pulses with faint warmth, synchronizing with its bearer’s heartbeat. The chaotic energy radiating from the artifact hums with whispers, sometimes encouraging, sometimes maddening, but always compelling.</strong></p>
+        <p class="indent"><strong>Legend speaks of the Chaosheart being crafted from the shattered essence of an ancient, primordial entity that existed before the alignment of the planes. It is said that the fragment was imbued with sentience by a powerful Chaos Patron who wished to give their warlocks a piece of themselves. Its eye-like design is no mere aesthetic; it is believed to be a window into the chaotic planes, eternally gazing upon the swirling forces of entropy.</strong></p>
+        <p class="indent"><strong>While wearing the amulet, its bearer feels a deep connection to the unpredictable and unknowable. However, this connection comes with a price: moments of clarity are often interspersed with intrusive visions of cataclysmic destruction or wild euphoria. To many Chaos warlocks, the Chaosheart is a mark of favor, but to others, it is a burden of untamed power waiting to be unleashed.</strong></p>
+      <p class="indent"><em>Chaotic Bolts:</em> Eldritch Blast now deals an additional 1d10 damage of a randomly determined type (roll 1d6: 1 = fire, 2 = cold, 3 = lightning, 4 = acid, 5 = necrotic, 6 = radiant).</p>
+      <p class="indent"><em>Ripple of Chaos:</em> When you cast a spell using a spell slot, you can unleash a wave of chaotic energy. Each creature of your choice within 10 feet of you must make a DC 18 Dexterity saving throw or take 2d8 damage of a randomly determined type (roll 1d6 for the damage type). This ability can be used a number of times equal to your Charisma modifier, and all uses refresh after a long rest.</p>
+      <p class="indent"><em>Wild Convergence:</em> When you use your Mystic Arcanum, roll 1d4. On a 4, you immediately regain that use after the spell is cast.</p>
+      <p class="indent"><em>Chaos Nexus:</em> Once per long rest, you can cchannel the raw energy of chaos into an overwhelming surge of power. For the next 3 rounds:
+        <ul>
+          <li>When you roll damage for a spell, add an additional 3d6 damage of a randomly determined type (roll 1d6 for each spell).</li>
+          <li>Whenever a creature within 30 feet of you succeeds on a saving throw against one of your spells, roll a d20. On a 15 or higher, the creature takes half the damage the spell would have dealt, regardless of the saving throw result</li>
+          <li>Spells you cast during this time cannot be countered or dispelled.</li>
+        </ul>
+    </description>
+    <sheet>
+            <p class="indent"><em>Chaotic Bolts:</em> Eldritch Blast now deals an additional 1d10 damage of a randomly determined type (roll 1d6: 1 = fire, 2 = cold, 3 = lightning, 4 = acid, 5 = necrotic, 6 = radiant).</p>
+      <p class="indent"><em>Ripple of Chaos:</em> When you cast a spell using a spell slot, you can unleash a wave of chaotic energy. Each creature of your choice within 10 feet of you must make a DC 18 Dexterity saving throw or take 2d8 damage of a randomly determined type (roll 1d6 for the damage type). This ability can be used a number of times equal to your Charisma modifier, and all uses refresh after a long rest.</p>
+      <p class="indent"><em>Wild Convergence:</em> When you use your Mystic Arcanum, roll 1d4. On a 4, you immediately regain that use after the spell is cast.</p>
+      <p class="indent"><em>Chaos Nexus:</em> Once per long rest, you can cchannel the raw energy of chaos into an overwhelming surge of power. For the next 3 rounds:
+        <ul>
+          <li>When you roll damage for a spell, add an additional 3d6 damage of a randomly determined type (roll 1d6 for each spell).</li>
+          <li>Whenever a creature within 30 feet of you succeeds on a saving throw against one of your spells, roll a d20. On a 15 or higher, the creature takes half the damage the spell would have dealt, regardless of the saving throw result</li>
+          <li>Spells you cast during this time cannot be countered or dispelled.</li>
+        </ul>
+      </sheet>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">neck</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Trinity of Balance</set>
+    </setters>
+  </element>
 	<element name="Robes of the Ancients" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_ANCIENT_ROBES">
     <description>
      <p>These finely crafted robes are designed for those who engage in martial combat, combining style with functionality. When worn, the Robes of the Ancients grant the following benefits:
