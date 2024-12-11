@@ -2,10 +2,65 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.53">
+    <update version="0.0.54">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Draconic Vanguard" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_DRACONIC_VANGUARD">
+    <description>
+      <p><strong>Must be attuned by a Monk...</strong></p>
+      <p class="indent"><strong>The Draconic Vanguard is a relic of divine craftsmanship, forged in the radiant fires of Auralis, the god of the sun and healing. The weapon bears intricate engravings of coiling dragons intertwined with rays of sunlight. These carvings seem to shimmer faintly, as though alive, and its surface feels warm to the touch, reminiscent of a comforting sunbeam.</strong></p>
+      <p class="indent"><strong> These hand wraps were created during the Celestial War, an era when mortals fought alongside gods to banish shadowy invaders from the world. Auralis is said to have bestowed the Vanguard to the first Dragon Ascendant, a mortal hero chosen to embody the balance between draconic might of the golden-scaled dragon Solaryx and divine grace. With each strike, the weapon radiates the harmonious power of the sun, offering intense destruction to enemies.</strong></p>
+      <p class="indent"><strong> The Vanguard’s connection to Auralis grants its bearer moments of divine insight, especially in times of great need. While attuned, the wielder occasionally dreams of a blazing figure draped in golden scales, silently offering guidance or testing their resolve. It is believed that Auralis still watches over those who carry this sacred weapon, ensuring they uphold the principles of justice, healing, and hope.</strong></p>
+      <p class="indent"><em>Draconic Strikes:</em> Your unarmed strikes and monk weapons deal an additional 2d6 fire damage.</p>
+      <p class="indent"><em>Solaryx's Grace:</em> As a bonus action, unleash a draconic aura that inspires allies within 30 feet. They gain a +2 bonus to attack rolls and saving throws for 1 minute. This ability recharges after a short or long rest.</p>
+      <p class="indent"><em>Solaryx's Might:</em> Once per long rest, your body is empowered by the spirit of Solaryx himself, granting you these effects for 1 minute:
+        <ul>
+          <li>A set of golden dragon wings sprout from your back, granting you a flying speed of 60 feet.</li>
+          <li>Your unarmed strikes and monk weapon attacks ignore resistances and deal double damage against dragons.</li>
+          <li>You emit a 15-foot-radius frightful aura (DC 18 Wisdom save).</li>
+        </ul>
+      </p>
+      <p class="indent"><em>Resilience of Auralis:</em> You gain resistance to fire damage. In addition, when you take fire damage, you can use your reaction to regain hit points equal to half the damage taken. You can use this reaction a number of times equal to your Constitution modifier, regaining all uses after a long rest.</p>
+    </description>
+  <sheet>
+    <p class="indent"><em>Draconic Strikes:</em> Your unarmed strikes and monk weapons deal an additional 2d6 fire damage.</p>
+      <p class="indent"><em>Solaryx's Grace:</em> As a bonus action, unleash a draconic aura that inspires allies within 30 feet. They gain a +2 bonus to attack rolls and saving throws for 1 minute. This ability recharges after a short or long rest.</p>
+      <p class="indent"><em>Solaryx's Might:</em> Once per long rest, your body is empowered by the spirit of Solaryx himself, granting you these effects for 1 minute:
+        <ul>
+          <li>A set of golden dragon wings sprout from your back, granting you a flying speed of 60 feet.</li>
+          <li>Your unarmed strikes and monk weapon attacks ignore resistances and deal double damage against dragons.</li>
+          <li>You emit a 15-foot-radius frightful aura (DC 18 Wisdom save).</li>
+        </ul>
+      </p>
+      <p class="indent"><em>Resilience of Auralis:</em> You gain resistance to fire damage. In addition, when you take fire damage, you can use your reaction to regain hit points equal to half the damage taken. You can use this reaction a number of times equal to your Constitution modifier, regaining all uses after a long rest.</p>
+  </sheet>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="enhancement">1</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Trinity of Balance</set>
+      <set name="type">Bracers</set>
+      <set name="Weapon">Sample Draconic Vanguard</set>
+    </setters> 
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
+	</element>
+	<element name="Sample Draconic Vanguard" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SAMPLE_DRACONIC_VANGUARD">
+    <description>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="range">5 ft</set>
+      <set name="damage">1d6 bludgeoning + 2d6 fire</set>
+    </setters>
+	</element>
   <element name="Sample Spear" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SAMPLE_SPEAR">
     <description>
     </description>
