@@ -2,10 +2,60 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.4">
+    <update version="0.0.6">
       <file name="spells.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Cruel Word: Defile" type="Spell" source="Spencer's Homebrew" id="ID_PHB_SPELL_CRUEL_WORD_SEVER">
+<supports>Bard, Cleric, Sorcerer, Warlock</supports>
+<description>
+  <p>You unleash a word steeped in disdain, attempting to unravel a creature's mystical connection to its source of power. Choose one creature within range that is capable of casting spells. The target must make a saving throw using its spellcasting ability modifier. On a successful save, the creature takes 7d6 psychic damage. On a failed save, the creature is cut off from its power source and is unable to cast spells using a spell slot of 4th level or higher for the duration.</p>
+  <p class="indent">Whenever the creature attempts to cast a spell of 1st level or higher, it must make another saving throw using its spellcasting ability modifier. On a failed save, the creature takes 1d10 force damage per level of the spell attempted, and the spell fails. On a successful save, the spell is cast as normal. If the creature succeeds on this saving throw three times, this spell ends for that creature.</p>
+  <p class="indent">If <em>Cruel Word: Sever</em> lasts for the full duration or if the creature fails three saving throws while attempting to cast spells during the duration, the effect becomes permanent until removed. This effect can only be dispelled by <em>remove curse</em> spell cast at a level equal to or higher than the original casting level of <em>Cruel Word: Sever</em>. A <em>remove curse</em> cast at a lower level allows the creature to cast spells of that level and lower for a number of hours equal to the level of the spell slot used.</p>
+</description>
+<setters>
+<set name="keywords">cruel word</set>
+<set name="level">7</set>
+<set name="school">Enchantment</set>
+<set name="time">1 action</set>
+<set name="duration">Concentration, up to 1 minute</set>
+<set name="range">60 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">false</set>
+<set name="hasMaterialComponent">false</set>
+<set name="materialComponent"/>
+<set name="isConcentration">true</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
+	<element name="Cruel Word: Defile" type="Spell" source="Spencer's Homebrew" id="ID_PHB_SPELL_CRUEL_WORD_DEFILE">
+<supports>Bard, Sorcerer, Warlock</supports>
+<description>
+  <p>A word of malice passes your lips, warping the features of a creature and sifiguring them in a grotesque way. The target must make a Charisma saving throw. On a failed save, the target takes 6d6 necrotic damage and becomes disfigured. On a successful save, the target does not become disfigured.</p>
+  <p class="indent">A disfigured creature suffers the following:
+    <ul>
+      <li>Its Charisma score is reduced by 3 (to a minimum of 1) and it has disadvantage on Charisma Checks and Saving Throws.</li>
+      <li>If the creature is targeted by the <em>Vicious Mockery</em> cantrip, it automatically fails the saving throw and takes maximum damage from the spell.</li>
+      <li>Once per day, when the creature gazes upon its disfigured form in a reflective surface it is affected by the <em>Vicious Mockery</em> cantrip (4d6 psychic damage). In addition, after each long rest the creature must make a Wisdom saving throw. On a failure, it suffers a -2 penalty to all D20 tests until its next long rest, as it is reminded of its hideous form and loses confidence in themselves.</li>
+    </ul>
+  </p>
+  <p class="indent">A disfigured creature can repeat the saving throw after 6 hours. On a success, the spell ends. On a failure, the effect persists, and the creature may repeat the saving throw after 6 days, ending the effect on a success. If a creature fails the saving throw three times, the effect becomes permanent until removed by greater restoration, wish, or similar magic.</p>
+</description>
+<setters>
+<set name="keywords">cruel word</set>
+<set name="level">6</set>
+<set name="school">Transmutation</set>
+<set name="time">1 action</set>
+<set name="duration">Instantaneous</set>
+<set name="range">60 feet</set>
+<set name="hasVerbalComponent">true</set>
+<set name="hasSomaticComponent">false</set>
+<set name="hasMaterialComponent">false</set>
+<set name="materialComponent"/>
+<set name="isConcentration">false</set>
+<set name="isRitual">false</set>
+</setters>
+</element>
 	<element name="Cruel Word: Agony" type="Spell" source="Spencer's Homebrew" id="ID_PHB_SPELL_CRUEL_WORD_AGONY">
 <supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
 <description>
