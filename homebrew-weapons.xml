@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.54">
+    <update version="0.0.55">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -48,6 +48,7 @@
     </setters> 
     <rules>
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
+    </rules>
 	</element>
 	<element name="Sample Draconic Vanguard" type="Weapon" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SAMPLE_DRACONIC_VANGUARD">
     <description>
