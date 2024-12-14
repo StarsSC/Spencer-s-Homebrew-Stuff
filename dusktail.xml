@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Broxclaw</name>
+		<update version="0.0.1">
+			<file name="dusktail.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
+		</update>
+	</info>
+	<element name="Dusktail" type="Race" source="Spencer's Homebrew" id="ID_RACE_DUSTKTAIL">
+		<description>
+			<p>The dusktails are a small tribe of squirrelfolk who dwell in the secluded settlement of Oakhollow Village to the east of the valley's center. They are serious, secretive, and therefore a subject of much curiosity and suspicion among other animal folk. Dusktails practice arcane and dark magics misunderstood by outsiders, yet their people stand steadfastly by in defending their home from threats such as Calamity Beasts. Through their rituals are disturbing, they help keep the valley safe and in balance.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="custom">Nibber, Scurry, Cheevin, Whisk, Pipkin, Scrumbles, Ruffin, Twizzle, Munchin, Tumble, Nibbly, Whiffle, Twilla, Cheepsie, Quinny, Scamper, Fluffa.</set>
+			<set name="names-format">{{name}}</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" requirements="!ID_RACE_ANIMATEDARMOR" />
+			<stat name="dexterity" value="2" requirements="!ID_RACE_ANIMATEDARMOR" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INQUISITIVE_GUARD" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_VALIANT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_UNYIELDING_MORALE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LITTLE_SWORDSMAN" />
+      <select type="Proficiency" name="Skill Proficiency, Inquisitive Guard" supports="ID_PROFICIENCY_SKILL_ATHLETICS |ID_PROFICIENCY_SKILL_INSIGHT" number="1"/>
+		</rules>
+	</element>
+	<element name="Inquisitive Guard" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_INQUISITIVE_GUARD">
+		<description>
+			<p>You gain proficiency in one of the following skills: Insight or Athletics.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency in one of the following skills: Insight or Athletics.</description>
+		</sheet>
+	</element>
+	<element name="Valiant" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_VALIANT">
+		<description>
+			<p>You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being frightened.</description>
+		</sheet>
+	</element>
+	<element name="Unyielding Morale" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_UNYIELDING_MORALE">
+		<description>
+			<p>As a bonus action, you can choose a creature within 30 feet of you that can hear you. You can apply one of the following effects to that creature: <ul>
+      <li>Immediately end the Frightened condition on that creature.</li>
+      <li>Force the creature to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Wisdom modifier). On a failed save, the creature is frightened of you for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+      </ul>
+        <p>You can use this feature a number of times equal to your proficiency bonus, and you gain all expended uses after you finish a long rest.</p>
+      </p>
+		</description>
+		<sheet>
+			<description>As a bonus action, you can choose a creature within 30 feet of you that can hear you. You can apply one of the following effects to that creature: <ul>
+      <li>Immediately end the Frightened condition on that creature.</li>
+      <li>Force the creature to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Wisdom modifier). On a failed save, the creature is frightened of you for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+      </ul>
+        <p>You can use this feature a number of times equal to your proficiency bonus, and you gain all expended uses after you finish a long rest.</p>
+      </description>
+			</sheet>
+	</element>
+	<element name="Little Swordsman" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_LITTLE_SWORDSMAN">
+		<description>
+			<p>You can make an opportunity attack against a creature that is at least one size larger than you without expending your reaction. Once you use this feature, you cannot use it again until the start of your next turn.</p>
+		</description>
+		<sheet>
+			<description>You can make an opportunity attack against a creature that is at least one size larger than you without expending your reaction. Once you use this feature, you cannot use it again until the start of your next turn.</description>
+		</sheet>
+	</element>
+</elements>
