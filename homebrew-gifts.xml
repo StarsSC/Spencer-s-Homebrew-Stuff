@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Homebrew Gifts</name>
-    <update version="0.0.6">
+    <update version="0.0.7">
       <file name="homebrew-gifts.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
     </update>
   </info>
@@ -60,5 +60,9 @@
     <p class="indent">This Epic Boon can be used only once. When the effect of this boon ends, you drop to 1 hit point and fall unconscious until you finish a long rest. You gain 5 levels of Exhaustion immediately, and at the start of your next turn, you gain one more. Using this boon deteriorates your body and disrupts your ki; your maximum number of ki points is halved. This reduction can only be reversed by the <em>wish</em> spell or <em>divine intervention</em>.
     </p>
   </description>
+	<setters>
+		<set name="category">Homebrew Gifts</set>
+		<set name="type">Blessing</set>
+		<set name="slot">gift</set>
 </element>
 </elements>
