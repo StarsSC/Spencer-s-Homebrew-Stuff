@@ -2,10 +2,25 @@
 <elements>
 	<info>
     <name>Deities</name>
-    <update version="0.0.4">
+    <update version="0.0.6">
       <file name="homebrew-pantheon.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Nerathos" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_NERATHOS">
+	<description>
+		<p class="flavor">Harbinger of Shadow, Bloodbringer</p>
+	</description>
+	<setters>
+	<set name="setting">Lands of Eldrimor</set>
+	<set name="alignment">CE</set>
+	<set name="domains">Murder, Despair, Darkness</set>
+	<set name="symbol">A black dagger dripping with crimson blood</set>
+	<set name="gender">male</set>
+	</setters>
+	<sheet>
+		<description>A deity associated with acts of cold-blooded violence. He embodies the violent, premeditated killing that stem from malice or necessity. His influence overwhelms one’s senses of hopelessness and sorrow that follows violent acts or personal tragedy. A god of emotional and mental anguish, feeding off the suffering of those who have lost hope or faced betrayal and loss.</description>
+	</sheet>
+	</element>
   <element name="Elaia Siveth" type="Deity" source="Spencer's Homebrew" id="ID_WOTC_PHB_DEITY_ELAIA_SIVETH">
 	<description>
 		<p class="flavor">The Lady of First and Last Respite</p>
