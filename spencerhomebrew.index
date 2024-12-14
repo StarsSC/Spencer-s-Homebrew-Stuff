@@ -4,7 +4,7 @@
         <name>Homebrew Collection</name>
         <description>Homebrew collection from dandwiki.com for us in a campaign I'm co-dm'ing</description>
         <author url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff/tree/main">StarsSC Github</author>
-        <update version="0.0.31">
+        <update version="0.0.32">
             <file name="spencerhomebrew.index" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/spencerhomebrew.index" />
         </update>
     </info>
@@ -23,6 +23,7 @@
         <file name="nibblewhisk.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/nibblewhisk.xml" />
         <file name="sanguins.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/sanguins.xml" />
         <file name="dremora.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/dremora.xml" />
+	<file name="dusktail.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/refs/heads/main/dusktail.xml" />
         <!-- Spells -->
         <file name="spells.xml" url="https://raw.githubusercontent.com/StarsSC/Spencer-s-Homebrew-Stuff/main/spells.xml" />
         <!-- Feats -->
