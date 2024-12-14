@@ -2,10 +2,56 @@
 <elements>
 	<info>
     <name>Homebrew Gifts</name>
-    <update version="0.0.12">
+    <update version="0.0.13">
       <file name="homebrew-gifts.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
     </update>
   </info>
+	<element name="Blessing of Elaia Siveth" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_BOON_BLESSING_OF_ELAIA_SIVETH">
+    <description>
+      <p><em>Prerequisite: Granted by Elaia Siveth herself.</em></p>
+      <p class="indent">The Goddess of Life and Death, embodies the profound duality of existence: creation and destruction, birth and decay, vitality and the inevitable embrace of death. Those who receive this blessing are charged with upholding the balance between these forces, acting as mediators between the living and the dead, protectors of natural cycles, and arbiters of fates that teeter on the edge of life and oblivion.</p>
+      <p class="indent">
+        <strong>
+          <em>Dual Essence.</em>
+        </strong>
+        You gain resistance to necrotic and radiant damage.</p>
+      <p class="indent">
+        <strong>
+          <em>Sight Beyond Veils.</em>
+        </strong>
+        You can perceive invisible or ethereal creatures, as well as undead, within a 30-foot radius. Once per long rest, you may cast <em>Speak with Dead</em> without using material components.</p>
+      <p class="indent">
+        <strong>
+          <em>Balance of Fate.</em>
+        </strong>
+        Your weapon or spell attacks deal an additional 1d6 radiant or necrotic damage.</p>
+      <p class="indent">
+        <strong>
+          <em>Touch of Renewal or Decay.</em>
+        </strong>
+        Once per short rest, a target you can touch either regains hit points equal to 3d8 + the recipient's Wisdom modifier or the target must succeed on a Constitution saving throw (DC 15 + Wisdom modifier) or take 3d8 necrotic damage. Creatures killed by this effect cannot be resurrected without a <em>wish</em> spell or <em>divine intervention</em>.</p>
+      <p class="indent">
+        <strong>
+          <em>Soulbinding Will.</em>
+        </strong>
+        Once per long rest, the recipient may either cast <em>Revivify</em> without material components or as a reaction, when a creature dies within 30 feet, may trap creatures soul for 1 minute. During this time, the soul cannot pass on or be resurrected.</p>
+      <p class="indent">
+        <strong>
+          <em>Divine Equinox.</em>
+        </strong>
+        Invoke the full power of Elaia Siveth in a moment of crisis. Once per long rest, all allies within a 60-foot radius are healed for 4d10 hit points, all enemies in the radius take 4d10 radiant or necrotic damage (recipient's choice), and undead in the area are banished unless they succeed on a Charisma saving throw (DC 16 + Wisdom modifier).</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Gifts</set>
+      <set name="type">Blessing</set>
+      <set name="slot">gift</set>
+      <set name="rarity">Unique</set>
+    </setters>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC"/>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT"/>
+    </rules>
+  </element>
 	<element name="Blessing of Oromasdes" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_BOON_BLESSING_OF_OROMASDES">
     <description>
       <p><em>Prerequisite: Granted by Oromasdes himself.</em></p>
