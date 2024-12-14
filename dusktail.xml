@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Broxclaw</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="dusktail.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
 		</update>
 	</info>
@@ -47,7 +47,7 @@
       <select type="Proficiency" name="Skill Proficiency, Inquisitive Guard" supports="ID_PROFICIENCY_SKILL_NATURE |ID_PROFICIENCY_SKILL_ARCANA" number="1"/>
 		</rules>
 	</element>
-	<element name="Corpse Forage" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_INQUISITIVE_GUARD">
+	<element name="Corpse Forage" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_CORPSE_FORAGE">
 		<description>
 			<p>As a bonus action, you can aborb energy from the corpse of a non-construct, non-undead creature that is small or larger and that has been dead for no longer than a week. This energy can be used to enhance one of your other features (see the "Forage" sections below). You choose which feature to enhance when you activate this ability. You can use this ability a number of times equal to your proficiency bonus, regaining all uses after a long rest.</p>
 		</description>
