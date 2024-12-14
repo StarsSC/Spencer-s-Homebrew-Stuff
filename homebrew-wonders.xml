@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.67">
+    <update version="0.0.68">
       <file name="homebrew-wonders.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -70,6 +70,7 @@
           <li>Whenever a creature within 30 feet of you succeeds on a saving throw against one of your spells, roll a d20. On a 15 or higher, the creature takes half the damage the spell would have dealt, regardless of the saving throw result</li>
           <li>Spells you cast during this time cannot be countered or dispelled.</li>
         </ul>
+      </p>
     </description>
     <sheet>
             <p class="indent"><em>Chaotic Bolts:</em> Eldritch Blast now deals an additional 1d10 damage of a randomly determined type (roll 1d6: 1 = fire, 2 = cold, 3 = lightning, 4 = acid, 5 = necrotic, 6 = radiant).</p>
