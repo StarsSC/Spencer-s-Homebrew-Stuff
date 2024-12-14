@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Homebrew Gifts</name>
-    <update version="0.0.11">
+    <update version="0.0.12">
       <file name="homebrew-gifts.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
     </update>
   </info>
@@ -13,24 +13,25 @@
       <p class="indent">Your Wisdom score increases by 2, to a maximum of 26.</p>
       <p class="indent">
         <strong>
-          <em>Perfect Recall.</em>
+          <em>Wisdom's Revelation.</em>
         </strong>
-        Once per long rest, the recipient of this boon can remember any piece of information they have encountered, whether written, spoken, or observed, regardless if they understood it or not (i.e. if information was written in a language the recipient does not understand), this includes vivid recollection of sensory details (sights, sounds, smells, etc.).</p>
+        Once per long rest, the recipient can ask Oromasdes a single question. The answer will be delivered through divine insight, either as a cryptic vision or a clear directive, depending on the clarity of the question. The revelation process takes 1 minute of uninterrupted concentration and the answer is truthful, but may require interpretation.</p>
       <p class="indent">
         <strong>
-          <em>Ultimate Wisdom</em>
+          <em>Strategic Foresight.</em>
         </strong>
-        Grants an innate ability to understand complex systems or puzzles, once per short rest, may use this ability to immediately decipher an ancient language, cryptic text, or unfamiliar technologies. In addition, provides advantage on checks involving Intelligence (Arcana, History, Investigation, Nature, or Religion).</p>
+        Once per short rest, the recipient can foresee immediate outcomes of a specific action or decision within the next 10 minutes. This grants advantage on initiative rolls and allows the recipient to choose one ally or enemy to impose disadvantage on for their next roll.</p>
       <p class="indent">
         <strong>
-          <em>Aura of Clarity</em>
+          <em>Shield of Wisdom.</em>
         </strong>
-        Once per long rest for 1 hour, allies within 30 feet of the recipient gain a +1 bonus to Wisdom saving throws and advantage on checks to resist confusion, fear, or similar mental impairments. This aura promotes calmness and prevents emotional overwhelm in high-stress situations.</p>
-      <p class="indent">
-        <strong>
-          <em>Insightful Vision.</em>
-        </strong>
-        The recipient can discern truth from falsehood with extraordinary ease. They gain the ability to detect lies (similar to <em>Zone of Truth</em>) once per short rest. Insight checks to sense motivations or emotions are made with advantage.</p>
+        Once per long rest, by calling upon Oromasdes, the recipient gains a divine shield that protects them from harm. This provides temporary hit points equal to twice their highest ability score modifier and resistance to psychic damage for 1 minute.</p>
+      <p class="indent">The blessing often manifests physically, such as a glowing sigil of an open eye wreathed in flame upon the recipient's palm. This mark:
+        <ul>
+          <li>Shines faintly when divine insight is used.</li>
+          <li>Can be used to identify the recipient as a chosen of Oromasdes among devout followers</li>
+        </ul>
+      </p>
     </description>
     <setters>
       <set name="category">Homebrew Gifts</set>
