@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.31">
+    <update version="0.0.32">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -26,7 +26,7 @@
 	</element>
   	<element name="Shimmering Mantle" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SHIMMERING_MANTLE">
 	  <description>
-		<p><strong>"This Mantle turns darkness into beauty, shielding its wearer with the quiet brilliance of hope."</strong> ~High Enchanter Aelindra Lightrune</p>
+		<p><em>"This Mantle turns darkness into beauty, shielding its wearer with the quiet brilliance of hope."</em> ~High Enchanter Aelindra Lightrune</p>
       <p class="indent">Grants advantage on saving throws against being blinded, as the fabric glows faintly to counteract magical darkness.</p>
 	  </description>
 	  <setters>
@@ -43,7 +43,7 @@
 	</element>
   <element name="Bastion of Dusk" type="Item" source="Spencer's Homebrew" id="ID_WOTC_ARMOR_DND_HOMEBREW_BASTION_OF_DUSK">
 	<description>
-	    <p><strong>"This armor stands as a fortress in the fading light, shielding its wearer with the unbreakable resolve of the approaching night."</strong> ~Venryn Duskforge</p>
+	    <p><em>"This armor stands as a fortress in the fading light, shielding its wearer with the unbreakable resolve of the approaching night."</em> ~Venryn Duskforge</p>
 			</description>
 	<setters>
 	    <set name="category">Homebrew Armor</set>
