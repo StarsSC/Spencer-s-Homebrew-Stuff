@@ -2,8 +2,8 @@
 <elements>
 	<info>
     <name>Homebrew Gifts</name>
-    <update version="0.0.4">
-      <file name="homebrew-gifts.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
+    <update version="0.0.6">
+      <file name="homebrew-gifts.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
     </update>
   </info>
 <element name="Deny The Reaper" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_BOON_DENY_THE_REAPER">
