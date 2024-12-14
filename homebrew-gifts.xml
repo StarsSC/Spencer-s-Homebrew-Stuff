@@ -2,13 +2,50 @@
 <elements>
 	<info>
     <name>Homebrew Gifts</name>
-    <update version="0.0.9">
+    <update version="0.0.11">
       <file name="homebrew-gifts.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git" />
     </update>
   </info>
+	<element name="Blessing of Oromasdes" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_BOON_BLESSING_OF_OROMASDES">
+    <description>
+      <p><em>Prerequisite: Granted by Oromasdes himself.</em></p>
+      <p class="indent">The elevation of one's intellect, clarity, and insight is one to behold. Oromasdes, often revered as the seer of truths bestows his blessings upon those who seek truth, solve great mysteries, external and internal, or act as beacons of wisdom in tumultuous times.</p>
+      <p class="indent">Your Wisdom score increases by 2, to a maximum of 26.</p>
+      <p class="indent">
+        <strong>
+          <em>Perfect Recall.</em>
+        </strong>
+        Once per long rest, the recipient of this boon can remember any piece of information they have encountered, whether written, spoken, or observed, regardless if they understood it or not (i.e. if information was written in a language the recipient does not understand), this includes vivid recollection of sensory details (sights, sounds, smells, etc.).</p>
+      <p class="indent">
+        <strong>
+          <em>Ultimate Wisdom</em>
+        </strong>
+        Grants an innate ability to understand complex systems or puzzles, once per short rest, may use this ability to immediately decipher an ancient language, cryptic text, or unfamiliar technologies. In addition, provides advantage on checks involving Intelligence (Arcana, History, Investigation, Nature, or Religion).</p>
+      <p class="indent">
+        <strong>
+          <em>Aura of Clarity</em>
+        </strong>
+        Once per long rest for 1 hour, allies within 30 feet of the recipient gain a +1 bonus to Wisdom saving throws and advantage on checks to resist confusion, fear, or similar mental impairments. This aura promotes calmness and prevents emotional overwhelm in high-stress situations.</p>
+      <p class="indent">
+        <strong>
+          <em>Insightful Vision.</em>
+        </strong>
+        The recipient can discern truth from falsehood with extraordinary ease. They gain the ability to detect lies (similar to <em>Zone of Truth</em>) once per short rest. Insight checks to sense motivations or emotions are made with advantage.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Gifts</set>
+      <set name="type">Blessing</set>
+      <set name="slot">gift</set>
+      <set name="rarity">Unique</set>
+    </setters>
+    <rules>
+      <stat name="wisdom" value="2"/>
+      <stat name="wisdom:max" value="26" bonus="base"/>
+    </rules>
+  </element> 
 <element name="Deny The Reaper" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_BOON_DENY_THE_REAPER">
   <description>
-    <p><strong>Monk, 19th-Level Boon.</strong></p>
+    <p><em>Prerequisite: level 19 Monk.</em></p>
     <p class="indent">When the final thread of life is about to sever, your mastery over ki allows you to momentarily transcend mortality. Upon failing your third death saving throw, you can choose to open the <strong>Seven Gates of Enlightenment</strong>, channeling pure ki energy through your being for 1 minute.</p>
     <p class="indent">
       <strong>
@@ -64,7 +101,7 @@
 	<setters>
 		<set name="category">Homebrew Gifts</set>
 		<set name="type">Boon</set>
-    <set name="rarity">Legendary</set>
+    <set name="rarity">Unique</set>
 		<set name="slot">gift</set>
 	</setters>
 </element>
