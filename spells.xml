@@ -2,11 +2,11 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.6">
+    <update version="0.0.7">
       <file name="spells.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
-  <element name="Cruel Word: Defile" type="Spell" source="Spencer's Homebrew" id="ID_PHB_SPELL_CRUEL_WORD_SEVER">
+  <element name="Cruel Word: Sever" type="Spell" source="Spencer's Homebrew" id="ID_PHB_SPELL_CRUEL_WORD_SEVER">
 <supports>Bard, Cleric, Sorcerer, Warlock</supports>
 <description>
   <p>You unleash a word steeped in disdain, attempting to unravel a creature's mystical connection to its source of power. Choose one creature within range that is capable of casting spells. The target must make a saving throw using its spellcasting ability modifier. On a successful save, the creature takes 7d6 psychic damage. On a failed save, the creature is cut off from its power source and is unable to cast spells using a spell slot of 4th level or higher for the duration.</p>
