@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="homebrew-gifts.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -59,4 +59,5 @@
     </p>
     <p class="indent">This Epic Boon can be used only once. When the effect of this boon ends, you drop to 1 hit point and fall unconscious until you finish a long rest. You gain 5 levels of Exhaustion immediately, and at the start of your next turn, you gain one more. Using this boon deteriorates your body and disrupts your ki; your maximum number of ki points is halved. This reduction can only be reversed by the <em>wish</em> spell or <em>divine intervention</em>.
     </p>
+  </description>
 </elements>
