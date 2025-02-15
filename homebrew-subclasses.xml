@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+    <name>Subclasses</name>
+    <update version="0.0.1">
+      <file name="homebrew-subclasses.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
+    </update>
+  </info>
+  <elements>
+    <element name="Exiled Crest" type="Archetype" source="Homebrew Orithar Subclasses"
+      id="ID_HOMEBREW_SUBCLASS_EXILED_CREST">
+      <supports>Martial Archetype</supports>
+      <description>
+        <p><strong>Once the Shield of Ironspire, Now a Warrior without a Banner...</strong></p>
+        <p class="indent">The Exiled Crest were once the elite warriors of Ironspire, sworn protectors of the city's rulers and enforcers of its will. Betrayed, cast out, or forsaken, these warriors now walk their own path, honing their skills beyond the rigid traditions they once upheld. No longer bound by duty, they have become weapons of their own making- unpredictable, adaptable, and unrelenting.</p>
+        <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_BROKENOATH_UNSHAKENWILL"/>
+        <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_CRESTFALLENTACTICIAN"/>
+        <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_DEFIANCEFALLEN"/>
+        <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_MASTERLOSTCREED"/>
+        <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_UNYIELDINGPARIAH"/>
+      </description>
+      <sheet display="false">
+        <description>The archetypal Exiled Crest focuses on several different stances to gain the advantage on the battlefield.</description>
+      </sheet>
+      <rules>
+        <grant type="Archetype Feature"
+          id="ID_HOMEBREW_ARCHETYPE_FEATURE_BROKENOATH_UNSHAKENWILL" level="3"/>
+        <grant type="Archetype Feature"
+          id="ID_HOMEBREW_ARCHETYPE_FEATURE_CRESTFALLENTACTICIAN" level="7"/>
+        <grant type="Archetype Feature"
+          id="ID_HOMEBREW_ARCHETYPE_FEATURE_DEFIANCEFALLEN" level="10"/>
+        <grant type="Archetype Feature"
+          id="ID_HOMEBREW_ARCHETYPE_FEATURE_MASTERLOSTCREED" level="15"/>
+        <grant type="Archetype Feature"
+          id="ID_HOMEBREW_ARCHETYPE_FEATURE_UNYIELDINGPARIAH" level="18"/>
+      </rules>
+    </element>
+    <element name="Broken Oath, Unshaken Will" type="Archetype Feature" source="Homebrew Orithar Subclasses"
+      id="ID_HOMEBREW_ARCHETYPE_FEATURE_BROKENOATH_UNSHAKENWILL">
+      <description>
+        <p>The fall from grace has only hardened your resolve. You have learned to fight without the support of a legion, adapting to any battlefield. Choose one of the following battlestances at the start of your turn (no action required):</p>
+        <p class="indent"><em><strong>Sentinel's Aegis:</strong></em> When a creature within 5 feet of you attacks an ally, you can use your reaction to impose disadvantage on the attack. You also gain a +1 bonus to AC.</p>
+        <p class="indent"><em><strong>Vengeful Strike:</em></strong> The first time you take damage each round, you gain advantage on your next weapon attack and deal extra damage equal to your proficiency bonus.</p>
+        <p class="indent"><em><strong>Ghost Step:</em></strong> Your speed increases by 10 feet, and you can take the Disengage or Dash action as a bonus action. Opportunity attacks against you have disadvantage.</p>
+      <p>You can switch between these stances at the start of your turn.</p>
+      </description>
+      <sheet>
+        <description>Choose one of the following battlestances at the start of your turn (no action required): <em>Sentinel's Aegis:</em>When a creature within 5 feet of you attacks an ally, you can use your reaction to impose disadvantage on the attack. You also gain a +1 bonus to AC. <em>Vengeful Strike:</em> The first time you take damage each round, you gain advantage on your next weapon attack and deal extra damage equal to your proficiency bonus. <em>Ghost Step:</em> Your speed increases by 10 feet, and you can take the Disengage or Dash action as a bonus action. Opportunity attacks against you have disadvantage. You can switch between these stances at the start of your turn.
+        </description>
+      </sheet>
+    </element>
+    <element name="Crestfallen Tactician" type="Archetype Feature" source="Homebrew Orithar Subclasses"
+      id="ID_HOMEBREW_ARCHETYPE_FEATURE_CRESTFALLENTACTICIAN">
+      <description>
+        <p>Your experience as a former Crestwatch grants you an unrivaled sense of battlefield control, at 7th level, when you roll initiative, you can immediately switch to a different stance without using an action. After hitting a creature with a melee attack, you can move 5 feet without provoking opportunity attacks.</p>
+      </description>
+      <sheet>
+        <description>When you roll initiative, you can switch to a different stance before combat begins. After hitting a creature with a melee attack, you can move 5 feet without provoking opportunity attacks.
+        </description>
+      </sheet>
+    </element>
+    <element name="Defiance of the Fallen" type="Archetype Feature" source="Homebrew Orithar Subclasses"
+      id="ID_HOMEBREW_ARCHETYPE_FEATURE_DEFIANCEFALLEN">
+      <description>
+        <p>You refuse to kneel, no matter how dire the situation. When you are reduced to 0 hit points but not killed outright, you can use your reaction to make a Constitution saving throw (DC 10 + half the damage taken). On a success, you drop to 1 hit point instead. You can use this feature once per long rest. Additionally, you gain proficiency in Strength saving throws if you don't already have it.</p>
+      </description>
+      <sheet>
+        <description>Once per long rest, when you are reduced to 0 hit points but not killed outright, you can use your reaction to make a Constitution saving throw (DC 10 + half the damage taken). On a success, you drop to 1 hit point instead.
+        </description>
+      </sheet>
+      <rules>
+        <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH"
+          requirements="!ID_WOTC_PHB_MULTICLASS_FIGHTER"/>
+      </rules>
+    </element>
+    <element name="Master of the Lost Creed" type="Archetype Feature" source="Homebrew Orithar Subclasses"
+      id="ID_HOMEBREW_ARCHETYPE_FEATURE_MASTERLOSTCREED">
+      <description>
+        <p>Survival has made you an expert in shifting your tactics. When you take damage from an attack or fail a saving throw, you can use your reaction to immediately change your battle stance. Additionally, when you use your Second Wind feature, you can switch to a different stance without using an action.</p>
+      </description>
+      <sheet>
+        <description>When you take damage from an attack or fail a saving throw, you can use your reaction to immediately change your battle stance. Additionally, when you use your Second Wind feature, you can switch to a different stance without using an action.</description>
+      </sheet>
+    </element>
+    <element name="Unyielding Pariah" type="Archetype Feature" source="Homebrew Orithar Subclasses"
+      id="ID_HOMEBREW_ARCHETYPE_FEATURE_UNYIELDINGPARIAH">
+      <description>
+        <p>You have surpassed your former brethren, becoming a warrior feared across the land. Choose two stances instead of one, benefiting from both simultaneously. Additionally, once per turn when you hit a creature with a melee attack, you can force them to make a Strength saving throw (DC 8 + proficiency bonus + Strength or Dexterity modifier). On a failure, they are either knocked prone or pushed 10 feet away (your choice).</p>
+      </description>
+      <sheet>
+        <description>Choose two stances instead of one, benefiting from both. Additionally, once per turn when you hit a creature with a melee attack, you can force them to make a Strength saving throw (DC 8 + proficiency bonus + Strength or Dexterity modifier). On a failure, they are either knocked prone or pushed 10 feet away (your choice).</description>
+      </sheet>
+    </element>
+  </elements>
