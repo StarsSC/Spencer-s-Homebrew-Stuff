@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Subclasses</name>
-    <update version="0.0.6">
+    <update version="0.0.7">
       <file name="homebrew-subclasses.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -135,10 +135,10 @@
       <p class="indent">You have resistance to force damage.</p>
       <p class="indent">If you are under half your maximum hit points at the start of your turn, you gain temporary hit points equal to your Barbarian level.</p>
       <p class="indent">When you succeed on a Strength or Constitution saving throw against a spell or magical effect, you can use your reaction to send a shockwave in a 10-foot radius, forcing creatures of your choice to make a Strength saving throw (DC 8 + proficiency bonus + Strength modifier) or be knocked prone.</p>
-    </description
+    </description>
 <sheet>
         <description>If you are under half your maximum hit points at the start of your turn, you gain temporary hit points equal to your Barbarian level. Additionally, when you succeed on a Strength or Constitution saving throw against a spell or magical effect, you can use your reaction to send a shockwave in a 10-foot radius, forcing creatures of your choice to make a Strength saving throw (DC 8 + proficiency bonus + Strength modifier) or be knocked prone.
-        </description
+        </description>
 </sheet>
     <rules>
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE"/>
