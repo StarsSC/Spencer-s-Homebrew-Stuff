@@ -2,11 +2,10 @@
 <elements>
 	<info>
     <name>Subclasses</name>
-    <update version="0.0.3">
+    <update version="0.0.4">
       <file name="homebrew-subclasses.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
-  <elements>
     <element name="Exiled Crest" type="Archetype" source="Homebrew Orithar Subclasses"
       id="ID_HOMEBREW_SUBCLASS_EXILED_CREST">
       <supports>Martial Archetype</supports>
