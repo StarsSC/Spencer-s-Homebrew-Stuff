@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Subclasses</name>
-    <update version="0.0.7">
+    <update version="0.0.8">
       <file name="homebrew-subclasses.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -37,7 +37,7 @@
     <element name="Broken Oath, Unshaken Will" type="Archetype Feature" source="Homebrew Orithar Subclasses"
       id="ID_HOMEBREW_ARCHETYPE_FEATURE_BROKENOATH_UNSHAKENWILL">
       <description>
-        <p>The fall from grace has only hardened your resolve. You have learned to fight without the support of a legion, adapting to any battlefield. Choose one of the following battlestances at the start of your turn (no action required):</p>
+        <p>The fall from grace has only hardened your resolve. You have learned to fight without the support of a legion, adapting to any battlefield. At 3rd level, choose one of the following battlestances at the start of your turn (no action required):</p>
         <p class="indent"><em><strong>Sentinel's Aegis:</strong></em> When a creature within 5 feet of you attacks an ally, you can use your reaction to impose disadvantage on the attack. You also gain a +1 bonus to AC.</p>
         <p class="indent"><em><strong>Vengeful Strike:</strong></em> The first time you take damage each round, you gain advantage on your next weapon attack and deal extra damage equal to your proficiency bonus.</p>
         <p class="indent"><em><strong>Ghost Step:</strong></em> Your speed increases by 10 feet, and you can take the Disengage or Dash action as a bonus action. Opportunity attacks against you have disadvantage.</p>
@@ -61,7 +61,7 @@
     <element name="Defiance of the Fallen" type="Archetype Feature" source="Homebrew Orithar Subclasses"
       id="ID_HOMEBREW_ARCHETYPE_FEATURE_DEFIANCEFALLEN">
       <description>
-        <p>You refuse to kneel, no matter how dire the situation. When you are reduced to 0 hit points but not killed outright, you can use your reaction to make a Constitution saving throw (DC 10 + half the damage taken). On a success, you drop to 1 hit point instead. You can use this feature once per long rest. Additionally, you gain proficiency in Strength saving throws if you don't already have it.</p>
+        <p>You refuse to kneel, no matter how dire the situation. At 10th level, when you are reduced to 0 hit points but not killed outright, you can use your reaction to make a Constitution saving throw (DC 10 + half the damage taken). On a success, you drop to 1 hit point instead. You can use this feature once per long rest. Additionally, you gain proficiency in Strength saving throws if you don't already have it.</p>
       </description>
       <sheet>
         <description>Once per long rest, when you are reduced to 0 hit points but not killed outright, you can use your reaction to make a Constitution saving throw (DC 10 + half the damage taken). On a success, you drop to 1 hit point instead.
@@ -75,7 +75,7 @@
     <element name="Master of the Lost Creed" type="Archetype Feature" source="Homebrew Orithar Subclasses"
       id="ID_HOMEBREW_ARCHETYPE_FEATURE_MASTERLOSTCREED">
       <description>
-        <p>Survival has made you an expert in shifting your tactics. When you take damage from an attack or fail a saving throw, you can use your reaction to immediately change your battle stance. Additionally, when you use your Second Wind feature, you can switch to a different stance without using an action.</p>
+        <p>Survival has made you an expert in shifting your tactics. At 15th level, when you take damage from an attack or fail a saving throw, you can use your reaction to immediately change your battle stance. Additionally, when you use your Second Wind feature, you can switch to a different stance without using an action.</p>
       </description>
       <sheet>
         <description>When you take damage from an attack or fail a saving throw, you can use your reaction to immediately change your battle stance. Additionally, when you use your Second Wind feature, you can switch to a different stance without using an action.</description>
@@ -84,7 +84,7 @@
     <element name="Unyielding Pariah" type="Archetype Feature" source="Homebrew Orithar Subclasses"
       id="ID_HOMEBREW_ARCHETYPE_FEATURE_UNYIELDINGPARIAH">
       <description>
-        <p>You have surpassed your former brethren, becoming a warrior feared across the land. Choose two stances instead of one, benefiting from both simultaneously. Additionally, once per turn when you hit a creature with a melee attack, you can force them to make a Strength saving throw (DC 8 + proficiency bonus + Strength or Dexterity modifier). On a failure, they are either knocked prone or pushed 10 feet away (your choice).</p>
+        <p>You have surpassed your former brethren, becoming a warrior feared across the land. At 18th level, choose two stances instead of one, benefiting from both simultaneously. Additionally, once per turn when you hit a creature with a melee attack, you can force them to make a Strength saving throw (DC 8 + proficiency bonus + Strength or Dexterity modifier). On a failure, they are either knocked prone or pushed 10 feet away (your choice).</p>
       </description>
       <sheet>
         <description>Choose two stances instead of one, benefiting from both. Additionally, once per turn when you hit a creature with a melee attack, you can force them to make a Strength saving throw (DC 8 + proficiency bonus + Strength or Dexterity modifier). On a failure, they are either knocked prone or pushed 10 feet away (your choice).</description>
@@ -118,7 +118,7 @@
   <element name="Titan's Fury" type="Archetype Feature" source="Homebrew Orithar Subclasses"
     id="ID_HOMEBREW_ARCHETYPE_FEATURE_TITANSFURY">
     <description>
-      <p>When you rage, you channel the power of Orithar's lost titans. Your body surges with supernatural strength, and your attacks carry the force of a forgotten age. While raging, you gain the following benefits:</p>
+      <p>When you rage, you channel the power of Orithar's lost titans. Your body surges with supernatural strength, and your attacks carry the force of a forgotten age. At 3rd level, while raging, you gain the following benefits:</p>
       <p class="indent">Once per turn, your melee weapon attack deals an additional 1d6 force damage.</p>
       <p class="indent">When you hit a creature with a melee weapon attack, you can push it 5 feet away from you.</p>
       <p class="indent">Your Strength checks and saving throws cannot be made at disadvantage.</p>
@@ -131,7 +131,7 @@
   <element name="Endurance of the Forsaken" type="Archetype Feature" source="Homebrew Orithar Subclasses"
     id="ID_HOMEBREW_ARCHETYPE_FEATURE_FORSAKENENDURANCE">
     <description>
-      <p>Your body has been shaped by the relentless hardships of Orithar, making you nearly unbreakable. You gain the following benefits:</p>
+      <p>Your body has been shaped by the relentless hardships of Orithar, making you nearly unbreakable. At 6th level, you gain the following benefits:</p>
       <p class="indent">You have resistance to force damage.</p>
       <p class="indent">If you are under half your maximum hit points at the start of your turn, you gain temporary hit points equal to your Barbarian level.</p>
       <p class="indent">When you succeed on a Strength or Constitution saving throw against a spell or magical effect, you can use your reaction to send a shockwave in a 10-foot radius, forcing creatures of your choice to make a Strength saving throw (DC 8 + proficiency bonus + Strength modifier) or be knocked prone.</p>
@@ -147,7 +147,7 @@
   <element name="Titan's Grasp" type="Archetype Feature" source="Homebrew Orithar Subclasses"
     id="ID_HOMEBREW_ARCHETYPE_FEATURE_TITANSGRASP">
     <description>
-      <p>You have inherited the might of Orithar's fallen colossi, allowing you to overpower any foe.</p>
+      <p>You have inherited the might of Orithar's fallen colossi, allowing you to overpower any foe. At 10th level:</p>
       <p class="indent">Your carrying capacity doubles, and you count as one size larger for grappling and lifting purposes.</p>
       <p class="indent">When you hit a creature at least one size larger than you, you can force it to make a Strength saving throw (DC 8 + proficiency bonus + Strength modifier) or be staggered, giving it disadvantage on attack rolls and bility checks until the end of its next turn.</p>
       <p class="indent">When you grapple a creature, you can crush them with sheer might, dealing bludgeoning damage equal to your Strength modifier at the start of each of their turns.</p>
@@ -162,7 +162,7 @@
   <element name="Wrath of the Titanborn" type="Archetype Feature" source="Homebrew Orithar Subclasses"
     id="ID_HOMEBREW_ARCHETYPE_FEATURE_WRATHOFTITANBORN">
     <description>
-      <p>You unleash the full, devastating power of Orithar's lost titans, shaking the battlefield with every strike.</p>
+      <p>At 14th level, you unleash the full, devastating power of Orithar's lost titans, shaking the battlefield with every strike.</p>
       <p class="indent">While raging, you can use a bonus action to slam the ground, creating a 20-foot shockwave centered on you. Each creature of your choice in the area must make a Strength saving throw (DC 8 + proficiency bonus + Strength modifier) or be knocked prone and take 4d6 force damage.</p>
       <p class="indent">Once per turn, when you take damage from an enemy within 10 feet, you can unleash a retaliatory force wave, dealing force damage equal to your Barbarian level to the attacker.</p>
     </description>
