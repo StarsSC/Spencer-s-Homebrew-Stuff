@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Subclasses</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="homebrew-subclasses.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -40,8 +40,8 @@
       <description>
         <p>The fall from grace has only hardened your resolve. You have learned to fight without the support of a legion, adapting to any battlefield. Choose one of the following battlestances at the start of your turn (no action required):</p>
         <p class="indent"><em><strong>Sentinel's Aegis:</strong></em> When a creature within 5 feet of you attacks an ally, you can use your reaction to impose disadvantage on the attack. You also gain a +1 bonus to AC.</p>
-        <p class="indent"><em><strong>Vengeful Strike:</em></strong> The first time you take damage each round, you gain advantage on your next weapon attack and deal extra damage equal to your proficiency bonus.</p>
-        <p class="indent"><em><strong>Ghost Step:</em></strong> Your speed increases by 10 feet, and you can take the Disengage or Dash action as a bonus action. Opportunity attacks against you have disadvantage.</p>
+        <p class="indent"><em><strong>Vengeful Strike:</strong></em> The first time you take damage each round, you gain advantage on your next weapon attack and deal extra damage equal to your proficiency bonus.</p>
+        <p class="indent"><em><strong>Ghost Step:</strong></em> Your speed increases by 10 feet, and you can take the Disengage or Dash action as a bonus action. Opportunity attacks against you have disadvantage.</p>
       <p>You can switch between these stances at the start of your turn.</p>
       </description>
       <sheet>
