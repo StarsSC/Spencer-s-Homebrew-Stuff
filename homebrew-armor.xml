@@ -2,10 +2,49 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.32">
+    <update version="0.0.33">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Shadowstep Leathers" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SHADOWSTEP_LEATHERS">
+    <description>
+      <p>Crafted from enchanted umbral hide, this armor allows the wearer to teleport up to 15 feet as a bonus action once per short rest, as long as they are in dim light or darkness.</p>
+    </description>
+    <setters>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">500</set>
+      <set name="slot">body</set>
+      <set name="type" addition="studded leather">Armor</set>
+      <set name="rarity">Rare</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
+    </setters>
+  </element>
+  <element name="Windwalker's Hide" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_WINDWALKERS_HIDE">
+    <description>
+      <p>Lightweight and flexible, this armor enhances a wearers movement. You gain advantage on Dexterity saving throws and ignore non-magical difficult terrain.</p>
+    </description>
+    <setters>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">400</set>
+      <set name="slot">body</set>
+      <set name="type" addition="leather">Armor</set>
+      <set name="rarity">Uncommon</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
+    </setters>
+  </element>
+  <element name="Gale-Touched Jerkin" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_GALETOUCHED_JERKIN">
+    <description>
+      <p>This armor is infused with elemental air. While wearing it, your movement speed increases by 5 feet, and you count as having the <em>Feather Fall</em> spell active at all times.</p>
+    </description>
+    <setters>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">500</set>
+      <set name="slot">body</set>
+      <set name="type" addition="leather">Armor</set>
+      <set name="rarity">Rare</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
+    </setters>
+  </element>
   <element name="Ironroot Plate" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_IRONPLATE_ROOT">
 	  <description>
       <p>This armor seems to fuse with the ground as if its part of the roots of a tree, granting advantage on saving throws to resist being moved or knocked prone.</p>
