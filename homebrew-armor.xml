@@ -2,10 +2,77 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.35">
+    <update version="0.0.36">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+    <element name="Emberplate" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_EMBERPLATE">
+		<description>
+			<p>When struck, this armor emits a brief surge of heat. You gain resistance to fire damage. Once per long rest, as a bonus action, you can ignite your weapon, causing it to deal an extra 1d6 fire damage for 1 minute.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew Armor</set>
+			<set name="cost" currency="gp">1500</set>
+			<set name="slot">body</set>
+			<set name="type" addition="plate">Armor</set>
+			<set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+			<set name="armor">Plate</set>
+    </setters>
+      <rules>
+        <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
+      </rules>
+  </element>
+  <element name="Beastkin Armor" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BEASTKIN_ARMOR">
+		<description>
+			<p>This armor allows the wearer to communicate with beasts as if under the effects of <em>Speak with Animals</em>. Additionally, you have advantage on Animal Handling checks.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew Armor</set>
+			<set name="cost" currency="gp">750</set>
+			<set name="slot">body</set>
+			<set name="type" addition="hide">Armor</set>
+			<set name="rarity">Uncommon</set>
+      <set name="attunement">true</set>
+			<set name="armor">Hide Armor</set>
+    </setters>
+  </element>
+  <element name="Stormforged Scale" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_STORMFORGED_SCALE">
+		<description>
+			<p>Forged from steel and imbued with the powers of nature and lined with blue dragon scale inlays, this armor grants resistance to both lightning and thunder damage.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew Armor</set>
+			<set name="cost" currency="gp">1200</set>
+			<set name="slot">body</set>
+			<set name="type" addition="scale mail">Armor</set>
+			<set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+			<set name="armor">Scale Mail</set>
+    </setters>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING"/>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER"/>
+    </rules>
+  </element>
+  <element name="Wardkeeper Chain" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_WARDKEEPER_CHAIN">
+		<description>
+			<p>This chainmail is inscribed with protective runes. You gain +1 bonus to AC and resistance to force damage.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew Armor</set>
+			<set name="cost" currency="gp">1000</set>
+			<set name="slot">body</set>
+			<set name="type" addition="chain mail">Armor</set>
+			<set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+			<set name="armor">Chain Mail</set>
+    </setters>
+    <rules>
+      <stat name="ac:armored:enhancement" value="1" bonus="enhancement"/>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE"/>
+    </rules>
+  </element>
   <element name="Duskshroud Leathers" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_DUSKSHROUD_LEATHERS">
 		<description>
 			<p>Woven with strands of shadow, this armor grants advantage on saving throws against being charmed or frightened. Additionally, in dim light, you can use a bonus action to become invisible until you move or take an action.</p>
