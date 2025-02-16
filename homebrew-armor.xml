@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.34">
+    <update version="0.0.35">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -11,7 +11,7 @@
 			<p>Woven with strands of shadow, this armor grants advantage on saving throws against being charmed or frightened. Additionally, in dim light, you can use a bonus action to become invisible until you move or take an action.</p>
 		</description>
 		<setters>
-			<set name="category">Magic Armor</set>
+			<set name="category">Homebrew Armor</set>
 			<set name="cost" currency="gp">600</set>
 			<set name="slot">body</set>
 			<set name="type" addition="studded leather">Armor</set>
@@ -24,7 +24,7 @@
 			<p>A dark green leather set infused with alchemical toxins. You gain resistance to poison damage.</p>
 		</description>
 		<setters>
-			<set name="category">Magic Armor</set>
+			<set name="category">Homebrew Armor</set>
 			<set name="cost" currency="gp">450</set>
 			<set name="slot">body</set>
 			<set name="type" addition="studded leather">Armor</set>
@@ -40,7 +40,7 @@
       <p>Crafted from enchanted umbral hide, this armor allows the wearer to teleport up to 15 feet as a bonus action once per short rest, as long as they are in dim light or darkness.</p>
     </description>
     <setters>
-      <set name="category">Magic Armor</set>
+      <set name="category">Homebrew Armor</set>
       <set name="cost" currency="gp">500</set>
       <set name="slot">body</set>
       <set name="type" addition="studded leather">Armor</set>
@@ -53,7 +53,7 @@
       <p>Lightweight and flexible, this armor enhances a wearers movement. You gain advantage on Dexterity saving throws and ignore non-magical difficult terrain.</p>
     </description>
     <setters>
-      <set name="category">Magic Armor</set>
+      <set name="category">Homebrew Armor</set>
       <set name="cost" currency="gp">400</set>
       <set name="slot">body</set>
       <set name="type" addition="leather">Armor</set>
@@ -66,7 +66,7 @@
       <p>This armor is infused with elemental air. While wearing it, your movement speed increases by 5 feet, and you count as having the <em>Feather Fall</em> spell active at all times.</p>
     </description>
     <setters>
-      <set name="category">Magic Armor</set>
+      <set name="category">Homebrew Armor</set>
       <set name="cost" currency="gp">500</set>
       <set name="slot">body</set>
       <set name="type" addition="leather">Armor</set>
