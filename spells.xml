@@ -2,7 +2,7 @@
 <elements>
 	<info>
     <name>Wondrous Items</name>
-    <update version="0.0.9">
+    <update version="0.0.10">
       <file name="spells.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
@@ -136,7 +136,7 @@
 	<element name="Echo Bolt" type="Spell" source="Spencer's Homebrew" id="ID_PHB_SPELL_ECHO_BOLT">
 <supports>Wizard</supports>
 <description>
- <p>You fire a bolt of force that deals 1d6 force damage, and on your next turn, it fires again at the same target automatically without the use of another action.
+ <p>You fire a bolt of force that deals 1d6 force damage, and on your next turn, it fires again at the same target automatically without the use of another action.</p>
    <p class="indent">This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)</p>
 </description>
 <setters>
