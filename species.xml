@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Animated Armor</name>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="species.xml" url="https://www.dandwiki.com/wiki/Animated_Armor_(5e_Race)" />
 		</update>
 	</info>
@@ -498,5 +498,101 @@
 			<description>As a bonus action, you can transfer life energy between two willing non-construct, non-undead creatures within 60 feet of you. Roll a number of d8s equal to your proficiency bonus. The first creature loses hit points equal to the total rolled, and the second creature regains hit points equal to the amount lost by the first creature. If this feature reduces the first creature to 0 hit points, the second creature regains no hit points instead. <strong>Forage:</strong> The next time you use this ability within 1 minute, the second creature regains twice the hit points lost by the first creature. Once you use this ability, you can't do so again until you finish a short or long rest.
       </description>
 			</sheet>
+	</element>
+	<element name="Nibblewhisk" type="Race" source="Spencer's Homebrew" id="ID_RACE_NIBBLEWHISK">
+		<description>
+			<p class="flavor">Though tiny in stature, the Nibblewhisk, hamster-like beings are beyond question the defenders of the Shadowfen Woods. They live within the same boundaries as the Hoppwick and are known to be both brave and resilient, rising to take up their arms time and time again in defense of their homeland from terrifying Calamity Beasts that would seek to upset the peace. Their courage in the face of danger is unmatched, as they treat the protection of their valley like a duty given to them by a higher power.</p>
+			<h4>Determined Heroes</h4>
+			<br/>
+			<p>The Nibblewhisk are close-knit, bound by shared purpose and unerring care for the valley and all within it. They get along well enough with other animal folk, especially if they contribute to the prosperity and safety of their home. When a Nibblewhisk sets their mind on a goal, very little can remove them from their path.</p>
+            <h4>Peaceful Pursuits</h4>
+			<br/>
+			<p>The Nibblewhisk enjoy, during peaceful times, the simple things in life within Lupinflower Village. They take a great amount of pride in their positions within the community, be it tending gardens, crafting, or helping out their neighbors. They also love adventures, journeying out into the world outside the village and returning home with new stories and experiences to share.</p>
+			<h4>A Life of Balance</h4>
+			<br/>
+			<p>Though fierce in defense, the Nibblewhisk also love all those quiet moments of serenity and happiness their life in Lupinflower Village brings. They believe that there needs to be a balance between duties as protectors and the need to enjoy the fruits of their labor. This will maintain their strength and spirit in always being prepared to rise to the occasion whenever the valley is in need.</p>
+			<h4>NIBBLEWHISK NAMES</h4>
+			<br/>
+			<p class="indent">The names for the Nibblewhisk may reflect their small, quick, and perhands playful nature.</p>
+			<p>
+			<span class="feature">Names:</span>Nibber, Scurry, Cheevin, Whisk, Pipkin, Scrumbles, Ruffin, Twizzle, Munchin, Tumble, Nibbly, Whiffle, Twilla, Cheepsie, Quinny, Scamper, Fluffa.</p>
+			<h4>NIBBLEWHISK TRAITS</h4>
+			<br/>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity is increased by 2 and your Wisdom is increased by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Nibblewhisks reach maturity at around 10 years of age and live up to 50 years, though some have been known to live longer due to their strong spirit and willpower.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Almost all Nibblewhisk are good, reflecting their protective and caring nature. They tend to be lawful, as they value the safety and well-being of their community above all else.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Small, standing at around 3 to 4 feet tall.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
+			<p class="indent"><strong><em>Inquisitive Guard.</em></strong> You gain proficiency in one of the following skills: Insight or Athletics.</p>
+			<p class="indent"><strong><em>Valiant.</em></strong> You have advantage on saving throws against being frightened.</p>
+			<p class="indent"><strong><em>Unyielding Morale.</em></strong> As a bonus action, you can choose a creature within 30 feet of you that can hear you. You can apply one of the following effects to that creature: <ul>
+      <li>Immediately end the Frightened condition on that creature.</li>
+      <li>Force the creature to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Wisdom modifier). On a failed save, the creature is frightened of you for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+      </ul>
+        <p>You can use this feature a number of times equal to your proficiency bonus, and you gain all expended uses after you finish a long rest.</p>
+      </p>
+			<p class="indent"><strong><em>Little Swordsman.</em></strong> You can make an opportunity attack against a creature that is at least one size larger than you without expending your reaction. Once you use this feature, you cannot use it again until the start of your next turn.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Sylvan.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="custom">Nibber, Scurry, Cheevin, Whisk, Pipkin, Scrumbles, Ruffin, Twizzle, Munchin, Tumble, Nibbly, Whiffle, Twilla, Cheepsie, Quinny, Scamper, Fluffa.</set>
+			<set name="names-format">{{name}}</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" requirements="!ID_RACE_ANIMATEDARMOR" />
+			<stat name="dexterity" value="2" requirements="!ID_RACE_ANIMATEDARMOR" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INQUISITIVE_GUARD" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_VALIANT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_UNYIELDING_MORALE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LITTLE_SWORDSMAN" />
+      <select type="Proficiency" name="Skill Proficiency, Inquisitive Guard" supports="ID_PROFICIENCY_SKILL_ATHLETICS |ID_PROFICIENCY_SKILL_INSIGHT" number="1"/>
+		</rules>
+	</element>
+	<element name="Inquisitive Guard" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_INQUISITIVE_GUARD">
+		<description>
+			<p>You gain proficiency in one of the following skills: Insight or Athletics.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency in one of the following skills: Insight or Athletics.</description>
+		</sheet>
+	</element>
+	<element name="Valiant" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_VALIANT">
+		<description>
+			<p>You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being frightened.</description>
+		</sheet>
+	</element>
+	<element name="Unyielding Morale" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_UNYIELDING_MORALE">
+		<description>
+			<p>As a bonus action, you can choose a creature within 30 feet of you that can hear you. You can apply one of the following effects to that creature: <ul>
+      <li>Immediately end the Frightened condition on that creature.</li>
+      <li>Force the creature to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Wisdom modifier). On a failed save, the creature is frightened of you for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+      </ul>
+        <p>You can use this feature a number of times equal to your proficiency bonus, and you gain all expended uses after you finish a long rest.</p>
+      </p>
+		</description>
+		<sheet>
+			<description>As a bonus action, you can choose a creature within 30 feet of you that can hear you. You can apply one of the following effects to that creature: <ul>
+      <li>Immediately end the Frightened condition on that creature.</li>
+      <li>Force the creature to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Wisdom modifier). On a failed save, the creature is frightened of you for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+      </ul>
+        <p>You can use this feature a number of times equal to your proficiency bonus, and you gain all expended uses after you finish a long rest.</p>
+      </description>
+			</sheet>
+	</element>
+	<element name="Little Swordsman" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_LITTLE_SWORDSMAN">
+		<description>
+			<p>You can make an opportunity attack against a creature that is at least one size larger than you without expending your reaction. Once you use this feature, you cannot use it again until the start of your next turn.</p>
+		</description>
+		<sheet>
+			<description>You can make an opportunity attack against a creature that is at least one size larger than you without expending your reaction. Once you use this feature, you cannot use it again until the start of your next turn.</description>
+		</sheet>
 	</element>
 </elements>
