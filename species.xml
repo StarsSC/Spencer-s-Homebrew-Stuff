@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Animated Armor</name>
-		<update version="0.0.10">
+		<update version="0.0.11">
 			<file name="species.xml" url="https://www.dandwiki.com/wiki/Animated_Armor_(5e_Race)" />
 		</update>
 	</info>
@@ -822,7 +822,6 @@
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language (Reborn)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Reborn)" supports="Standard||Exotic" />
-			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID" />
 			<select type="Racial Trait" name="Size (Reborn)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Racial Trait" id="ID_WOTC_VRGTR_RACIAL_TRAIT_REBORN_ANCESTRAL_LEGACY" />
