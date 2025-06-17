@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Animated Armor</name>
-		<update version="0.0.11">
+		<update version="0.0.12">
 			<file name="species.xml" url="https://www.dandwiki.com/wiki/Animated_Armor_(5e_Race)" />
 		</update>
 	</info>
@@ -818,7 +818,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Reborn)" supports="Custom Ability Score Improvement Option" />
+			<select type="Racial Trait" name="Ability Score Increase (Human Variant)" supports="Human Variant" number="2"/>
+      <select type="Racial Trait" name="Ability Score Increase (Human Variant)" supports="Human Variant" number="1"/>
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language (Reborn)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Reborn)" supports="Standard||Exotic" />
