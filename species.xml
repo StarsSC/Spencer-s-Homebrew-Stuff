@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Animated Armor</name>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="species.xml" url="https://www.dandwiki.com/wiki/Animated_Armor_(5e_Race)" />
 		</update>
 	</info>
@@ -431,5 +431,72 @@
 		<sheet>
 			<description>If you die, your death is permanent and you cannot be resurrected by any means. Any attempt to cast resurrection spells or similar magic on you instantly transports your soul to the plane of the Abyss instead, where you shall remain for eternity.</description>
 		</sheet>
+	</element>
+	<element name="Dusktail" type="Race" source="Spencer's Homebrew" id="ID_RACE_DUSTKTAIL">
+		<description>
+			<p class="flavor">The dusktails are a small tribe of squirrelfolk who dwell in the secluded settlement of Oakhollow Village to the east of the valley's center. They are serious, secretive, and therefore a subject of much curiosity and suspicion among other animalfolk. Dusktails practice arcane and dark magics misunderstood by outsiders, yet their people stand steadfastly by in defending their home from threats such as Calamity Beasts. Though their rituals are disturbing, they help keep the valley safe and in balance.</p>
+			<h4>Mysterious and Misunderstood</h4>
+			<br/>
+			<p>The most mysterious and often gossiped about, misunderstood of all the animalfolk of Eldrimor are the Dusktails of Oakhollow Village. They are arcane magic users- a mixture of arcanists, ritualists, and warlocks specializing in darker magics not as usually seen around. Their practice might give off sinister feelings, for they deal with deceased animalfolk in rituals to attain their ends, but the Dusktails are staunchly on the side of good, using their powers to protect the valley.</p>
+            <h4>Misinterpreted Motives</h4>
+			<br/>
+			<p>Despite their grace demeanor and reluctance to explain their actions, the Dusktails are driven by a deep sense of duty. They have obtained permission from the leaders of Three Tree City to use corpses in rituals that are vital for energy transference, divination, and combating the Calamity Beasts. These dark rituals, while unsettling to many, are essential in the ongoing struggle against these menacing creatures.</p>
+			<h4>Structured Society</h4>
+			<br/>
+			<p>Within Oakhollow Village, the Dusktails live under a mild hierarchy. The Seedmeiser, their leader, assigns roles based on each Dusktail's strengths, ensuring the village thrives. Though their roles are structured, they are flexible and open to negotiation. Their mysterious practices may set them apart, but their contributions are invaluable to the safety and well-being of the valley.</p>
+			<h4>DUSKTAIL TRAITS</h4>
+			<br/>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence increases by 2, and Constitution increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Dusktails reach maturity by age 15 and can live up to 80 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> The Dusktails are misunderstood for inherently evil arcanists but most are not, they preserve their own lives and those around them, generally making them Neutral creatures.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Dusktails are Small, standing around 4 feet tall.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
+			<p class="indent"><strong><em>Corpse Forage.</em></strong> As a bonus action, you can aborb energy from the corpse of a non-construct, non-undead creature that is small or larger and that has been dead for no longer than a week. This energy can be used to enhance one of your other features (see the "Forage" sections below). You choose which feature to enhance when you activate this ability. You can use this ability a number of times equal to your proficiency bonus, regaining all uses after a long rest.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. <strong>Forage:</strong> For the next minute, your darkvision extends to 120 feet, and you can see through magical darkness.</p>
+			<p class="indent"><strong><em>Ritualist's Skills.</em></strong> You gain proficiency in either the Nature or Arcana skill (choose when you select this race). <strong>Forage:</strong> You gain expertise in the chosen skill for 1 hour.
+      </p>
+			<p class="indent"><strong><em>Vitality Transference.</em></strong> As a bonus action, you can transfer life energy between two willing non-construct, non-undead creatures within 60 feet of you. Roll a number of d8s equal to your proficiency bonus. The first creature loses hit points equal to the total rolled, and the second creature regains hit points equal to the amount lost by the first creature. If this feature reduces the first creature to 0 hit points, the second creature regains no hit points instead. <strong>Forage:</strong> The next time you use this ability within 1 minute, the second creature regains twice the hit points lost by the first creature. Once you use this ability, you can't do so again until you finish a short or long rest.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Sylvan.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" requirements="!ID_RACE_ANIMATEDARMOR" />
+			<stat name="intelligence" value="2" requirements="!ID_RACE_ANIMATEDARMOR" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CORPSE_FORAGE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DARKVISION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_RITUALISTS_SKILL" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_VITALITY_TRANSFERENCE" />
+      <select type="Proficiency" name="Skill Proficiency, Inquisitive Guard" supports="ID_PROFICIENCY_SKILL_NATURE |ID_PROFICIENCY_SKILL_ARCANA" number="1"/>
+		</rules>
+	</element>
+	<element name="Corpse Forage" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_CORPSE_FORAGE">
+		<description>
+			<p>As a bonus action, you can aborb energy from the corpse of a non-construct, non-undead creature that is small or larger and that has been dead for no longer than a week. This energy can be used to enhance one of your other features (see the "Forage" sections below). You choose which feature to enhance when you activate this ability. You can use this ability a number of times equal to your proficiency bonus, regaining all uses after a long rest.</p>
+		</description>
+		<sheet display="false">
+			<description>As a bonus action, you can aborb energy from the corpse of a non-construct, non-undead creature that is small or larger and that has been dead for no longer than a week. This energy can be used to enhance one of your other features (see the "Forage" sections below). You choose which feature to enhance when you activate this ability. You can use this ability a number of times equal to your proficiency bonus, regaining all uses after a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Ritualist's Skill" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_RITUALISTS_SKILL">
+		<description>
+			<p>You gain proficiency in either the Nature or Arcana skill (choose when you select this race). <strong>Forage:</strong> You gain expertise in the chosen skill for 1 hour.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency in either the Nature or Arcana skill (choose when you select this race). <strong>Forage:</strong> You gain expertise in the chosen skill for 1 hour.</description>
+		</sheet>
+	</element>
+	<element name="Vitality Transference" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_VITALITY_TRANSFERENCE">
+		<description>
+			<p>As a bonus action, you can transfer life energy between two willing non-construct, non-undead creatures within 60 feet of you. Roll a number of d8s equal to your proficiency bonus. The first creature loses hit points equal to the total rolled, and the second creature regains hit points equal to the amount lost by the first creature. If this feature reduces the first creature to 0 hit points, the second creature regains no hit points instead. <strong>Forage:</strong> The next time you use this ability within 1 minute, the second creature regains twice the hit points lost by the first creature. Once you use this ability, you can't do so again until you finish a short or long rest.
+      </p>
+		</description>
+		<sheet>
+			<description>As a bonus action, you can transfer life energy between two willing non-construct, non-undead creatures within 60 feet of you. Roll a number of d8s equal to your proficiency bonus. The first creature loses hit points equal to the total rolled, and the second creature regains hit points equal to the amount lost by the first creature. If this feature reduces the first creature to 0 hit points, the second creature regains no hit points instead. <strong>Forage:</strong> The next time you use this ability within 1 minute, the second creature regains twice the hit points lost by the first creature. Once you use this ability, you can't do so again until you finish a short or long rest.
+      </description>
+			</sheet>
 	</element>
 </elements>
