@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Animated Armor</name>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="species.xml" url="https://www.dandwiki.com/wiki/Animated_Armor_(5e_Race)" />
 		</update>
 	</info>
@@ -593,6 +593,101 @@
 		</description>
 		<sheet>
 			<description>You can make an opportunity attack against a creature that is at least one size larger than you without expending your reaction. Once you use this feature, you cannot use it again until the start of your next turn.</description>
+		</sheet>
+	</element>
+	<element name="Rotkin" type="Race" source="Spencer's Homebrew" id="ID_RACE_ROTKIN">
+		<description>
+			<p class="flavor">The secretive race of ratfolk known as the Rotkin inhabit the Forest of the Chillhavens Breath. While their interests align with those of those other animalfolk in fighting against the Calamity Beasts, they do things in their own peculiar manner. Their seclusion and general reluctance to deal with outsiders often makes it difficult for allies, let alone enemies, to make contact with them when their services are needed.</p>
+			<h4>Psychic Manipulators</h4>
+			<br/>
+			<p>Subtle and cunning. Rotkin rely most heavily on their innate psychic powers. They use such powers in attempts to influence others so that the tides of events turn in their favor. They nonetheless maintain a firm alignment with good. Using their talents to bring the hidden truths to light, they navigate the complex Calamity movement.</p>
+            <h4>Inquisitors and Rogues</h4>
+			<p>There are primarily two roles amongst the Rotkin: Inquisitors, who use their psychic magic to wring out information, and Sneaks, who do it with stealth and cunning. From merely overhearing crucial conversations to reveal damning evidence, the Rotkin have become integral to the process for revealing the plans of those bent upon threatening their world.</p>
+			<h4>Independent and Egalitarian</h4>
+			<br/>
+			<p>Though Rotkin society is very egalitarian, meaning all of its members are considered to be equal regardless of role, from a skilled psychic to the stealthy rogue and to a caretaker whose role is to ensure the well-being of the community, every Rotkin is equally valued. But then, they do not really take pleasure in being too social, speaking to each other only if need be. That is independence and individual self-sufficiency for the people who can thrive in isolation in this village setting but keep watch for the ever-presence of the Calamity Beasts.</p>
+			<h4>ROTKIN NAMES</h4>
+			<br/>
+			<p class="indent">Most names for Rotkin often reflect their cunning, resourcefulness, or scavenger-like tendencies.</p>
+			<p>
+			<span class="feature">Names:</span>Scrimjaw, Gnash, Viktik, Rattletooth, Squeal, Nekkrit, Scurr, Skitter, Flek, Snarl, Rizka, Nixx, Skria, Vikka, Rikkit, Chiz, Nyris, Krisska, Muzzi, Rattlewhisker.</p>
+			<h4>ROTKIN TRAITS</h4>
+			<br/>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity, Intelligence, and Constitution scores increase by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Rotkin mature quickly, reaching adulthood around 5 years old. They typically live up to 50 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Most Rotkin are neutral, with some leaning toward good, always disliking evil in their unique ways.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Rotkin are considered small creatures, no more than 4 feet tall.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet as if it were bright light and in darkness as if it were dim light.</p>
+			<p class="indent"><strong><em>Information Gatherer.</em></strong> Choose one of the following skills: Insight or Stealth. You have proficiency in the chosen skill.</p>
+			<p class="indent"><strong><em>Unbreakable Will.</em></strong> You have advantage on Wisdom saving throws against spells and other magical effects. Additionally, you have resistance to Psychic damage.</p>
+			<p class="indent"><strong><em>Mysterious Mind.</em></strong> Your thoughts cannot be read by any means unless you allow it. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.</p>
+      <p class="indent"><strong><em>Mindwhisk.</em></strong>As a bonus action, you momentarily diminish your enemies' talents. Every creature within a 15-foot cone originating from you must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Dexterity or Intelligence modifier, your choice when you select this race). For the next minute, if a creature that failed the save would deal damage for the first time in a turn, that damage is reduced by your level + your Proficiency bonus (if multiple instances of damage are present, only one of them is reduced). You must concentrate on this effect as if concentrating on a spell. You can use this feature a number of times equal to your proficiency bonus, regaining all uses after a long rest. Whenever you succeed on an Intelligence, Wisdom, or Charisma saving throws, you can regain one expended use of this feature.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Sylvan.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="custom">Scrimjaw, Gnash, Viktik, Rattletooth, Squeal, Nekkrit, Scurr, Skitter, Flek, Snarl, Rizka, Nixx, Skria, Vikka, Rikkit, Chiz, Nyris, Krisska, Muzzi, Rattlewhisker.</set>
+			<set name="names-format">{{name}}</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" requirements="!ID_RACE_ANIMATEDARMOR" />
+			<stat name="dexterity" value="1" requirements="!ID_RACE_ANIMATEDARMOR" />
+			<stat name="intelligence" value="1" requirements="!ID_RACE_ANIMATEDARMOR" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_RACE_ANIMATEDARMOR" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INFORMATION_GATHERER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_UNBREAKABLE_WILL" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MYSTERIOUS_MIND" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MINDWHISK" />
+			<select type="Proficiency" name="Skill Proficiency, Information Gatherer"
+				supports="ID_PROFICIENCY_SKILL_STEALTH |ID_PROFICIENCY_SKILL_INSIGHT"
+				number="1"/>
+		</rules>
+	</element>
+	<element name="Information Gatherer" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_INFORMATION_GATHERER">
+		<description>
+			<p>Choose one of the following skills: Insight or Stealth. You have proficiency in the chosen skill.</p>
+		</description>
+		<sheet display="false">
+			<description>Choose one of the following skills: Insight or Stealth. You have proficiency in the chosen skill.</description>
+		</sheet>
+	</element>
+	<element name="Darkvision" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_DARKVISION">
+		<description>
+			<p>You can see in dim light within 60 feet as if it were bright light and in darkness as if it were dim light.</p>
+		</description>
+		<sheet>
+			<description>You can see in dim light within 60 feet as if it were bright light and in darkness as if it were dim light.</description>
+		</sheet>
+	</element>
+	<element name="Unbreakable Will" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_UNBREAKABLE_WILL">
+		<description>
+			<p>You have advantage on Wisdom saving throws against spells and other magical effects. Additionally, you have resistance to Psychic damage.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Wisdom saving throws against spells and other magical effects. Additionally, you have resistance to Psychic damage.</description>
+			</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+		</rules>
+	</element>
+	<element name="Mysterious Mind" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_MYSTERIOUS_MIND">
+		<description>
+			<p>Your thoughts cannot be read by any means unless you allow it. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.</p>
+		</description>
+		<sheet>
+			<description>Your thoughts cannot be read by any means unless you allow it. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.</description>
+		</sheet>
+	</element>
+	<element name="Mindwhisk" type="Racial Trait" source="Spencer's Homebrew" id="ID_RACIAL_TRAIT_MINDWHISK">
+		<description>
+			<p>As a bonus action, you momentarily diminish your enemies' talents. Every creature within a 15-foot cone originating from you must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Dexterity or Intelligence modifier, your choice when you select this race). For the next minute, if a creature that failed the save would deal damage for the first time in a turn, that damage is reduced by your level + your Proficiency bonus (if multiple instances of damage are present, only one of them is reduced). You must concentrate on this effect as if concentrating on a spell. You can use this feature a number of times equal to your proficiency bonus, regaining all uses after a long rest. Whenever you succeed on an Intelligence, Wisdom, or Charisma saving throws, you can regain one expended use of this feature.</p>
+		</description>
+		<sheet>
+			<description>As a bonus action, you momentarily diminish your enemies' talents. Every creature within a 15-foot cone originating from you must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Dexterity or Intelligence modifier, your choice when you select this race). For the next minute, if a creature that failed the save would deal damage for the first time in a turn, that damage is reduced by your level + your Proficiency bonus (if multiple instances of damage are present, only one of them is reduced). You must concentrate on this effect as if concentrating on a spell. You can use this feature a number of times equal to your proficiency bonus, regaining all uses after a long rest. Whenever you succeed on an Intelligence, Wisdom, or Charisma saving throws, you can regain one expended use of this feature.</description>
 		</sheet>
 	</element>
 </elements>
