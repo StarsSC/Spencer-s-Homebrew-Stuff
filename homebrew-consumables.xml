@@ -2,14 +2,14 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.5">
+    <update version="0.0.6">
       <file name="homebrew-consumables.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
   <element name="Corrupt Jago" type="Magic Item" source="Spencer's Homebrew" id="ID_HOMEBREW_CORRUPT_JAGO">
   <description>
     <p>A crystaline substance forged by raw magic from the weave, unstable but useful. Corrupt Jago is of a red variety that has no helpful properties as far as mystics and scientists believe. This form of Jago tends to poison the skin of those that touch it and with enough long term exposure, can drive people mad. There have been cases with enough long term exposure or even going so far as abosrbing enough Corrupt Jago a being can transform into a mindless monster that losing all sense of themselves, becoming a bane to be reckoned with no matter who it is, friend or foe.</p>
-      <p class="indent">Coming into contact with Corrupt Jago causes excrutiating pain, dealing 2d8 poison damage on the first turn you come into contact with it, increasing the damage by 1d8 for every round in contact. After 10 rounds of constant contact, your mind becomes addled and causes <strong>Confusion</strong>.</p>
+      <p class="indent">Coming into contact with Corrupt Jago causes excrutiating pain, dealing 2d8 poison damage on the first turn you come into contact with it, increasing the damage by 1d8 for every round in contact. After 10 rounds of constant contact, your mind becomes addled and causes <strong>Confusion</strong>. No standard medical treatment can fix this issue other than by magical means such as a <strong>Greater Restoration</strong> or <strong>Wish</strong> spell.</p>
   </description>
   <setters>
     <set name="category">Homebrew Consumables</set>
