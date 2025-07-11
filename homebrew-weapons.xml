@@ -2,10 +2,29 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.55">
+    <update version="0.0.56">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+  <element name="Blood Sword" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_BLOOD_SWORD">
+    <description>
+      <p><strong>This weapon was bathed in the blood of all creatures, friends and foes alike. The blood powered it's wielder and so the sword sought more, and more, and more.</strong></p>
+      <p class="indent">This weapon grants a +1 bonus to attack and damage rolls you make with it.</p>
+      <p class="indent"><em>Blood Drain.</em> Whenver you damage a creature that is not undead or a construct with this sword, you regain an amount of HP as equal to your proficiency bonus + 1 + your Constitution modifier.</p>
+      <p class="indent"><em>Thirst for More.</em> When this blade is used to damage a creature and the wielder regains hit points via <strong>Blood Drain</strong>, the creature attuned to this weapon is affected by the <strong>Flesh Rot</strong> disease. The disease cannot be detected by usual means and has no effect and shows no signs of even existing until the user unattuned to this weapon.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="enhancement">1</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Longsword</set>
+      <set name="Weapon">Longsword</set>
+    </setters>
+	</element>
 	<element name="Draconic Vanguard" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_DRACONIC_VANGUARD">
     <description>
       <p><strong>Must be attuned by a Monk...</strong></p>
