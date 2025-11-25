@@ -2,10 +2,98 @@
 <elements>
 	<info>
     <name>Subclasses</name>
-    <update version="0.0.8">
+    <update version="0.0.9">
       <file name="homebrew-subclasses.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Way of the Aftershock" type="Archetype" source="Homebrew Orithar Subclasses"
+      id="ID_HOMEBREW_SUBCLASS_AFTERSHOCK">
+      <description>
+        <p><em>Once the name of an enigmatic Archfey who held dominion over a secluded corner of the Feywild, he spent his long existence bestowing gifts upon those who sought knowledge and deeper understanding of his realm. He believed the wonders of the Feywild were meant to be shared, not hidden away. After thousands of years, however, he fell victim to a more covetous Archfey. In death, he refused to let his power fade into nothing—his very blood became a final gift, empowering the followers who had devoted themselves to him. He believed that many acting together could leave a far greater mark on the world than any single being.</em></p>
+<p class="indent"><em>Not long after his passing, the Aftershock Collective was born. Monks, scholars, and priests alike flocked to his teachings, embracing the mission he embodied in life and in death: to seek knowledge, to freely share the wisdom worthy of being spread, and to safeguard truths too dangerous for those who might misuse them.</em></p>
+        <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SEISMIC_FIST"/>
+        <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_VIBRATIC_ASSAULT"/>
+        <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_MIGHT_OF_THE_TREMOR"/>
+        <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SHOCKWAVES_WRATH"/>
+      </description>
+      <rules>
+        <grant type="Archetype Feature"
+          id="ID_HOMEBREW_ARCHETYPE_FEATURE_SEISMIC_FIST" level="3"/>
+        <grant type="Archetype Feature"
+          id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIBRATIC_ASSAULT" level="7"/>
+        <grant type="Archetype Feature"
+          id="ID_HOMEBREW_ARCHETYPE_FEATURE_MIGHT_OF_THE_TREMOR" level="11"/>
+        <grant type="Archetype Feature"
+          id="ID_HOMEBREW_ARCHETYPE_FEATURE_SHOCKWAVES_WRATH" level="17"/>
+      </rules>
+    </element>
+  <element name="Seismic Fist" type="Archetype Feature" source="Homebrew Orithar Subclasses"
+      id="ID_HOMEBREW_ARCHETYPE_FEATURE_SEISMIC_FIST">
+      <description>
+        <p>Starting when you choose this tradition at 3rd level, you gain this feature. Once per turn, you may spend 1 ki point to infuse your fists with seismic power. For the rest of the turn, when you hit a creature with your unarmed strike or monk weapon, you deal additional thunder damage equal to your wisdom modifier.</p>
+      </description>
+      <sheet>
+        <description>May spend 1 ki point. For the rest of the turn, when you hit a creature with your unarmed strike or monk weapon, you deal additional thunder damage equal to your wisdom modifier.
+        </description>
+      </sheet>
+    </element>
+    <element name="Vibratic Assault" type="Archetype Feature" source="Homebrew Orithar Subclasses"
+      id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIBRATIC_ASSAULT">
+      <description>
+        <p>At 6th Level, you use the vibrations around you and your targets to determine their moves before they make them, allowing you to strike your enemies in a rapid onslaught before they act. You gain the following features:
+        <ul>
+          <li>Whenever you deal thunder damage, you may change it to force damage, and vice versa.</li>
+          <li>You may add your profciency bonus to initiative rolls.</li>
+          <li>On your first turn in combat, your movement speed is doubled, and you have advantage on any melee weapon attack you make.</li>
+        </ul>
+        </p>
+      </description>
+      <sheet>
+        <description>May spend 1 ki point. For the rest of the turn, when you hit a creature with your unarmed strike or monk weapon, you deal additional thunder damage equal to your wisdom modifier.
+        </description>
+      </sheet>
+    </element>
+      <element name="Might of the Tremor" type="Archetype Feature" source="Homebrew Orithar Subclasses"
+      id="ID_HOMEBREW_ARCHETYPE_FEATURE_MIGHT_OF_THE_TREMOR">
+      <description>
+        <p>At 11th level, you embody the raw might of the tremors of the feywild, augmenting your physical form with both increased durability and senses. You gain the following features:
+          <ul>
+            <li>You gain resistance to thunder damage.</li>
+            <li>You gain Blindsight of 20 ft as long as you are touching solid ground. May spend 1 ki point to increase range by 10 ft, may activate multiple times.</li>
+            <li>As a bonus action, may spend 1 ki point, you can anchor yourself for 1 minute. While anchored you cannot be knocked prone or moved against your will and gain temporary hit points equal to your monk level + your Wisdom modifier.</li>
+          </ul>
+        </p>
+      </description>
+      <sheet>
+        <description>You gain the following features:
+          <ul>
+            <li>You gain resistance to thunder damage.</li>
+            <li>You gain Blindsight of 20 ft on solid ground. May spend 1 ki point to increase range by 10 ft.</li>
+            <li>As a bonus action, may spend 1 ki point, you can anchor yourself for 1 minute. While anchored you cannot be knocked prone or moved against your will and gain temporary hit points equal to your monk level + your Wisdom modifier.</li>
+          </ul>
+        </description>
+      </sheet>
+        <rules>
+          <grant type="Vision" id="ID_VISION_BLINDSIGHT"/>
+<stat name="blindsight:range" value="20" bonus="base"/>
+          <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER"/>
+        </rules>
+    </element>
+  <element name="Shockwaves Wrath" type="Archetype Feature" source="Homebrew Orithar Subclasses"
+      id="ID_HOMEBREW_ARCHETYPE_FEATURE_SHOCKWAVES_WRATH">
+      <description>
+        <p>At 17th level, you wield the power of the earth of the feywild to an extent matched only by the Fey.</p>
+        <p class="indent">On your turn, you can use your action, bonus action, and 7 ki points to make a melee weapon attack against a creature you can see within 60 ft. When you do so, you leap across the battlefield to attack your target with a massive blow.</p>
+        <p class="indent">This attack deals 10d10 thunder damage and deafens the target. This attack deals half damage on a miss. Additionally, all creatures, within 30 ft of the target must make a dexterity saving throw. On a failed save, they take half of the total damage, are knocked prone, and are deafened for 1 minute. On a successful save, they take a quarter of the total damage.</p>
+          <p class="indent">If a creature has resistance to any damage dealt by this attack, the resistance is ignored. If a creature is immune to any damage from this attack, treat it as if it had resistance instead. You can use this feature once per long rest.</p>
+      </description>
+      <sheet>
+        <description>On your turn, you can use your action, bonus action, and 7 ki points to make a melee weapon attack against a creature you can see within 60ft. When you do so, you leap across the battlefield to attack your target with a massive blow.
+          <p class="indent">This attack deals 10d10 thunder damage and deafens the target. This attack deals half damage on a miss. Additionally, all creatures, within 30 ft of the target must make a dexterity saving throw. On a failed save, they take half of the total damage, are knocked prone, and are deafened for 1 minute. On a successful save, they take a quarter of the total damage.</p>
+          <p class="indent">If a creature has resistance to any damage dealt by this attack, the resistance is ignored. If a creature is immune to any damage from this attack, treat it as if it had resistance instead. You can use this feature once per long rest.</p>
+        </description>
+      </sheet>
+    </element>
     <element name="Exiled Crest" type="Archetype" source="Homebrew Orithar Subclasses"
       id="ID_HOMEBREW_SUBCLASS_EXILED_CREST">
       <supports>Martial Archetype</supports>
