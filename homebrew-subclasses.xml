@@ -2,12 +2,13 @@
 <elements>
 	<info>
     <name>Subclasses</name>
-    <update version="0.0.9">
+    <update version="0.0.10">
       <file name="homebrew-subclasses.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
 	<element name="Way of the Aftershock" type="Archetype" source="Homebrew Orithar Subclasses"
       id="ID_HOMEBREW_SUBCLASS_AFTERSHOCK">
+		<supports>Monastic Tradition</supports>
       <description>
         <p><em>Once the name of an enigmatic Archfey who held dominion over a secluded corner of the Feywild, he spent his long existence bestowing gifts upon those who sought knowledge and deeper understanding of his realm. He believed the wonders of the Feywild were meant to be shared, not hidden away. After thousands of years, however, he fell victim to a more covetous Archfey. In death, he refused to let his power fade into nothing—his very blood became a final gift, empowering the followers who had devoted themselves to him. He believed that many acting together could leave a far greater mark on the world than any single being.</em></p>
 <p class="indent"><em>Not long after his passing, the Aftershock Collective was born. Monks, scholars, and priests alike flocked to his teachings, embracing the mission he embodied in life and in death: to seek knowledge, to freely share the wisdom worthy of being spread, and to safeguard truths too dangerous for those who might misuse them.</em></p>
