@@ -2,10 +2,28 @@
 <elements>
 	<info>
     <name>Armor</name>
-    <update version="0.0.37">
+    <update version="0.0.38">
       <file name="homebrew-armor.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	  <element name="Full Stop" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_FULL_STOP">
+	  <description>
+          <p><strong>Charges:</strong> This shield has 3 charges and regains 1d3 expended charges daily at dawn.</p>
+          <p class="indent"><strong>Facepalm:</strong> As a reaction, when a hostile creature further away than 5 feet from you enters a space within 5 feet of you, you can expend 1 charge. The target must succeed on a DC 13 Strength saving throw or be knocked prone and unable to stand up this turn. The enemy has disadvantage on the save if it uses its Dash action on its turn.</p>
+          <p class="indent"><strong>Grounded:</strong> As a reaction to being moved against your will by an effect, you can expend 1 charge to not be moved through this effect.</p>
+          <p class="indent"><strong>Set Bonus:</strong> This item is part of the Trainwreck set. When attuned together with other items of the set, you only need one attunement slot for all items. Further, you combine all charges into one pool to use across all items, and you regain an additional +2 charges for each item.</p>
+		</description>
+	  <setters>
+		  <set name="keywords">shield</set>
+	    <set name="category">Homebrew Armor</set>
+	    <set name="cost" currency="gp">N/A</set>
+	    <set name="weight" lb="6">10 lb.</set>
+        <set name="rarity">Uncommon</set>
+        <set name="attunement">true</set>
+	    <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+	    <set name="type" addition="shield">Armor</set>
+	  </setters>
+	</element>
 	    <element name="Pathmaker Plate" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_PATHMAKER_PLATE">
 		<description>
 			<p><strong>Charges:</strong> This armor has 3 charges and regains 1d3 expended charges daily at dawn.</p>
