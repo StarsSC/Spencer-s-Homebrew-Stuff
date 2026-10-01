@@ -2,10 +2,28 @@
 <elements>
 	<info>
     <name>Weapons</name>
-    <update version="0.0.57">
+    <update version="0.0.58">
       <file name="homebrew-weapons.xml" url="https://github.com/StarsSC/Spencer-s-Homebrew-Stuff.git"/>
     </update>
   </info>
+	<element name="Exsanguina" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_EXSANGUINA">
+    <description>
+      <p><em>The blade never stains, no matter what it cuts, the blood rises rather than falls, drawn upward as if by something hungry in the steel. The copper smell that clings to it is not entirely unpleasant. That is the part that should worry you.</em> While attuned, the weapon gains the following:</p>
+		<p class="indent"><strong>Blood Tithe:</strong> As a bonus action, you can draw the blade across your own skin, dealing 1d4 slashing damage to yourself. When you do, you conjure up to 2d4 magical blood clots in unoccupied spaces you can see within 30 feet of you. Each clot is a dark, hovering mass rougly the size of a fist and occupies a 5-foot space. You can have up to 12 clots active at a time; if a new one would exceed this limit, the oldest dissipates first.</p>
+		<p class="indent"><strong>Clot Field:</strong> A creature that enters a clot's space for the first time takes 1d4 +4 necrotic damage. A clot is destroyed if it deals or takes damage, and otherwise dissipates after 1 minute.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="enhancement">1</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Scimitar</set>
+      <set name="Weapon">Scimitar</set>
+    </setters>
+	</element>
 	  <element name="Sonnet's Edge" type="Magic Item" source="Spencer's Homebrew" id="ID_WOTC_DND_HOMEBREW_SONNETS_EDGE">
     <description>
       <p>Forged from a duelist-poet's final blade, this slender rapier hums a soft melody, and those it cuts swear they hear one last, mournful verse. While attuned to a bard, you gain the following:</p>
